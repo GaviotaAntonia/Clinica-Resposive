@@ -88,23 +88,23 @@
     <a class="navbar-brand" href="#">
       <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
     </a>
-    <a class="navbar-brand" href="inicio.html">CLINICA</a>
+    <a class="navbar-brand" href="inicio.php">CLINICA</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
      </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
            <ul class="navbar-nav">
             <li class="nav-item">
-             <a class="nav-link w3-bar-item w3-button w3-right"  href="acercadenos.html" >Acerca de Nosotros</a>
+             <a class="nav-link w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de Nosotros</a>
              </li>
             <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Servicios</a>
+            <a class="nav-link" href="servicios.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
             </li>    
             <li class="nav">
-              <a class="nav-link active" href="clinica.html">Clinica</a>
+              <a class="nav-link active" href="clinica.php">Clinica</a>
             </li>
           </ul>
         </div>  
@@ -119,9 +119,9 @@
 <div class="row" id="elmenu">
    <div class="col-3 menu">
       <ul>
-       <a href="instalacion.html"><li>Instalaciones</li></a>
-       <a href="dormitorios.html"><li>Dormitorios</li></a>
-        <a href="actividades.html"><li>Actividades</li></a>
+       <a href="instalacion.php"><li>Instalaciones</li></a>
+       <a href="dormitorios.php"><li>Dormitorios</li></a>
+        <a href="actividades.php"><li>Actividades</li></a>
      </ul>
     </div>
     <div class="col-9">
