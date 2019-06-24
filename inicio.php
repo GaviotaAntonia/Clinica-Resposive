@@ -79,10 +79,10 @@
             <img src="ejmplosimg/adicciones.jpg" alt="Imagen de clinica ejemplo" width="1100" height="500">
           </div>
           <div class="carousel-item">
-            <img src="ejmplosimg/causa-de-las-adicciones.jpg" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
+            <img src="ejmplosimg/causa-de-las-adiccione.jpg" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
           </div>
           <div class="carousel-item">
-          <img src="ejmplosimg/asdd.jpg" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
+          <img src="ejmplosimg/asddobje.jpg" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
           </div>
        </div>
   

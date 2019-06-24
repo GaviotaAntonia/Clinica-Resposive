@@ -1,4 +1,4 @@
-php<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <title>|Servicios Clinica Psicoterapia|</title>
