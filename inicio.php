@@ -141,7 +141,7 @@
       		<div align="center">
         		<br><img src="ejmplosimg/gps.png" alt="">
          		<h3>Siempre cerca de ti</h3>
-     			 <p style="text-align: center">Busca nuestras clinicas cerca de ti ...</p>
+     			 <p style="text-align: center">Av. Central 218, metro ciudad azteca, casi esquina con av. cegor, col. Nuevo Paseo de San Agustín 3ra Secc B. Ecatepec de Morelos.<a href="https://www.institutodebecas.com/direcciones/"><br>Saber más.</a> </p>
       		</div>
     	  </div>
      
@@ -150,7 +150,7 @@
         <br>
         <img src="ejmplosimg/ayuda.png" alt="">
          <h3>¿Necesitas Ayuda?</h3>
-      <p style="text-align: center;">Contactate con nosotros estamos dispuestos a ayudarte</p>
+      <p style="text-align: center;">Contactate con nosotros estamos dispuestos a ayudarte <br> Teléfono:  51166039 <br>Correo:<a href="seguripaf@hotmail.com">seguripaf@hotmail.com</a></p>
       </div>
     </div>
       
@@ -158,7 +158,7 @@
       		<div align="center"><br>
         	<img src="ejmplosimg/contact.png" alt="">
          	<h3>Contactate</h3>
-      		<p style="text-align: center;">Siempre hay alguien que puede contestar tus dudas</p>
+      		<p style="text-align: center;">Siempre hay alguien que puede contestar tus dudas<br><a href="ubicacion.php">Registrate</a></p>
       		</div>
     	</div>
 
