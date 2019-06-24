@@ -100,45 +100,13 @@
 <!--FINAL DEL BODY-->
 
 <!--Inicio Footer-->
-  <div class="jumbotron text-left" style="margin-bottom:0">
-    <div class="d-flex mb-3">
-      <div class="p-2 flex-fill bg">Redes Sociales<br>
-        <a href="http://www.twitter.com/"><img src="ejmplosimg/logootwit.png"><span class="info">Seguinos en Twitter</span></li></a><br>
-        <a href="http://www.instagram.com/"><img src="ejmplosimg/logoejemplo.png"><span class="info">   Seguinos en Instagram</span></li></a><br>
-        <a href="https://www.youtube.com/"><img src="ejmplosimg/logoyoutube.png"><span class="info">Suscribete a nustro canal</span></li></a><br>
-        <a href="http://www.facebook.com/"><img src="ejmplosimg/logooface.png" alt=""><span class="info">Dale me gusta a nuestra Facebook</span></a></li>
-      </div>
-
-        <div class="p-2 flex-fill bg">Clinica<br>
-        <a href="instalacion.html"><span class="info">Instalaciones</span></li><br>
-        <a href="dormitorios.html"><span class="info">Dormitorios</span></li></a><br>
-        <a href="actividades.html"><span class="info">Actividades</span></li></a><br>
-      </div>
-
-        <div class="p-2 flex-fill bg">Servicios<br>
-        <a href="tratamientos.html"><span class="info">Tratamientos</span></li></a><br>
-        <a href="psicoterapia.html"><span class="info">Psicoterapia</span></li></a><br>
-        <a href="consejeria.html"><span class="info">Consejeria</span></li></a><br>
-      </div>
-        
-        <div class="p-2 flex-fill bg">Mantente en Contacto<br>
-        <span class="info">Telefono: (55) XXXX-XXXX</span><br>
-        <a href="XXX@hotmail.com"><span class="info">Correo: XXXXXX@hotmail.com</span></a><br>
-        <a href="#"><span class="info">Direccion</span></a>
-      </div>
-        
-          <div class="p-2 flex-fill bg">Seguridad y Privacidad <br>
-            <a href="#"><span class="info-seg">Términos de uso </span></a><br>
-            <a href="#"><span class="info-seg">Política de privacidad</span></a>
-      </div>
-      
-
-    </div>
-  </div>
 
 
 
-<?php include 'footer-distribuido.html'; ?>
+<!--Inicio Footer-->
+  <?php include 'footer-distribuido.html'; ?>
+<!--Final Foooter-->
+
 
 
 <!--JAVASCRIPT-->

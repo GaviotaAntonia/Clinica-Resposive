@@ -165,7 +165,12 @@
 <!--FINAL DEL BODY-->
 
 
-<?php include 'footer-distribuido.html'; ?>
+
+
+
+<!--Inicio Footer-->
+  <?php include 'footer-distribuido.html'; ?>
+<!--Final Foooter-->
 
 <!--JAVASCRIPT-->
   <script>
