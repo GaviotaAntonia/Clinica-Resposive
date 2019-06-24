@@ -1,4 +1,4 @@
-php<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <title>Servicios Clinica</title>
@@ -98,9 +98,6 @@ php<!DOCTYPE html>
 
 
 <!--FINAL DEL BODY-->
-
-<!--Inicio Footer-->
-
 
 
 <!--Inicio Footer-->

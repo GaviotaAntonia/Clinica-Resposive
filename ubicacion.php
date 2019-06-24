@@ -1,4 +1,4 @@
-php<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <title>Ubicacion Clinica</title>
@@ -112,8 +112,10 @@ php<!DOCTYPE html>
 <!--Google map-->
 <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
   
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3758.014930546182!2d-99.08447608508804!3d19.626659439532254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1560293222158!5m2!1ses!2smx" width="500" height="300" frameborder="100" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7520.381805940214!2d-99.028435!3d19.533416!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f009e426d313%3A0x53768de43759d4a6!2sAv.+Carlos+Hank+Gonz%C3%A1lez+218%2C+San+Agustin+3ra+Secc%2C+55130+Ecatepec+de+Morelos%2C+M%C3%A9x.!5e0!3m2!1ses!2smx!4v1561387466814!5m2!1ses!2smx"  width="500" height="300" frameborder="100" style="border:0" allowfullscreen></iframe>
 </div>
+
+
 
 <!--Google Maps-->
 

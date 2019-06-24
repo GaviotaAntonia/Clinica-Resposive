@@ -1,4 +1,4 @@
-php<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <title>|Servicios Clinica tratamientos|</title>
@@ -70,13 +70,13 @@ php<!DOCTYPE html>
       <p>Los servicios mencionados cuentan con un costo diferente pregunta via correo y tendras un descuento.</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="tratamientos.html">Tratamientos</a>
+          <a class="nav-link active" href="tratamientos.php">Tratamientos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="psicoterapia.html">Psicoterapia</a>
+          <a class="nav-link" href="psicoterapia.php">Psicoterapia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="consejeria.html">Consejeria</a>
+          <a class="nav-link" href="consejeria.php">Consejeria</a>
         </li>
       
       </ul>
