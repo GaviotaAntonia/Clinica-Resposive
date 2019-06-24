@@ -1,1 +1,0 @@
-  <?php include 'footer-distribuido.html'; ?>

@@ -89,23 +89,23 @@
     <a class="navbar-brand" href="#">
       <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
     </a>
-    <a class="navbar-brand" href="inicio.html">CLINICA</a>
+    <a class="navbar-brand" href="inicio.php">CLINICA</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
      </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
            <ul class="navbar-nav">
             <li class="nav-item">
-             <a class="nav-link  active w3-bar-item w3-button w3-right"  href="acercadenos.html" >Acerca de Nosotros</a>
+             <a class="nav-link  active w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de Nosotros</a>
              </li>
             <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Servicios</a>
+            <a class="nav-link" href="servicios.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.html">Clinica</a>
+              <a class="nav-link" href="clinica.php">Clinica</a>
             </li>
           </ul>
         </div>  
@@ -120,10 +120,10 @@
 <div class="row" id="elmenu">
   <div class="col-3 menu">
     <ul>
-      <a href="mision.html"><li>Mision</li></a>
-      <a href="vision.html"><li>Vision</li></a>
-      <a href="valores.html"><li>Valores</li></a>
-      <a href="quiesom.html"><li>¿Quienes Somos?</li></a>
+      <a href="mision.php"><li>Mision</li></a>
+      <a href="vision.php"><li>Vision</li></a>
+      <a href="valores.php"><li>Valores</li></a>
+      <a href="quiesom.php"><li>¿Quienes Somos?</li></a>
     </ul>
   </div>
 
@@ -140,44 +140,12 @@
 
 <!--FINAL DEL BODY-->
 
+
+
 <!--Inicio Footer-->
-  <div class="jumbotron text-left" style="margin-bottom:0">
-    <div class="d-flex mb-3">
-      <div class="p-2 flex-fill bg">Redes Sociales<br>
-        <a href="http://www.twitter.com/"><img src="ejmplosimg/logootwit.png"><span class="info">Seguinos en Twitter</span></li></a><br>
-        <a href="http://www.instagram.com/"><img src="ejmplosimg/logoejemplo.png"><span class="info">   Seguinos en Instagram</span></li></a><br>
-        <a href="https://www.youtube.com/"><img src="ejmplosimg/logoyoutube.png"><span class="info">Suscribete a nustro canal</span></li></a><br>
-        <a href="http://www.facebook.com/"><img src="ejmplosimg/logooface.png" alt=""><span class="info">Dale me gusta a nuestra Facebook</span></a></li>
-      </div>
+  <?php include 'footer-distribuido.html'; ?>
+<!--Final Foooter-->
 
-        <div class="p-2 flex-fill bg">Clinica<br>
-        <a href="instalacion.html"><span class="info">Instalaciones</span></li><br>
-        <a href="dormitorios.html"><span class="info">Dormitorios</span></li></a><br>
-        <a href="actividades.html"><span class="info">Actividades</span></li></a><br>
-      </div>
-
-         <div class="p-2 flex-fill bg">Servicios<br>
-        <a href="tratamientos.html"><span class="info">Tratamientos</span></li></a><br>
-        <a href="psicoterapia.html"><span class="info">Psicoterapia</span></li></a><br>
-        <a href="consejeria.html"><span class="info">Consejeria</span></li></a><br>
-      </div>
-        
-        <div class="p-2 flex-fill bg">Mantente en Contacto<br>
-        <span class="info">Telefono: (55) XXXX-XXXX</span><br>
-        <a href="XXX@hotmail.com"><span class="info">Correo: XXXXXX@hotmail.com</span></a><br>
-        <a href="#"><span class="info">Direccion</span></a>
-      </div>
-        
-          <div class="p-2 flex-fill bg">Seguridad y Privacidad <br>
-            <a href="#"><span class="info-seg">Términos de uso </span></a><br>
-            <a href="#"><span class="info-seg">Política de privacidad</span></a>
-      </div>
-      
-
-    </div>
-  </div>
-
-<!--FINAL FOOTER-->
 
 <!--footer estatico-->
   <div class="footer">
