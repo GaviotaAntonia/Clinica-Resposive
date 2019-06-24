@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+php<!DOCTYPE html>
 <html lang="es">
 <head>
   <title>|Servicios Clinica Psicoterapia|</title>
@@ -34,23 +34,23 @@
     <a class="navbar-brand" href="#">
       <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
     </a>
-    <a class="navbar-brand" href="inicio.html">CLINICA</a>
+    <a class="navbar-brand" href="inicio.php">CLINICA</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
      </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
            <ul class="navbar-nav">
             <li class="nav-item">
-             <a class="nav-link w3-bar-item w3-button w3-right"  href="acercadenos.html" >Acerca de nosotros</a>
+             <a class="nav-link w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de nosotros</a>
              </li>
             <li class="nav-item">
-            <a class="nav-link active" href="servicios.html">Servicios</a>
+            <a class="nav-link active" href="servicios.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.html">Clinica</a>
+              <a class="nav-link" href="clinica.php">Clinica</a>
             </li>
           </ul>
         </div>  
@@ -64,19 +64,19 @@
     <div class="col-sm-4">
       <h2>Aún más cerca de ti</h2>
       <h5>¿Las drogas y el alcohol estan destruyendo tu familia'</h5>
-      <p>Quieres <a href="inicio.html">saber más</a> acerca de Clinica...</p>
+      <p>Quieres <a href="inicio.php">saber más</a> acerca de Clinica...</p>
 
       <h3>Servicios</h3>
       <p>Los servicios mencionados cuentan con un costo diferente pregunta via correo y tendras un descuento.</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link" href="tratamientos.html">Tratamientos</a>
+          <a class="nav-link" href="tratamientos.php">Tratamientos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="psicoterapia.html">Psicoterapia</a>
+          <a class="nav-link active" href="psicoterapia.php">Psicoterapia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="consejeria.html">Consejeria</a>
+          <a class="nav-link" href="consejeria.php">Consejeria</a>
         </li>
       
       </ul>
