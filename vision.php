@@ -147,12 +147,6 @@
 <!--Final Foooter-->
 
 
-<!--footer estatico-->
-  <div class="footer">
-    <br><p style="text-align: center;">&copy; 2019. Todos los derechos reservados</p>
-  </div>
-<!--Final Foooter estatico-->
-
 
 <!--JAVASCRIPT-->
   <script>
