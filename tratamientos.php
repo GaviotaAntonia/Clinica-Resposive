@@ -50,7 +50,7 @@
               <a class="nav-link" href="ubicacion.php">Ubicacion</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.php">Clinica</a>
+              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
             </li>
           </ul>
         </div>  
@@ -64,7 +64,7 @@
     <div class="col-sm-4">
       <h2>Aún más cerca de ti</h2>
       <h5>¿Las drogas y el alcohol estan destruyendo tu familia'</h5>
-      <p>Quieres <a href="inicio.html">saber más</a> acerca de Clinica...</p>
+      <p>Quieres <a href="inicio.html">saber más</a> acerca del Proyecto de Vida y Amor A.C.</p>
 
       <h3>Servicios</h3>
       <p>Los servicios mencionados cuentan con un costo diferente pregunta via correo y tendras un descuento.</p>

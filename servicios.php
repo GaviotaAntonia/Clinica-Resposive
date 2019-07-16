@@ -34,7 +34,7 @@
     <a class="navbar-brand" href="#">
       <img src="imagenes/logoparanav.png" alt="logo" style="width:40px;">
     </a>
-    <a class="navbar-brand" href="inicio.php">CLINICA</a>
+    <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
      </button>
@@ -50,7 +50,7 @@
               <a class="nav-link" href="ubicacion.php">Ubicacion</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.php">Clinica</a>
+              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
             </li>
           </ul>
         </div>  
