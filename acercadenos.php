@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Acerca de la Clinica</title>
+  <title>Acerca del Proyecto de Vida y Amor A.C..</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -89,7 +89,7 @@
     <a class="navbar-brand" href="inicio.php">
       <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
     </a>
-    <a class="navbar-brand" href="inicio.php">CLINICA</a>
+    <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
      </button>
@@ -105,7 +105,7 @@
               <a class="nav-link" href="ubicacion.php">Ubicacion</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.php">Clinica</a>
+              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
             </li>
           </ul>
         </div>  
