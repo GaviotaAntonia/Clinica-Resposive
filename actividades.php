@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="ejmplosimg/logoclini.png"> <!--FAVICON-->
+  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> <!--FAVICON-->
 
 
  <!-- fuentes utilizadas  -->
@@ -86,7 +86,7 @@
 <!--NAVBAR DE INCIO-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="clinica.php">
-      <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
+      <img src="imagenes/logoparanav.png" alt="logo" style="width:40px;">
     </a>
     <a class="navbar-brand" href="inicio.php">CLINICA</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
