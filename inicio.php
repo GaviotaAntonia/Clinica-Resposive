@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
   <!--FAVICON-->
-  <link rel="shortcut icon" type="image/png" href="ejmplosimg/logoclini.png"> 
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> 
  <!-- fuentes utilizadas  -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <!-- termino de fuentes utilizadas-->
@@ -33,7 +33,7 @@
 <!--NAVBAR DE INCIO-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="#">
-      <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
+      <img src="imagenes/logotiposinfondo.png" alt="logo" style="width:40px;">
     </a>
     <a class="navbar-brand active" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -48,10 +48,10 @@
             <a class="nav-link" href="servicios.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
+              <a class="nav-link" href="ubicacion.php">Ubicación</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
+              <a class="nav-link" href="clinica.php">Instalaciones</a>
             </li>
           </ul>
         </div>  

@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="ejmplosimg/logoclini.png"> <!--FAVICON-->
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
 
 
  <!-- fuentes utilizadas  -->
@@ -87,7 +87,7 @@
 <!--NAVBAR DE INCIO-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="#">
-      <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
+      <img src="imagenes/logotiposinfondo.png" alt="logo" style="width:40px;">
     </a>
     <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -102,10 +102,10 @@
             <a class="nav-link" href="servicios.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
+              <a class="nav-link" href="ubicacion.php">Ubicación</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
+              <a class="nav-link" href="clinica.php">Instalaciones</a>
             </li>
           </ul>
         </div>  
@@ -131,9 +131,10 @@
 
   <div class="col-9">  
     <br><h1 style="text-align: center; ">Valores</h1>
-    <p>Los valores son aquellas cualidades que se destacan en cada individuo y que, a su vez, le impulsan a actuar de una u otra manera porque forman parte de sus creencias, determinan sus conductas y expresan sus intereses y sentimientos.</p>
-    <p>Se empezo a construccion xx/xx/20xx.</p>
-    <p><br>Establecemos relaciones positivas con clientes y egresados basadas en el reconocimiento, el respeto y el apoyo continuo para el desarrollo de su potencial humano e institucional.<br>Nos comprometemos con nuestros clientes y sus familiares.<br>Ante todo actuamos con integridad.<br>Mejora continua hacia la excelencia en nuestros programas y servicios.<br>Congruencia institucional con los valores y estilo de vida que proponemos a nuestros clientes.<br>Responsabilidad social.</p>
+    <p>Los valores que nos caracterizan, son los mismo que les transmitimos a nuestros beneficiados, para que ellos puedan creer de nuevo en las personas, todos sabemos que en el mundo hay tanto personas buenas y malas, también les damos un trato justo y respetuoso, donde no se denigre la dignidad humana. </p>
+    <p>Nuestros valores son: </p>
+    <p> Respeto<br>Responsabilidad<br>Honestidad<br>Tolerancia<br>Gratitud<br>Fidelidad<br>Confidencialidad<br>Amor<br>Amistad<br>Familia</p>
+
     <div align="center">
      <img class="img-fluid" src="ejmplosimg/valorescol.png" alt="se muestra una de las actividades.html" width="400px">
    </div>

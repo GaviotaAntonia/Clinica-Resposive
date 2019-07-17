@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="ejmplosimg/logoclini.png"> <!--FAVICON-->
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
 
 
  <!-- fuentes utilizadas  -->
@@ -87,7 +87,7 @@
 <!--NAVBAR DE INCIO-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="#">
-      <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
+      <img src="imagenes/logotiposinfondo.png" alt="logo" style="width:40px;">
     </a>
     <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -102,10 +102,10 @@
             <a class="nav-link" href="servicios.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
+              <a class="nav-link" href="ubicacion.php">Ubicación</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
+              <a class="nav-link" href="clinica.php">Instalaciones</a>
             </li>
           </ul>
         </div>  
@@ -133,14 +133,12 @@
 
   <div class="col-9">
 
-    <h1 style="text-align: center;">¿Quienes somos?</h1>
-    <p>HTML is the standard markup language for creating Web pages.<br>HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags
-    <br>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on.Browsers do not display the HTML tags, but use them to render the content of the page</p>
-    <p>El 80% de la información que se utiliza diariamente para realizar el trabajo no está en los sistemas transaccionales de las empresas.<br>Se estima que un empleado promedio consume entre un 25% y 30% de su tiempo buscando información. Esto significa que las empresas pierden mensualmente un 30% del dinero correspondiente al costo de sus empleados, sumado al lucro cesante derivado de este tiempo improductivo en los que los empleados no generan valor para la empresa.<br>Las organizaciones insumen gran cantidad de información para dar soporte a su operativa diaria; información generada internamente como proveniente de fuentes externas. Viven de esta información, memorandos, reportes, información de productos, análisis de mercados, contratos, artículos de interés, minutas de reunión, información interna, manuales y procedimientos, etc.<br> Pero su acceso no es siempre fácil. Si no está organizada, relacionada y distribuida de forma apropiada, no genera valor para el negocio, desaprovechando uno de los activos más importantes de la Empresa: El Conocimiento.</p>
+    <h1 style="text-align: center;">Proyecto Vida y Amor A.C.</h1>
+    <p>¿Quienes somos?<br>Somos una asociación no lucrativa que esta dedicada a la atención integral de las adicciones, beneficiando a personas con problemas de vulnerabilidad en cualquier estrato social ( beneficiados); es decir a grupos expuestos a las adicciones de cualquier tipo, en estado de abandono o calle, así como en necesidad de asistencia o atención humanitaria; mediante las siguientes actividades:<br><p style="font-style: italic; font-weight: bold">1° Atención a los beneficiados, quienes se encuentran expuestos a problemas de adicciones; mediante su previa admisión en las instalaciones.</p> <p style="font-style: italic; font-weight: bold">2° Asilo o estancia durante el tiempo que los beneficiados necesiten de acuerdo a la evaluación profesional de los especialistas, salvaguardando la integridad física y mental de los usuarios y del personal,  así como el cuidado de las instalaciones.</p><p style="font-style: italic; font-weight: bold">3° Brindar orientación, terapias, traslados de acuerdo a su grado de vulnerabilidad en el proceso de la adicción, con el propósito de lograr una estabilidad personal para que así puedan mejorar sus propias condiciones de vida y subsistencia.</p><p style="font-style: italic; font-weight: bold">4° Reivindicar la dignidad humana, restableciendo la funcionalidad e integración de los beneficiados al ámbito social y laboral, mediante talleres ocupacionales, por ejemplo, cultura y deporte. </p> <p>Se brinda el apoyo de conferencias o actividades relacionadas al tema de adicciones a instituciones públicas o privadas, escuelas de cualquier nivel, empresas de cualquier sector, ya que nadie se encuentra excento de las adicciones, el cual se ha convertido en un problema de salud durante los últimos años.</p>
     <div align="center">
       <img class="img-fluid" src="ejmplosimg/actividades/act4.jpg" alt="se muestra una de las actividades.html" width="400px">
     </div>
-    <p>.<br>Las organizaciones insumen gran cantidad de información para dar soporte a su operativa diaria; información generada internamente como proveniente de fuentes externas. Viven de esta información, memorandos, reportes, información de productos, análisis de mercados, contratos, artículos de interés, minutas de reunión, información interna, manuales y procedimientos, etc.<br> Pero su acceso no es siempre fácil. Si no está organizada, relacionada y distribuida de forma apropiada, no genera valor para el negocio, desaprovechando uno de los activos más importantes de la Empresa: El Conocimiento.</p>
+
   </div>
 </div>
 

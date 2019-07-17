@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Acerca del Proyecto de Vida y Amor A.C..</title>
+  <title>Acerca del Proyecto de Vida y Amor A.C.</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="ejmplosimg/logoclini.png"> <!--FAVICON-->
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
 
 
  <!-- fuentes utilizadas  -->
@@ -17,7 +17,33 @@
   <!-- termino de fuentes utilizadas-->
 </head>
 
-
+<!--NAVBAR DE INCIO-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="imagenes/logotiposinfondo.png" alt="logo" style="width:40px;">
+    </a>
+    <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="navbar-nav">
+            <li class="nav-item">
+             <a class="nav-link w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de Nosotros</a>
+             </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="servicios.php">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ubicacion.php">Ubicación</a>
+            </li>    
+            <li class="nav">
+              <a class="nav-link" href="clinica.php">Instalaciones</a>
+            </li>
+          </ul>
+        </div>  
+  </nav>
+<!--FINAL NAVBAR-->
 
 <!--Estilos-->
   <style>
@@ -84,33 +110,7 @@
   </style>
 <!--Final de estilos-->
 
-<!--NAVBAR DE INCIO-->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="inicio.php">
-      <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
-    </a>
-    <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-     </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-           <ul class="navbar-nav">
-            <li class="nav-item">
-             <a class="nav-link  active w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de Nosotros</a>
-             </li>
-            <li class="nav-item">
-            <a class="nav-link" href="servicios.php">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
-            </li>    
-            <li class="nav">
-              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
-            </li>
-          </ul>
-        </div>  
-  </nav>
-<!--FINAL NAVBAR-->
+
 
 <!--BODY-->
 
@@ -131,7 +131,8 @@
 
   <div class="col-9">
     <h1>Acerca de Nosotros</h1>
-    <p>La página “Sobre nosotros” o “quiénes somos” es la sección o categoría de una web que resume a modo descriptivo cómo nació el negocio, quiénes forman parte del equipo responsable y, sobre todo, explica la misión, visión y valores de dicho negocio en Internet.<br>Aclarado esto, seguro que ahora comprendes un poco mejor la importancia que tiene dentro de un sitio web esta página, sobre todo para aquellos que te visitan y aún no conocen tu eCommerce.Sin embargo, es probable que si tienes una tienda online, te pase como a la mayoría de los responsables de este tipo de negocios y te cueste cierto trabajo hablar sobre ti mismo y sobre tu equipo.<br>¿Te ha pasado aquello de poderte pasar todo el día delante de una página en blanco y con solo pensar en contar algo sobre ti, te bloqueas?Es por eso por lo que a buen seguro la página "Sobre nosotros" de tu eCommerce sigue sin estar acabada o escrita de manera muy similar al del resto y, sobre todo, sin la personalidad y esencia que buscan aquellos que deciden leerla.<br>Por ello, hoy te traigo 6 sencillas ideas que favorecen para el contenido de la página que habla sobre tu empresa desde el punto de vista más “humano”.Pero antes de nada, me gustaría aclararte la pregunta que seguramente ahora mismo te estás haciendo, si aún no habías prestado demasiada atención a esta sección de tu web</p>
+    <p> Proyecto de Vida y Amor A. C.<br>Somos una clinica especializada en atención psicológica, dedicada a la rehabilitación de personas que sufren de alguna adicción donde el tratamiento es de cuatro meses. Se utiliza la terapia Cognitivo Conductual en la cual el terapeuta y el paciente trabajan en equipo para identificar y resolver el problema, dependiendo de la cuestión se puede recurrir a las sesiones grupales.</p>
+
     <div align="center">
       <img src="ejmplosimg/acerca.png" alt="imagen que simula la vision de una empresa">
     </div>

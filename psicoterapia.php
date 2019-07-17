@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="ejmplosimg/logoclini.png"> <!--FAVICON-->
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
 
 
  <!-- fuentes utilizadas  -->
@@ -32,7 +32,7 @@
 <!--NAVBAR DE INCIO-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="#">
-      <img src="ejmplosimg/logoclini.png" alt="logo" style="width:40px;">
+      <img src="imagenes/logotiposinfondo.png" alt="logo" style="width:40px;">
     </a>
     <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -47,10 +47,10 @@
             <a class="nav-link active" href="servicios.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
+              <a class="nav-link" href="ubicacion.php">Ubicación</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
+              <a class="nav-link" href="clinica.php">Instalaciones</a>
             </li>
           </ul>
         </div>  
@@ -83,15 +83,23 @@
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-      <h2>Intervención psicológica en conductas adictivas</h2>
-      <h5>páginas 1-66 (Enero 2001)</h5>
-      <p>Objetivo:</p>
-      <p><br>la intervención psicológica en conductas adictivas debe de ajustarse al igual que se realiza en otras disciplinas, a la utilización de técnicas y tratamientos que hayan demostrado su utilidad en dicho ámbito. Se parte del supuesto de que cualquier intervención psicológica no tiene porqué estar justificada y, por tanto, no existe ninguna razón para aplicar a los pacientes tratamientos o técnicas que no hayan sido validadas. Método: se revisan los diferentes tipos de tratamientos psicológicos que en la actualidad tienen soporte empírico y que son recomendados por el National Institute of Drug Abuse y la Sociedad de Psicología Clínica (División 12 de la Asociación Psicológica Americana). Se revisan algunos tratamientos con formato de intervención psicológica breve recomendados por el Centre for Substance Abuse Treatment. Resultados: en el tratamiento de conductas adictivas se han utilizado distintos enfoques de intervención psicológica, no obstante sólo las terapias de corte cognitivo-conductual poseen validez empírica en este ámbito de intervención. Por otro lado, algunas intervenciones en formato de terapia breve pueden ser útiles en el tratamiento Conclusiones: se concluye que el tratamiento psicológico es un aspecto nuclear en el tratamiento de la adicción a drogas y, que en base a la información que se dispone en la actualidad y salvo algunas excepciones, las intervenciones psicológicas en conductas adictivas más recomendables se encuentran dentro del marco de la terapia cognitivo-conductual.</p>
+      <h2>Terapia Cognitivo-Conductual</h2>
+      <h5> ¿Qué es la Terapia Cognitivo-Conductual?</h5>
+      <p><br>Es un tratamiento psicológico orientada a la acción en la que el terapeuta y el paciente trabajan en equipo para identificar y resolver problemas, además asume que los patrones de pensamiento mal adaptativos o erróneos causan un comportamiento desadaptativo (comportamiento contraproducente que interfiere con la vida diaria) y emociones “negativas”. Los terapeutas ayudan a los pacientes a superar sus dificultades a través de un tratamiento enfocado en la modificación de patrones de pensamiento, de modo que se obtenga la modificación del comportamiento y el estado emocional.</p>
+      <h5>¿Cómo es la terapia?</h5>
+      <p><br>Un terapeuta de cognitivo-conductual intentará explorar los vínculos entre los pensamientos y las emociones que ocurren antes de las conductas disruptivas en personas con alguna enfermedad mental o adicción. Al establecer estas conexiones, las personas aprenden a identificar y cambiar patrones de pensamiento negativos o inapropiados, y como consecuencia, pueden manejar los comportamientos relacionados con su padecimiento. Al explorar estos patrones de pensamiento que conducen a acciones autodestructivas y las creencias que dirigen estos pensamientos, los pacientes pueden modificar sus patrones de pensamiento de modo que incrementen su capacidad de lidiar con el mundo.</p>
+      <h5>Objetivo de la terapia</h5>
+      <p><br>El trabajo que se realiza durante las sesiones consiste en ayudar a las personas a resolver sus problemas de la vida real y enseñarles a modificar su pensamientos, comportamiento y emociones.  De este modo, la meta es reconocer pensamientos negativos y remplazarlos con pensamientos positivos, que darán lugar a comportamientos favorables para la persona.</p>
       <br>
-      <h2>Integración e interacciones entre los tratamientos farmacológicos y psicológicos de las adicciones: una revisión</h2>
-      <h5>Anal. Psicol. vol.29 no.1 Murcia ene. 2013</h5>
+      <h2>Terapia Gestalt</h2>
+      <h5>¿Qué es la Terapia Gestalt?</h5>
       <br>
-      <p>Los tratamientos principales aplicados en el ámbito de las adicciones son la farmacoterapia y las terapias psicológicas, siendo escasas las intervenciones en las que se combinan estos dos tipos de terapias. El objetivo de este estudio es revisar y mostrar un resumen de los resultados de las principales investigaciones, que han evaluado la efectividad de la intervención combinada de estas terapias en comparación con la aplicación de los tratamientos administrados de forma aislada. Los resultados muestran que la aplicación combinada de tratamientos farmacológicos y psicológicos, presenta mayor efecto terapéutico y de prevención de recaídas, superando en parte las limitaciones que presentan estos dos tipos de tratamientos en su aplicación aislada.</p>
+      <p> La terapia Gestalt se enfoca más en los procesos que en los contenidos. Pone énfasis sobre lo que está sucediendo, se está pensado y sintiendo en el momento, más que en el pasado. En este sentido, se habla del aquí y ahora, no para dejar de lado la historia de la persona, sino que esta historia se mira desde el presente, cómo se viven, afectan, etc., los hechos pasados a día de hoy. La persona es quien es, entre otros, por lo que ha vivido.</p>
+      <h5>¿Cómo es la terapia?</h5>
+      <br>
+      <p>La Terapia Gestalt se posiciona desde una perspectiva holística en la concepción del ser humano, integrando sus diferentes dimensiones, sensoriales, afectivas, intelectuales, sociales y espirituales, en una vivencia global donde la experiencia es sentida corporalmente y puede ser traducida a palabras, existiendo un carácter bidireccional, las palabras pueden ser sentidas corporalmente.</p>
+      <h5>Objetivo de la terapia</h5>
+      <p><br>El objetivo general de esta terapia es la de adquirir una mayor consciencia para vivir el presente, aumentar la capacidad de aceptar la experiencia tal como es y fomentar la responsabilidad personal de todos los aspectos de la vida.<p>
     </div>
   </div>
 </div>
