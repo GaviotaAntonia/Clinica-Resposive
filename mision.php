@@ -8,8 +8,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> <!--FAVICON-->
+  <link rel="stylesheet" href="css/estilos.css"
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
+
 
 
  <!-- fuentes utilizadas  -->
@@ -108,7 +109,7 @@
 
   <div class="col-9">
     <h1 style="text-align: center; ">Misión</h1>
-    <p>Muchas personas suelen confundir la misión con la visión de una empresa. Una forma sencilla de diferenciar estas dos declaraciones es recordando que la visión responde a la pregunta: «¿qué queremos llegar a ser?», mientras que la misión responde a la pregunta: «¿cuál es nuestra razón de ser?».Establecer la misión de una empresa nos permite orientar las decisiones y acciones de todos los miembros de la empresa en función de ésta; es decir, nos permite lograr que se establezcan objetivos, formulen estrategias y ejecuten tareas bajo su luz, logrando así coherencia y organización.</p>
+    <p>Ofrecer un tratamiento integral, personal y humano en donde el resultado de la atención del servicio médico, psicológico, espiritual apoyen al proceso de recuperación de la adicción que sufra el beneficiado, para que cuando termine su proceso, devolver a su familia, amigos y la sociedad en general un ser humano más consciente, asertivo y comprometido.</p>
     <div align="center">
       <img class="img-fluid" src="ejmplosimg/mision.jpg" alt="imagen que simula la vision de una empresa">
     </div>

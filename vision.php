@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> <!--FAVICON-->
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
 
 
  <!-- fuentes utilizadas  -->
@@ -87,7 +87,6 @@
   <?php include 'nav.html'; ?>
 <!--Final Foooter-->
 
-
 <!--BODY-->
 
 <div class="header">
@@ -106,8 +105,8 @@
 
   <div class="col-9">
     <h1 style="text-align: center; ">Visión</h1>
-    <p>La visión es posible gracias a un órgano receptor: el ojo. Este órgano tiene una membrana y una retina que mandan señales o mensajes por medio de las vías ópticas al cerebro y es allí en donde se interpretan y de este modo se logra ver.Cuando la luz alcanza al ojo, ésta pasa a través de la córnea, la pupila y el cristalino, llegando por fin a la retina en donde la energía electromagnética de la luz pasa a ser un impulso nervioso que es utilizado por nuestro cerebro. Estos impulsos salen del ojo por el nervio óptico, y así llegan al cerebro.Los ojos son órganos que se encuentran en la cavidad orbitaria del cráneo. Estos dos están protegidos por los párpados, que mantienen la humedad que el ojo necesita y también impiden que entren impurezas que contaminan los ojos. La glándula lagrimal es la que segrega líquido para humedecerlos. La movilidad que el ojo tiene es gracias a los músculos impulsados por los nervios motores del ojo.Fuente: <a href="https://concepto.de/vision/#ixzz5qeD9kSC9">https://concepto.de/vision/#ixzz5qeD9kSC9</a></p>
-    <div align="center">
+    <p>Ser la mejor institución de la zona en ofrecer ayuda profesional integral para  personas con problemas de vulnerabilidad en cualquier estrato social que sufren de alguna adicción, brindar un servicio de alta calidad así como impulsar programas específicos de prevención. Estamos convencidos de que las personas que tienen este problema sólos no se puede y que trabajar en equipo es mejor, en brindar a nuestros beneficiados el máximo de herramientas necesarias para la recuperación , estamos dispuestos a poner nuestro máximo esfuerzo. Creemos firmemente que el cambio es posible con la unión de cada uno de nosotros. 
+        <div align="center">
       <img class="img-fluid" src="ejmplosimg/vision.jpg" alt="imagen que simula la vision de una empresa">
     </div>
     <br><p style="text-align: center;">Se empezo a construccion xx/xx/20xx.</p>

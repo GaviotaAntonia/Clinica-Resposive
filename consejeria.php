@@ -10,7 +10,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> <!--FAVICON-->
+
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
+
 
 
  <!-- fuentes utilizadas  -->
@@ -33,6 +35,7 @@
 <!--NAVBAR DE INCIO-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="#">
+
       <img src="imagenes/logoparanav.png" alt="logo" style="width:40px;">
     </a>
     <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
@@ -48,10 +51,10 @@
             <a class="nav-link active" href="servicios.php">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ubicacion.php">Ubicacion</a>
+              <a class="nav-link" href="ubicacion.php">Ubicación</a>
             </li>    
             <li class="nav">
-              <a class="nav-link" href="clinica.php">Proyecto de Vida y Amor A.C.</a>
+              <a class="nav-link" href="clinica.php">Instalaciones</a>
             </li>
           </ul>
         </div>  

@@ -9,7 +9,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> <!--FAVICON-->
+
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
 
 
  <!-- fuentes utilizadas  -->
@@ -31,7 +32,6 @@
 <!--Inicio Footer-->
   <?php include 'nav.html'; ?>
 <!--Final Foooter-->
-
 
 <!--BODY-->
 <section class="probootstrap-section">
@@ -73,9 +73,10 @@
         <div class="col-md-3 col-md-push-1">
           <h3>Información de Contacto</h3>
           <ul class="with-icon colored">
-            <li><i class="icon-location2"></i> <span>Plaza Coacalco, Avenida José López Portillo, San Francisco Coacalco, Méx.</span></li>
+            <li><i class="icon-location2"></i> <span>Calle Nogal No. 30 (antes Calle Viveros), Col. Potrero del Rey, C.P. 55029, Ecatepec de Morelos, Estado de México.</span></li>
             <li><i class="icon-mail"></i><span>xxxxxxxxxxxxxxxxx@gmail.com</span></li>
-            <li><i class="icon-phone2"></i><span>(55)XXXXXXXX</span></li>
+            <li><i class="icon-phone2"></i><span>Tel.: (55) 26-22-94-66</span></li>
+            <li><i class="icon-phone2"></i><span>Whatsapp: (55) 65-27-46-15</span></li>
           </ul>
         </div>
       </div>

@@ -10,7 +10,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
   <!--FAVICON-->
-  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> 
+
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> 
  <!-- fuentes utilizadas  -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <!-- termino de fuentes utilizadas-->
@@ -31,11 +32,10 @@
 <!--Final de estilos para el carrusel-->
 
 <!--NAVBAR DE INCIO-->
- 
+
 <!--Inicio Footer-->
   <?php include 'nav.html'; ?>
 <!--Final Foooter-->
-
 
 <!--BODY-->
 
