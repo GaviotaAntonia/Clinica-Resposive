@@ -49,6 +49,8 @@
         <li class="item1 active"></li>
         <li class="item2"></li>
         <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
       </ul>
       
       <!-- The slideshow -->
@@ -62,6 +64,13 @@
           <div class="carousel-item">
           <img src="ejmplosimg/asddobje.jpg" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
           </div>
+
+          <div class="carousel-item">
+            <img src="imagenes/01.jpg" alt="cuarta magen de clinica ejemplo" width="1000" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/2.jpg" alt="quinta imagen de clinica ejemplo" width="1000" height="500">
+          </div>
        </div>
   
       <!-- Left and right controls -->
@@ -74,6 +83,48 @@
       </div>
   </div>
 <!-- FINAL DE CARRUSEL-->
+
+            <h3 style="text-align: center;color: black"><b>Proyecto de Vida y Amor A.C.</b></h3>
+            <br>
+            <span style="align: center; font-style: italic" >"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales.".</span><br>
+
+
+ <br>
+          <div class="card-deck">
+            <div class="card text-white " style="border-top: solid 6px #00FA9A">
+              <div class="card-body">
+                
+                <p style="color: #696969"> </p>
+                <p style="text-align: center; font-weight: bold; color: black">Definición de Adicción</p>
+                <p style="text-align: justify; color: black"> La Organización Mundial de la Salud (OMS) en su informe Neurociencia del consumo y dependencia de sustancias psicoactivas define la adicción como una enfermedad emocional, física y con predisposición genética.</p>
+                <p style="text-align: center"> <img src="imagenes/adiccion.jpg" alt="..." width="300"></p>
+                </p>
+              </div>
+            </div>
+
+            <div class="card text-white " style="border-top: solid 6px #00FA9A">
+              <div class="card-body">
+                <p style="color: #696969">
+                </p>
+                <p style="text-align: center; font-weight: bold; color: black">Uso, Abuso y Dependencia</p>
+                <p style="text-align: justify; color: black">Las adicciones son progresivas. Todas comienzan en una etapa de abuso reiterado y, más tarde, se convierten en dependencia. En cualquier etapa, es posible hacer una intervención mediante terapia especializada. </p>
+                <p style="text-align: center"> <img src="imagenes/adiccion2.jpg" alt="..." width="300"></p>
+                </p>
+              </div>
+            </div>
+
+            <div class="card text-white " style="border-top: solid 6px #00FA9A">
+              <div class="card-body">
+                <p style="color: #696969">
+                </p>
+                <p style="text-align: center; font-weight: bold; color: black">Spyware</p>
+                <p style="text-align: justify; color: black">Se trata de un software espía que tiene la capacidad de recopilar información de un ordenador y transmitirla sin el conocimiento de la persona afectada, poniendo en peligro la seguridad del ordenador afectado (claves, cuentas de correo, cuentas bancarias, etc.). </p>
+                <p style="text-align: center"> <img src="conphoto/amenaza 7.gif" alt="..." width="300"></p>
+                </p>
+              </div>
+            </div>
+          </div>
+
 
 <!--comentarios especialistas-->
 	<section>
