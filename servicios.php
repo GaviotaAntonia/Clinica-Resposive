@@ -9,6 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
+
   <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
 
 
@@ -29,33 +30,11 @@
   </style>
 <!--Final de estilos para el carrusel-->
 
-<!--NAVBAR DE INCIO-->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">
-      <img src="imagenes/logotiposinfondo.png" alt="logo" style="width:40px;">
-    </a>
-    <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-     </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-           <ul class="navbar-nav">
-            <li class="nav-item">
-             <a class="nav-link w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de Nosotros</a>
-             </li>
-            <li class="nav-item">
-            <a class="nav-link active" href="servicios.php">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ubicacion.php">Ubicación</a>
-            </li>    
-            <li class="nav">
-              <a class="nav-link" href="clinica.php">Instalaciones</a>
-            </li>
-          </ul>
-        </div>  
-  </nav>
-<!--FINAL NAVBAR-->
+
+<!--Inicio Footer-->
+  <?php include 'nav.html'; ?>
+<!--Final Foooter-->
+
 
 <!--BODY-->
 

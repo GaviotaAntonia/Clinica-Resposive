@@ -111,6 +111,9 @@
 <!--Final de estilos-->
 
 
+<!--Inicio Footer-->
+  <?php include 'nav.html'; ?>
+<!--Final Foooter-->
 
 <!--BODY-->
 
@@ -131,6 +134,7 @@
 
   <div class="col-9">
     <h1>Acerca de Nosotros</h1>
+
     <p> Proyecto de Vida y Amor A. C.<br>Somos una clinica especializada en atención psicológica, dedicada a la rehabilitación de personas que sufren de alguna adicción donde el tratamiento es de cuatro meses. Se utiliza la terapia Cognitivo Conductual en la cual el terapeuta y el paciente trabajan en equipo para identificar y resolver el problema, dependiendo de la cuestión se puede recurrir a las sesiones grupales.</p>
 
     <div align="center">
