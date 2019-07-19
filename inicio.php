@@ -117,8 +117,8 @@
               <div class="card-body">
                 <p style="color: #696969">
                 </p>
-                <p style="text-align: center; font-weight: bold; color: black">Spyware</p>
-                <p style="text-align: justify; color: black">Se trata de un software espía que tiene la capacidad de recopilar información de un ordenador y transmitirla sin el conocimiento de la persona afectada, poniendo en peligro la seguridad del ordenador afectado (claves, cuentas de correo, cuentas bancarias, etc.). </p>
+                <p style="text-align: center; font-weight: bold; color: black">La mejor ayuda es con amor y compresión</p>
+                <p style="text-align: justify; color: black">Cuando nuestra vida no es lo que queremos que sea, cuando el sufrimiento no deja de estar presente por nuestra Adicción-Dependencia; es el momento de hacer un alto en el camino de la vida. Tu familia siempre te apoyara y lo único que desean es tu propio bien, date esa oportunidad para mejorar tu vida. </p>
                 <p style="text-align: center"> <img src="conphoto/amenaza 7.gif" alt="..." width="300"></p>
                 </p>
               </div>
@@ -129,13 +129,13 @@
 <!--comentarios especialistas-->
 	<section>
  	 <div class="container mt-3">
-  		<h2>Nuestros Especialistas</h2>
-  		<p>El 90% de los doctores tienen titulo y son especialistas en su area:</p>
+  		<h2>Tenemos a los mejores especialistas en adiccones</h2>
+  		<p>No solo se te brinda ayuda psicológica, sino también espiritual, siempre apoyados en tus seres queridos para que puedas tener una rehabilitación exitosa.</p>
   			<div class="media border p-3">
     			<img src="ejmplosimg/ejemdoc/doc1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
     			<div class="media-body">
       			<h4>Dr. Especialista en bla bla bla<small><br><i>Posted on February 19, 2016</i></small></h4>
-      			<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</p>      
+      			<p>Trabajamos por medio de amor y comprensión ya que son los ingredientes faltantes para evitar futuras recaídas, el paciente no solo fortalecerá su autoestima sino también su determinación y su buena voluntad con talleres psicológicos que le enseñaran a controlar sus niveles de ansiedad para canalizarlos a una manera asertiva.</p>      
     			</div>
   			</div>
   	 </div>
