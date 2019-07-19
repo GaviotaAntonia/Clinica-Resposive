@@ -109,11 +109,10 @@
 
   <div class="col-9">
     <h1 style="text-align: center; ">Misión</h1>
-    <p>Ofrecer un tratamiento integral, personal y humano en donde el resultado de la atención del servicio médico, psicológico, espiritual apoyen al proceso de recuperación de la adicción que sufra el beneficiado, para que cuando termine su proceso, devolver a su familia, amigos y la sociedad en general un ser humano más consciente, asertivo y comprometido.</p>
+    <p style="text-align: justify">Ofrecer un tratamiento integral, personal y humano en donde el resultado de la atención del servicio médico, psicológico, espiritual apoyen al proceso de recuperación de la adicción que sufra el beneficiado, para que cuando termine su proceso, devolver a su familia, amigos y la sociedad en general un ser humano más consciente, asertivo y comprometido.</p>
     <div align="center">
-      <img class="img-fluid" src="ejmplosimg/mision.jpg" alt="imagen que simula la vision de una empresa">
+      <img class="img-fluid" src="imagenes/mision1.png" alt=alt="..." width="500">
     </div>
-    <p style="text-align: center;">Se empezo a construccion xx/xx/20xx.</p>
 
   </div>
     

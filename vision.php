@@ -105,11 +105,10 @@
 
   <div class="col-9">
     <h1 style="text-align: center; ">Visión</h1>
-    <p>Ser la mejor institución de la zona en ofrecer ayuda profesional integral para  personas con problemas de vulnerabilidad en cualquier estrato social que sufren de alguna adicción, brindar un servicio de alta calidad así como impulsar programas específicos de prevención. Estamos convencidos de que las personas que tienen este problema sólos no se puede y que trabajar en equipo es mejor, en brindar a nuestros beneficiados el máximo de herramientas necesarias para la recuperación , estamos dispuestos a poner nuestro máximo esfuerzo. Creemos firmemente que el cambio es posible con la unión de cada uno de nosotros. 
+    <p style="text-align: justify">Ser la mejor institución de la zona en ofrecer ayuda profesional integral para  personas con problemas de vulnerabilidad en cualquier estrato social que sufren de alguna adicción, brindar un servicio de alta calidad así como impulsar programas específicos de prevención. Estamos convencidos de que las personas que tienen este problema sólos no se puede y que trabajar en equipo es mejor, en brindar a nuestros beneficiados el máximo de herramientas necesarias para la recuperación, estamos dispuestos a poner nuestro máximo esfuerzo. Creemos firmemente que el cambio es posible con la unión de cada uno de nosotros. 
         <div align="center">
-      <img class="img-fluid" src="ejmplosimg/vision.jpg" alt="imagen que simula la vision de una empresa">
+      <img class="img-fluid" src="imagenes/vision1.png" alt=alt="..." width="700">
     </div>
-    <br><p style="text-align: center;">Se empezo a construccion xx/xx/20xx.</p>
   </div>
 </div>
 

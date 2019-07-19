@@ -109,13 +109,12 @@
 
 
   <div class="col-9">  
-    <br><h1 style="text-align: center; ">Valores</h1>
-    <p>Los valores que nos caracterizan, son los mismo que les transmitimos a nuestros beneficiados, para que ellos puedan creer de nuevo en las personas, todos sabemos que en el mundo hay tanto personas buenas y malas, también les damos un trato justo y respetuoso, donde no se denigre la dignidad humana. </p>
-    <p>Nuestros valores son: </p>
-    <p> Respeto<br>Responsabilidad<br>Honestidad<br>Tolerancia<br>Gratitud<br>Fidelidad<br>Confidencialidad<br>Amor<br>Amistad<br>Familia</p>
+    <br><h1 style="text-align: center">Valores</h1>
+    <p style="text-align: justify">Los valores que nos caracterizan, son los mismo que les transmitimos a nuestros beneficiados, para que ellos puedan creer de nuevo en las personas, todos sabemos que en el mundo hay tanto personas buenas y malas, también les damos un trato justo y respetuoso, donde no se denigre la dignidad humana. Nuestros valores son:  </p>
+    <p style="text-align: center"> Respeto<br>Responsabilidad<br>Honestidad<br>Tolerancia<br>Gratitud<br>Fidelidad<br>Confidencialidad<br>Amor<br>Amistad<br>Familia</p>
 
     <div align="center">
-     <img class="img-fluid" src="ejmplosimg/valorescol.png" alt="se muestra una de las actividades.html" width="400px">
+     <img class="img-fluid" src="imagenes/valores1.png" alt="..." width="500">
    </div>
 </div>
   </div>

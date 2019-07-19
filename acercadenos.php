@@ -108,10 +108,10 @@
   <div class="col-9">
     <h1>Acerca de Nosotros</h1>
 
-    <p> Proyecto de Vida y Amor A. C.<br>Somos una clinica especializada en atención psicológica, dedicada a la rehabilitación de personas que sufren de alguna adicción donde el tratamiento es de cuatro meses. Se utiliza la terapia Cognitivo Conductual en la cual el terapeuta y el paciente trabajan en equipo para identificar y resolver el problema, dependiendo de la cuestión se puede recurrir a las sesiones grupales.</p>
+    <p style="text-align: justify"> Proyecto de Vida y Amor A. C.<br> Vuelve a vivir con nosotros, una asociación que te da la oportunidad de comenzar de nuevo, que los errores del pasado no desvelen los sueños del presente, siempre hay una solución y estamos aquí para que sepas que no estas solo. Somos una clinica especializada en atención psicológica, dedicada a la rehabilitación de personas que sufren de alguna adicción donde el tratamiento es de cuatro meses. Se utiliza la terapia Cognitivo Conductual en la cual el terapeuta y el paciente trabajan en equipo para identificar y resolver el problema, dependiendo de la cuestión se puede recurrir a las sesiones grupales.</p>
 
     <div align="center">
-      <img src="ejmplosimg/acerca.png" alt="imagen que simula la vision de una empresa">
+      <img src="imagenes/acerca1.png" alt="..." width="500">
     </div>
     <br>
     <p style="text-align: center;">Se empezo a construccion xx/xx/20xx.</p>

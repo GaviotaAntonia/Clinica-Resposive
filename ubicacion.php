@@ -87,7 +87,7 @@
 
 <!--Google map-->
 <div id="map-container-google-1" class="z-depth-1-half map-container" >
- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.417160660149!2d-99.06422068508984!3d19.652200286760007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f3b42d4a01c3%3A0xfa9a9ee43ffcd6d1!2sViveros+21%2C+Granjas+Ecatepec%2C+55029+Ecatepec+de+Morelos%2C+M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1563314362898!5m2!1ses-419!2smx" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+ <iframe src="https://wego.here.com/directions/mix//Clinica-Proyecto-De-Vida-y-Amor,-VIVEROS-21-COL-GRANJAS-ECATEPEC,-55029-Ecatepec,-Mexico:e-eyJuYW1lIjoiQ2xpbmljYSBQcm95ZWN0byBEZSBWaWRhICB5IEFtb3IiLCJhZGRyZXNzIjoiVklWRVJPUyAyMSBDT0wgR1JBTkpBUyBFQ0FURVBFQywgNTUwMjkgRWNhdGVwZWMsIE1leGljbywgTWV4aWNvIiwibGF0aXR1ZGUiOjE5LjY1MjE2MzgsImxvbmdpdHVkZSI6LTk5LjA2MjQwMjksInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6MzQ3NTM1MDk2MDYyMjU5fQ==?map=19.65216,-99.0624,15,normal&fb_locale=es_ES" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 </div>
 
