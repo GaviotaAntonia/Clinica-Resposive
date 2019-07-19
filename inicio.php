@@ -49,6 +49,8 @@
         <li class="item1 active"></li>
         <li class="item2"></li>
         <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
       </ul>
       
       <!-- The slideshow -->
@@ -61,6 +63,13 @@
           </div>
           <div class="carousel-item">
           <img src="ejmplosimg/asddobje.jpg" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
+          </div>
+
+          <div class="carousel-item">
+            <img src="imagenes/01.jpg" alt="cuarta magen de clinica ejemplo" width="1000" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/2.jpg" alt="quinta imagen de clinica ejemplo" width="1000" height="500">
           </div>
        </div>
   
@@ -75,16 +84,58 @@
   </div>
 <!-- FINAL DE CARRUSEL-->
 
+            <h3 style="text-align: center;color: black"><b>Proyecto de Vida y Amor A.C.</b></h3>
+            <br>
+            <span style="align: center; font-style: italic" >"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales.".</span><br>
+
+
+ <br>
+          <div class="card-deck">
+            <div class="card text-white " style="border-top: solid 6px #00FA9A">
+              <div class="card-body">
+                
+                <p style="color: #696969"> </p>
+                <p style="text-align: center; font-weight: bold; color: black">Definición de Adicción</p>
+                <p style="text-align: justify; color: black"> La Organización Mundial de la Salud (OMS) en su informe Neurociencia del consumo y dependencia de sustancias psicoactivas define la adicción como una enfermedad emocional, física y con predisposición genética.</p>
+                <p style="text-align: center"> <img src="imagenes/adiccion.jpg" alt="..." width="300"></p>
+                </p>
+              </div>
+            </div>
+
+            <div class="card text-white " style="border-top: solid 6px #00FA9A">
+              <div class="card-body">
+                <p style="color: #696969">
+                </p>
+                <p style="text-align: center; font-weight: bold; color: black">Uso, Abuso y Dependencia</p>
+                <p style="text-align: justify; color: black">Las adicciones son progresivas. Todas comienzan en una etapa de abuso reiterado y, más tarde, se convierten en dependencia. En cualquier etapa, es posible hacer una intervención mediante terapia especializada. </p>
+                <p style="text-align: center"> <img src="imagenes/adiccion2.jpg" alt="..." width="300"></p>
+                </p>
+              </div>
+            </div>
+
+            <div class="card text-white " style="border-top: solid 6px #00FA9A">
+              <div class="card-body">
+                <p style="color: #696969">
+                </p>
+                <p style="text-align: center; font-weight: bold; color: black">La mejor ayuda es con amor y compresión</p>
+                <p style="text-align: justify; color: black">Cuando nuestra vida no es lo que queremos que sea, cuando el sufrimiento no deja de estar presente por nuestra Adicción-Dependencia; es el momento de hacer un alto en el camino de la vida. Tu familia siempre te apoyara y lo único que desean es tu propio bien, date esa oportunidad para mejorar tu vida. </p>
+                <p style="text-align: center"> <img src="conphoto/amenaza 7.gif" alt="..." width="300"></p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
 <!--comentarios especialistas-->
 	<section>
  	 <div class="container mt-3">
-  		<h2>Nuestros Especialistas</h2>
-  		<p>El 90% de los doctores tienen titulo y son especialistas en su area:</p>
+  		<h2>Tenemos a los mejores especialistas en adiccones</h2>
+  		<p>No solo se te brinda ayuda psicológica, sino también espiritual, siempre apoyados en tus seres queridos para que puedas tener una rehabilitación exitosa.</p>
   			<div class="media border p-3">
     			<img src="ejmplosimg/ejemdoc/doc1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
     			<div class="media-body">
       			<h4>Dr. Especialista en bla bla bla<small><br><i>Posted on February 19, 2016</i></small></h4>
-      			<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</p>      
+      			<p>Trabajamos por medio de amor y comprensión ya que son los ingredientes faltantes para evitar futuras recaídas, el paciente no solo fortalecerá su autoestima sino también su determinación y su buena voluntad con talleres psicológicos que le enseñaran a controlar sus niveles de ansiedad para canalizarlos a una manera asertiva.</p>      
     			</div>
   			</div>
   	 </div>
