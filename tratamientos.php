@@ -60,25 +60,52 @@
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-      <h2>Tratamiento para la anorexia</h2>
-      <h5>Lunes, 27 de Mayo de 2002 - 22:00</h5>
+      <h2 style="text-align: center">Alcoholismo</h2>
+      
       <img src="ejmplosimg/tratamientosimgs/anorexia.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="Chica de cabello largo con problemas de anorexia">
-      <p>Sospecha que tienes anorexia nerviosa, por lo general, te indicará varias pruebas y exámenes para precisar un diagnóstico, descartar causas médicas del adelgazamiento y determinar...<a href="">saber más...</a></p>
+      <p>Consumo crónico y continuado de alcohol que se caracteriza por un deterioro del control sobre la bebida, episodios frecuentes de intoxicación y compulsión por el consumo a pesar de sus consecuencias adversas.<a href="">saber más...</a></p>
       <br>
-      <h2>Codependencia</h2>
-      <h5> 2001. Beattie, Melody. Ed. Sirio. ISBN 84-7808-233-6</h5>
+      <h2 style="text-align: center">Drogadicción</h2>
+      
       <img src="ejmplosimg/tratamientosimgs/codependencia.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="en la imagen se muestra dos personas una de ella es codependiente">
-      <p>Asume un rol arquetípico mesiánico que invade todas las áreas de su vida y suele olvidarse de sí mismo y sus necesidades gradualmente para centrarse en los problemas del otro (su pareja, un familiar, un amigo, una causa social, etc.), es por eso que es muy común que se relacione con gente "problemática"...<a href="">saber más...</a></p>
+      <p>Consumo repetido de una o varias sustancias psicoactivas, hasta el punto de que el consumidor se intoxica periódicamente o de forma continua, muestra un deseo compulsivo de consumir la sustancia (o las sustancias) preferida, tiene una enorme dificultad para interrumpir voluntariamente o modificar el consumo de la sustancia y se muestra decidido a obtener sustancias psicoactivas por cualquier medio y a pesar de las consecuencias negativas que esto tiene.<a href="">saber más...</a></p>
 
-      <h2>Farmacodependencia</h2>
-      <h5>22 jun. 2011</h5>
+      <h2 style="text-align: center">Farmacodependencia</h2>
+      
       <img src="ejmplosimg/tratamientosimgs/farmaco.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="en la imagen se muestra dos personas una de ella es codependiente">
-      <p>define la dependencia del alcohol y de otras sustancias como «una necesidad de consumir dosis repetidas de la sustancia para encontrarse bien o para no sentirse mal»...<a href="">saber más...</a></p>
+      <p>Consumo repetido de uno o varios medicamentos sin preescripción, como analgésicos derivados del opio que puede provocar un deseo compulsivo de consumo acompañado de una enorme dificultad para interrumpir voluntariamente o modificar el consumo del medicamento a pesar de los riesgos y daños que esto puede provocar.<a href="">saber más...</a></p>
 
-      <h2>Depresión</h2>
-      <h5>Página actualizada 03 junio 2019</h5>
+      <h2 style="text-align: center">Codependencia</h2>
+      
       <img src="ejmplosimg/tratamientosimgs/depresion.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="en la imagen se muestra dos personas una de ella es codependiente">
-      <p> Sucede cundo los sentimientos de tristeza, pérdida, ira o frustración interfieren con la vida diaria por semanas, o períodos más largos de tiempo. Trastorno depresivo persistente...<a href="">saber más...</a></p>
+      <p>Suele referirse al pariente, amigo íntimo o compañero de una persona dependiente del alcohol o de las drogas, cuyas acciones tienden a perpetuar la dependencia de esa persona, retrasando así el proceso de recuperación. Este concepto se ha utilizado también para designar a una persona que desarrolla relaciones conflictivas que involucran maltrato a pesar de lo cual la persona que recibe maltrato tiene gran dificultad para terminar la relación.<a href="">saber más...</a></p>
+
+      <h2 style="text-align: center">Trastornos alimenticios</h2>
+      
+      <img src="ejmplosimg/tratamientosimgs/depresion.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="en la imagen se muestra dos personas una de ella es codependiente">
+      <p>Son un conjunto de trastornos mentales que se caracterizan por una alteración importante de la conducta alimentaria, los trastornos mas frecuentes son la bulimia y la anorexia. La bulimia se caracteriza por episodios de alimentación compulsiva conocidos como atracones, los cuales son seguidos de conductas para intentar compensar el atracón como, hacer ejercicio, tomar mucha agua o evitar realizar ciertas comidas. La anorexia se caracteriza por una fuerte aversión a subir de peso y a comer, por lo cual quien lo padece procura evitar comer en la medida de lo posible, utiliza laxantes o puede provocar el vomito para evitar el aumento de peso. Estos trastorno pueden afectar de manera significativa la vida de quien lo padece y quienes le rodean.<a href="">saber más...</a></p>
+
+      <h2 style="text-align: center">Adicciones 3.0</h2>
+      
+      <img src="ejmplosimg/tratamientosimgs/depresion.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="en la imagen se muestra dos personas una de ella es codependiente">
+      <p>Este concepto aplicado al uso de diversas tecnologías hace referencia al el uso excesivo o compulsivo de aparatos como videojuegos o telefonos hasta el punto de interferir con la vida personal y las actividades diarias del sujeto que los utiliza. <a href="">saber más...</a></p>
+
+      <h2 style="text-align: center">Tabaquismo</h2>
+      
+      <img src="ejmplosimg/tratamientosimgs/depresion.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="en la imagen se muestra dos personas una de ella es codependiente">
+      <p> Se refiere al trastorno de dependencia al tabaco a adicción al tabaco, caracterizado por el deseo compulsivo de fumar, acompañado de una enorme dificultad para interrumpir voluntariamente o modificar el consumo de tabaco a pesar de las consecuencias negativas a la salud que este habito conlleva.<a href="">saber más...</a></p>
+
+      <h2 style="text-align: center">Ansiedad</h2>
+      
+      <img src="ejmplosimg/tratamientosimgs/depresion.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="en la imagen se muestra dos personas una de ella es codependiente">
+      <p> Trastorno mental en el cual una persona a menudo está preocupada o ansiosa respecto a muchas cosas y le parece difícil controlar esta ansiedad. El trastorno de ansiedad puede ser generalizado o estar dirigido a estímulos específicos como hablar en publico o sentir miedo a animales y situaciones diversas.<a href="">saber más...</a></p>
+
+      <h2 style="text-align: center">Depresión</h2>
+      
+      <img src="ejmplosimg/tratamientosimgs/depresion.jpg" style="width: 200px" class="mx-auto d-block img-fluid" alt="en la imagen se muestra dos personas una de ella es codependiente">
+      <p> Trastorno mental frecuente, que se caracteriza por la presencia de tristeza, pérdida de interés o placer, sentimientos de culpa o falta de autoestima, trastornos del sueño o del apetito, sensación de cansancio y falta de concentración. La depresión puede llegar a hacerse crónica o recurrente y dificultar sensiblemente el desempeño en el trabajo o la escuela y la capacidad para afrontar la vida diaria. En su forma más grave, puede conducir al suicidio.<a href="">saber más...</a></p>
+
+
     </div>
   </div>
 </div>

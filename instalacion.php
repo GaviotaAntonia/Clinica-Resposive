@@ -107,27 +107,27 @@
         </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="ejmplosimg/insta/insta1.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="ejmplosimg/insta/insta2.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via1.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="ejmplosimg/insta/insta3.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via2.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="ejmplosimg/insta/insta4.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via3.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="ejmplosimg/insta/insta5.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via5.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="ejmplosimg/insta/insta6.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via6.png" class="img-responsive" width="300px">
             </div>
         </div>
     </div>
@@ -225,6 +225,40 @@
         });
     }});
   
+  </script>
+<!--final JAVASCRIPT-->
+
+<!--JAVASCRIPT-->
+  <script>
+    $(document).ready(function(){
+     // Activa Carousel
+       $("#myCarousel").carousel();
+    
+     // Enable Carousel Indicators
+     $(".item1").click(function(){
+     $("#myCarousel").carousel(0);
+     });
+      $(".item2").click(function(){
+      $("#myCarousel").carousel(1);
+       });
+       $(".item3").click(function(){
+       $("#myCarousel").carousel(2);
+      });
+       $(".item4").click(function(){
+      $("#myCarousel").carousel(3);
+       })
+       $(".item5").click(function(){
+      $("#myCarousel").carousel(4);
+       })
+    
+      // Enable Carousel Controls
+       $(".carousel-control-prev").click(function(){
+       $("#myCarousel").carousel("prev");
+      });
+       $(".carousel-control-next").click(function(){
+      $("#myCarousel").carousel("next");
+       });
+      });
   </script>
 <!--final JAVASCRIPT-->
 
