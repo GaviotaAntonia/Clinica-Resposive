@@ -59,23 +59,22 @@
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-      <h2>Terapia Cognitivo-Conductual</h2>
-      <h5> ¿Qué es la Terapia Cognitivo-Conductual?</h5>
-      <p><br>Es un tratamiento psicológico orientada a la acción en la que el terapeuta y el paciente trabajan en equipo para identificar y resolver problemas, además asume que los patrones de pensamiento mal adaptativos o erróneos causan un comportamiento desadaptativo (comportamiento contraproducente que interfiere con la vida diaria) y emociones “negativas”. Los terapeutas ayudan a los pacientes a superar sus dificultades a través de un tratamiento enfocado en la modificación de patrones de pensamiento, de modo que se obtenga la modificación del comportamiento y el estado emocional.</p>
+      <h2 style="text-align: center">Terapia Cognitivo Conductual</h2>
+    
+      <p style="text-align: justify"><br>Es un tratamiento psicológico orientada a la acción en la que el terapeuta y el paciente trabajan en equipo para identificar y resolver problemas, además asume que los patrones de pensamiento mal adaptativos o erróneos causan un comportamiento desadaptativo (comportamiento contraproducente que interfiere con la vida diaria) y emociones “negativas”. Los terapeutas ayudan a los pacientes a superar sus dificultades a través de un tratamiento enfocado en la modificación de patrones de pensamiento, de modo que se obtenga la modificación del comportamiento y el estado emocional.</p>
       <h5>¿Cómo es la terapia?</h5>
-      <p><br>Un terapeuta de cognitivo-conductual intentará explorar los vínculos entre los pensamientos y las emociones que ocurren antes de las conductas disruptivas en personas con alguna enfermedad mental o adicción. Al establecer estas conexiones, las personas aprenden a identificar y cambiar patrones de pensamiento negativos o inapropiados, y como consecuencia, pueden manejar los comportamientos relacionados con su padecimiento. Al explorar estos patrones de pensamiento que conducen a acciones autodestructivas y las creencias que dirigen estos pensamientos, los pacientes pueden modificar sus patrones de pensamiento de modo que incrementen su capacidad de lidiar con el mundo.</p>
+      <p style="text-align: justify"><br>Un terapeuta de cognitivo-conductual intentará explorar los vínculos entre los pensamientos y las emociones que ocurren antes de las conductas disruptivas en personas con alguna enfermedad mental o adicción. Al establecer estas conexiones, las personas aprenden a identificar y cambiar patrones de pensamiento negativos o inapropiados, y como consecuencia, pueden manejar los comportamientos relacionados con su padecimiento. Al explorar estos patrones de pensamiento que conducen a acciones autodestructivas y las creencias que dirigen estos pensamientos, los pacientes pueden modificar sus patrones de pensamiento de modo que incrementen su capacidad de lidiar con el mundo.</p>
       <h5>Objetivo de la terapia</h5>
-      <p><br>El trabajo que se realiza durante las sesiones consiste en ayudar a las personas a resolver sus problemas de la vida real y enseñarles a modificar su pensamientos, comportamiento y emociones.  De este modo, la meta es reconocer pensamientos negativos y remplazarlos con pensamientos positivos, que darán lugar a comportamientos favorables para la persona.</p>
+      <p style="text-align: justify"><br>El trabajo que se realiza durante las sesiones consiste en ayudar a las personas a resolver sus problemas de la vida real y enseñarles a modificar su pensamientos, comportamiento y emociones.  De este modo, la meta es reconocer pensamientos negativos y remplazarlos con pensamientos positivos, que darán lugar a comportamientos favorables para la persona.</p>
       <br>
-      <h2>Terapia Gestalt</h2>
-      <h5>¿Qué es la Terapia Gestalt?</h5>
+      <h2 style="text-align: center">Terapia Gestalt</h2>
       <br>
-      <p> La terapia Gestalt se enfoca más en los procesos que en los contenidos. Pone énfasis sobre lo que está sucediendo, se está pensado y sintiendo en el momento, más que en el pasado. En este sentido, se habla del aquí y ahora, no para dejar de lado la historia de la persona, sino que esta historia se mira desde el presente, cómo se viven, afectan, etc., los hechos pasados a día de hoy. La persona es quien es, entre otros, por lo que ha vivido.</p>
+      <p style="text-align: justify"> La terapia Gestalt se enfoca más en los procesos que en los contenidos. Pone énfasis sobre lo que está sucediendo, se está pensado y sintiendo en el momento, más que en el pasado. En este sentido, se habla del aquí y ahora, no para dejar de lado la historia de la persona, sino que esta historia se mira desde el presente, cómo se viven, afectan, etc., los hechos pasados a día de hoy. La persona es quien es, entre otros, por lo que ha vivido.</p>
       <h5>¿Cómo es la terapia?</h5>
       <br>
-      <p>La Terapia Gestalt se posiciona desde una perspectiva holística en la concepción del ser humano, integrando sus diferentes dimensiones, sensoriales, afectivas, intelectuales, sociales y espirituales, en una vivencia global donde la experiencia es sentida corporalmente y puede ser traducida a palabras, existiendo un carácter bidireccional, las palabras pueden ser sentidas corporalmente.</p>
+      <p style="text-align: justify">La Terapia Gestalt se posiciona desde una perspectiva holística en la concepción del ser humano, integrando sus diferentes dimensiones, sensoriales, afectivas, intelectuales, sociales y espirituales, en una vivencia global donde la experiencia es sentida corporalmente y puede ser traducida a palabras, existiendo un carácter bidireccional, las palabras pueden ser sentidas corporalmente.</p>
       <h5>Objetivo de la terapia</h5>
-      <p><br>El objetivo general de esta terapia es la de adquirir una mayor consciencia para vivir el presente, aumentar la capacidad de aceptar la experiencia tal como es y fomentar la responsabilidad personal de todos los aspectos de la vida.<p>
+      <p style="text-align: justify"><br>El objetivo general de esta terapia es la de adquirir una mayor consciencia para vivir el presente, aumentar la capacidad de aceptar la experiencia tal como es y fomentar la responsabilidad personal de todos los aspectos de la vida.<p>
     </div>
   </div>
 </div>
