@@ -1,7 +1,7 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Dormitorios de la clinicas</title>
+  <title>Dormitorios</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -9,7 +9,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
+
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png">
 
 
 
@@ -36,7 +37,7 @@
        display: table;
     }
 
- 
+
     [class*="col-"] {
       float: left;
       padding: 15px;
@@ -55,7 +56,7 @@
       .col-11 {width: 91.66%;}
       .col-12 {width: 100%;}
 
-     
+
 
       .header {
         background-color: white;
@@ -72,7 +73,7 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;  
+      background-color: #33b5e5;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
@@ -102,37 +103,24 @@
         <a href="actividades.php"><li>Actividades</li></a>
      </ul>
     </div>
+
     <div class="col-9">
        <div class="container">
         <div class="row">
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1 class="gallery-title" style="text-align: center;">Dormitorios</h1>
         </div>
+        <p style="text-align: justify">Nuestros dormitorios son muy còmodos, existe espacio suficiente para el pleno desenvolvimiento
+        de su familiar a lo largo de su estancia, ademàs de la convivencia con otras personas, ya que para nosotros el trabajo en equipo es muy
+      importante.</p>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="ejmplosimg/dormitorios/dormi1.jpg" class="img-responsive" width="300px">
-            </div>
+      <div>
+        <img src="imagenes/dormitorio2.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
+        <br>
+        <img src="imagenes/dormitorio1.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
+        <br>
+    </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="ejmplosimg/dormitorios/dormi2.jpeg" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="ejmplosimg/dormitorios/dormi3.jpg" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="ejmplosimg/dormitorios/dormi4.jpg" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="ejmplosimg/dormitorios/dormi5.jpg" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="ejmplosimg/dormitorios/dormi6.jpg" class="img-responsive" width="300px">
-            </div>
-        </div>
     </div>
     </div>
       </div>
@@ -154,7 +142,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -165,7 +153,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");

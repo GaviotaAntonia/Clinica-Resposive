@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Actividades de la clinicas</title>
+  <title>Actividades</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -36,7 +36,7 @@
        display: table;
     }
 
- 
+
     [class*="col-"] {
       float: left;
       padding: 15px;
@@ -55,7 +55,7 @@
       .col-11 {width: 91.66%;}
       .col-12 {width: 100%;}
 
-     
+
 
       .header {
         background-color: white;
@@ -72,7 +72,7 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;  
+      background-color: #33b5e5;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
@@ -108,30 +108,16 @@
             <h1 class="gallery-title" style="text-align: center;">Actividades</h1>
         </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="ejmplosimg/actividades/act1.jpg" class="img-responsive" width="300px">
+        <p style="text-align: justify">Se llevan acabo diferentes talleres que ayudan en la rehabilitación, estas son tanto
+        culturales y deportivas, además de una terapia de tribunua, donde su familiar podrá compartir sus emociones con sus demás compañeros,
+         con esto se busca que su familiar desarrolle habilidades sociales y técnicas de asertividad, al igual que su
+      desarrollo y crecimiento personal,las actividades son a la par de su tratamiento psicológico y médico.  </p>
+
+      <div>
+        <img src="imagenes/actividad.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="ejmplosimg/actividades/act2.jpg" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="ejmplosimg/actividades/act3.jpg" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="ejmplosimg/actividades/act4.jpg" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="ejmplosimg/actividades/act5.jpg" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="ejmplosimg/insta/insta6.jpg" class="img-responsive" width="300px">
-            </div>
-        </div>
+    </div>
     </div>
 
     </div>
@@ -154,7 +140,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -165,7 +151,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");

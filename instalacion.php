@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Instalaciones de la clinicas</title>
+  <title>Instalaciones</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
        display: table;
     }
 
- 
+
     [class*="col-"] {
       float: left;
       padding: 15px;
@@ -57,7 +57,7 @@
       .col-11 {width: 91.66%;}
       .col-12 {width: 100%;}
 
-     
+
 
       .header {
         background-color: white;
@@ -74,7 +74,7 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;  
+      background-color: #33b5e5;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
@@ -105,17 +105,20 @@
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1 class="gallery-title" style="text-align: center;">Instalaciones</h1>
         </div>
+        <p style="text-align: justify">Nuestras instalaciones cuentan con salidas de emergencia, extintores, un sistema de Videovigilancia que opera las 24
+        hrs. del dìa, dormitorios còmodos, regaderas, baños, tinas de baño, gimnasio, auditorio, enfermeria, ambulancia y un persoal altamente capacitado, todo esto para
+      para poder brindarle a su familiar todas las comodidades necesarias durante su estadia con nosotros, asì como para usted cuando asista al dìa de visita. </p>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="imagenes/via.png" class="img-responsive" width="300px">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
                 <img src="imagenes/via1.png" class="img-responsive" width="300px">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
                 <img src="imagenes/via2.png" class="img-responsive" width="300px">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="imagenes/intalacion.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
@@ -175,7 +178,7 @@
 <!--JAVASCRIPT-->
   <script>
     $(document).ready(function(){
-     
+
     loadGallery(true, 'a.thumbnail');
 
     //This function disables buttons when needed
@@ -188,7 +191,7 @@
         }
     }
 
- 
+
     function loadGallery(setIDs, setClickAttr){
         var current_image,
             selector,
@@ -224,7 +227,7 @@
             updateGallery($(this));
         });
     }});
-  
+
   </script>
 <!--final JAVASCRIPT-->
 
@@ -233,7 +236,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -250,7 +253,7 @@
        $(".item5").click(function(){
       $("#myCarousel").carousel(4);
        })
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>|Inicio Proyecto de Vida y Amor A.C.|</title>
+  <title>|Proyecto de Vida y Amor A.C.|</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/estilos.css">
   <!--FAVICON-->
 
-  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> 
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png">
  <!-- fuentes utilizadas  -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <!-- termino de fuentes utilizadas-->
@@ -52,7 +52,7 @@
         <li class="item4"></li>
         <li class="item5"></li>
       </ul>
-      
+
       <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -72,7 +72,7 @@
             <img src="imagenes/p2.jpg" alt="quinta imagen de clinica ejemplo" width="1100" height="500">
           </div>
        </div>
-  
+
       <!-- Left and right controls -->
         <a class="carousel-control-prev" href="#myCarousel">
           <span class="carousel-control-prev-icon"></span>
@@ -134,12 +134,12 @@
     			<img src="ejmplosimg/ejemdoc/doc1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
     			<div style="text-align: justify"; class="media-body">
       			<h4>Psicología para las Adicciones<small><br><i>La aparición de las adicciones en nuestro país ha exigido a los profesionales de los diversos ámbitos (Justicia, Servicios Sociales, Educación y Sanidad) adaptarse a las nuevas realidades que van apareciendo día a día.</i></small></h4>
-      			<p>La intervención de la Psicología para las adicciones ha tenido un desarrollo paralelo al de la especialización de este ámbito. Puede decirse que el psicólogo no se ha unido a una intervención ya conformada, sino que con su trabajo ha contribuido al desarrollo de la misma, viéndose a su vez obligado a dar respuestas cada vez más especializadas conforme más complejas han sido las demandas que ha tenido en su intervención.</p>      
+      			<p>La intervención de la Psicología para las adicciones ha tenido un desarrollo paralelo al de la especialización de este ámbito. Puede decirse que el psicólogo no se ha unido a una intervención ya conformada, sino que con su trabajo ha contribuido al desarrollo de la misma, viéndose a su vez obligado a dar respuestas cada vez más especializadas conforme más complejas han sido las demandas que ha tenido en su intervención.</p>
     			</div>
   			</div>
   	 </div>
 
-     
+
   	<div class="container mt-3">
   		<h2>Conoce nuestras instalaciones, asegurate en manos de quien dejas a tu familiar.</h2><br>
   			<div class="media border p-3">
@@ -155,7 +155,7 @@
          		 		<h4>Dr. Especialista en...<small><br><i>Posted on February 20 2016</i></small></h4>
           				<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</p>
         				</div>
-      				</div>  
+      				</div>
     			</div>
   			</div>
   	</div>
@@ -174,7 +174,7 @@
      			 <p style="text-align: center">Calle Nogal No. 30 (antes Calle Viveros No.21), Col. Potrero del Rey, C.P. 55029, Ecatepec de Morelos, Estado de México.<a href="https://wego.here.com/directions/mix//Clinica-Proyecto-De-Vida-y-Amor,-VIVEROS-21-COL-GRANJAS-ECATEPEC,-55029-Ecatepec,-Mexico:e-eyJuYW1lIjoiQ2xpbmljYSBQcm95ZWN0byBEZSBWaWRhICB5IEFtb3IiLCJhZGRyZXNzIjoiVklWRVJPUyAyMSBDT0wgR1JBTkpBUyBFQ0FURVBFQywgNTUwMjkgRWNhdGVwZWMsIE1leGljbywgTWV4aWNvIiwibGF0aXR1ZGUiOjE5LjY1MjE2MzgsImxvbmdpdHVkZSI6LTk5LjA2MjQwMjksInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6MzQ3NTM1MDk2MDYyMjU5fQ==?map=19.65216,-99.0624,15,normal&fb_locale=es_ES"><br>Saber más.</a> </p>
       		</div>
     	  </div>
-     
+
     <div class="col-sm-4" style="border-style: groove;">
       <div align="center">
         <br>
@@ -183,7 +183,7 @@
       <p style="text-align: center;">LAS ADICCIONES NO SABEN DE HORARIO, ESTAMOS A TUS ORDENES LAS 24 HRS.<br>TRASLADOS A TODA LA REPÚBLICA<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="seguripaf@hotmail.com">seguripaf@hotmail.com</a></p>
       </div>
     </div>
-      
+
   		<div class="col-sm-4" style="border-style: groove;">
       		<div align="center"><br>
         	<img src="ejmplosimg/contact.png" alt="">
@@ -212,7 +212,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -229,7 +229,7 @@
        $(".item5").click(function(){
       $("#myCarousel").carousel(4);
        })
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");

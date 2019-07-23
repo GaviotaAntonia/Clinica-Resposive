@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>|Servicios Clinica Psicoterapia|</title>
+  <title>|Servicios/Psicoterapia|</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -54,13 +54,13 @@
         <li class="nav-item">
           <a class="nav-link" href="consejeria.php">Consejeria</a>
         </li>
-      
+
       </ul>
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
       <h2 style="text-align: center">Terapia Cognitivo Conductual</h2>
-    
+
       <p style="text-align: justify"><br>Es un tratamiento psicológico orientada a la acción en la que el terapeuta y el paciente trabajan en equipo para identificar y resolver problemas, además asume que los patrones de pensamiento mal adaptativos o erróneos causan un comportamiento desadaptativo (comportamiento contraproducente que interfiere con la vida diaria) y emociones “negativas”. Los terapeutas ayudan a los pacientes a superar sus dificultades a través de un tratamiento enfocado en la modificación de patrones de pensamiento, de modo que se obtenga la modificación del comportamiento y el estado emocional.</p>
       <h5>¿Cómo es la terapia?</h5>
       <p style="text-align: justify"><br>Un terapeuta de cognitivo-conductual intentará explorar los vínculos entre los pensamientos y las emociones que ocurren antes de las conductas disruptivas en personas con alguna enfermedad mental o adicción. Al establecer estas conexiones, las personas aprenden a identificar y cambiar patrones de pensamiento negativos o inapropiados, y como consecuencia, pueden manejar los comportamientos relacionados con su padecimiento. Al explorar estos patrones de pensamiento que conducen a acciones autodestructivas y las creencias que dirigen estos pensamientos, los pacientes pueden modificar sus patrones de pensamiento de modo que incrementen su capacidad de lidiar con el mundo.</p>
@@ -95,7 +95,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -106,7 +106,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");

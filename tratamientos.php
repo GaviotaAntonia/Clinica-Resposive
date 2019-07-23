@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>|Servicios Clinica tratamientos|</title>
+  <title>|Servicios/Tratamientos|</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -55,16 +55,16 @@
         <li class="nav-item">
           <a class="nav-link" href="consejeria.php">Consejeria</a>
         </li>
-      
+
       </ul>
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-      
+
       <img src="imagenes/Alcholismo.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
       <p style="text-align: justify">Consumo crónico y continuado de alcohol que se caracteriza por un deterioro del control sobre la bebida, episodios frecuentes de intoxicación y compulsión por el consumo a pesar de sus consecuencias adversas.<a href="">saber más...</a></p>
       <br>
-           
+s
       <img src="imagenes/Drogadicción.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
       <p style="text-align: justify">Consumo repetido de una o varias sustancias psicoactivas, hasta el punto de que el consumidor se intoxica periódicamente o de forma continua, muestra un deseo compulsivo de consumir la sustancia (o las sustancias) preferida, tiene una enorme dificultad para interrumpir voluntariamente o modificar el consumo de la sustancia y se muestra decidido a obtener sustancias psicoactivas por cualquier medio y a pesar de las consecuencias negativas que esto tiene.<a href="">saber más...</a></p>
 
@@ -80,7 +80,7 @@
       <img src="imagenes/Adicción.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
       <p style="text-align: justify">Este concepto aplicado al uso de diversas tecnologías hace referencia al el uso excesivo o compulsivo de aparatos como videojuegos o telefonos hasta el punto de interferir con la vida personal y las actividades diarias del sujeto que los utiliza. <a href="">saber más...</a></p>
 
-      
+
       <img src="imagenes/Tabaquismo.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
       <p style="text-align: justify"> Se refiere al trastorno de dependencia al tabaco a adicción al tabaco, caracterizado por el deseo compulsivo de fumar, acompañado de una enorme dificultad para interrumpir voluntariamente o modificar el consumo de tabaco a pesar de las consecuencias negativas a la salud que este habito conlleva.<a href="">saber más...</a></p>
 
@@ -113,7 +113,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -124,7 +124,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");

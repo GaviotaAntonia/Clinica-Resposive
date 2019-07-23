@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Valores del Proyecto de Vida y Amor A.C.</title>
+  <title>Valores</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
        display: table;
     }
 
- 
+
     [class*="col-"] {
       float: left;
       padding: 15px;
@@ -57,7 +57,7 @@
       .col-11 {width: 91.66%;}
       .col-12 {width: 100%;}
 
-     
+
 
       .header {
         background-color: white;
@@ -74,7 +74,7 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;  
+      background-color: #33b5e5;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
@@ -103,12 +103,12 @@
       <a href="vision.php"><li id="12">Vision</li></a>
       <a href="valores.php"><li id="12">Valores</li></a>
       <a href="quiesom.php"><li id="12">¿Quienes Somos?</li></a>
-      
+
     </ul>
   </div>
 
 
-  <div class="col-9">  
+  <div class="col-9">
     <br><h1 style="text-align: center">Valores</h1>
     <p style="text-align: justify">Los valores que nos caracterizan, son los mismo que les transmitimos a nuestros beneficiados, para que ellos puedan creer de nuevo en las personas, todos sabemos que en el mundo hay tanto personas buenas y malas, también les damos un trato justo y respetuoso, donde no se denigre la dignidad humana. Nuestros valores son:  </p>
     <p style="text-align: center"> Respeto<br>Responsabilidad<br>Honestidad<br>Tolerancia<br>Gratitud<br>Fidelidad<br>Confidencialidad<br>Amor<br>Amistad<br>Familia</p>
@@ -118,7 +118,7 @@
    </div>
 </div>
   </div>
-   
+
 
 <!--FINAL DEL BODY-->
 
@@ -137,7 +137,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -148,7 +148,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");
@@ -162,6 +162,3 @@
 
 </body>
 </html>
-
-
-
