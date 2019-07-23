@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>|Proyecto de Vida y Amor A.C.|</title>
+  <title>Proyecto de Vida y Amor A.C.</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -17,8 +17,6 @@
   <!-- termino de fuentes utilizadas-->
 </head>
 
-
-
 <!--Estilos para el carrusel-->
   <style>
     /* Make the image fully responsive */
@@ -26,8 +24,6 @@
       width: 100%;
       height: 100%;
     }
-
-
   </style>
 <!--Final de estilos para el carrusel-->
 
@@ -84,13 +80,13 @@
   </div>
 <!-- FINAL DE CARRUSEL-->
 
+
             <h3 style="text-align: center;color: black"><b>Proyecto de Vida y Amor A.C.</b></h3>
             <br>
             <p style="text-align: center">"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</p><br>
-
-
+        
         <br>
-          <div class="card-deck">
+         <div class="card-deck">
             <div class="card text-white " style="border-radius:2em; border-top: solid 6px  #006400">
               <div class="card-body">
                 <p style="color: #696969"> </p>
@@ -180,7 +176,7 @@
         <br>
         <img src="ejmplosimg/ayuda.png" alt="">
          <h3>¿Necesitas Ayuda?</h3>
-      <p style="text-align: center;">LAS ADICCIONES NO SABEN DE HORARIO, ESTAMOS A TUS ORDENES LAS 24 HRS.<br>TRASLADOS A TODA LA REPÚBLICA<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="seguripaf@hotmail.com">seguripaf@hotmail.com</a></p>
+      <p style="text-align: center;">LAS ADICCIONES NO SABEN DE HORARIO, ESTAMOS A TUS ORDENES LAS 24 HRS.<br>TRASLADOS A TODA LA REPÚBLICA<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
       </div>
     </div>
 
@@ -240,6 +236,65 @@
       });
   </script>
 <!--final JAVASCRIPT-->
+
+<style>
+body {margin:0;height:0;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #FF1493;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 25px;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+</body>
 
 </body>
 </html>

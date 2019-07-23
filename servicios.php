@@ -41,21 +41,22 @@
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
-      <h2>Aún más cerca de ti</h2>
+      <h2>Más cerca de ti</h2>
       <h5></h5>
-      <p>Quieres <a href="inicio.php">saber más</a> acerca de Clinica...</p>
+      <p style="text-align: justify">¿Deseas<a href="inicio.php">conocer más</a> del Proyecto de Vida y Amor?</p>
 
       <h3>Servicios</h3>
-      <p>Los servicios mencionados cuentan con un costo diferente pregunta via correo y tendras un descuento.</p>
+      <p style="text-align: justify">Nuestros servicios son las 24 Hrs. del día, todo el año, si deseas más informes <a href="ubicacion.php">contactanos,</a> con gusto un operador te atendera.</p>
+
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
           <a class="nav-link" href="tratamientos.php">Tratamientos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="psicoterapia.php">Psicoterapia</a>
+          <a class="nav-link" href="psicoterapia.php">Terapias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="consejeria.php">Consejeria</a>
+          <a class="nav-link" href="consejeria.php">Consejería</a>
         </li>
 
       </ul>
@@ -110,6 +111,64 @@
       });
   </script>
 <!--final JAVASCRIPT-->
+
+<style>
+body {margin:0;height:0;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #FF1493;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 25px;
+}
+</style>
+<body>
+<div class="icon-bar">
+  <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+</body>
 
 </body>
 </html>
