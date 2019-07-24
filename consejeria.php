@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>|Servicios Clinica Consejeria|</title>
+  <title>Servicios/Consejería</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -52,12 +52,12 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="ubicacion.php">Ubicación</a>
-            </li>    
+            </li>
             <li class="nav">
               <a class="nav-link" href="clinica.php">Instalaciones</a>
             </li>
           </ul>
-        </div>  
+        </div>
   </nav>
 <!--FINAL NAVBAR-->
 
@@ -65,29 +65,32 @@
   <div class="container" style="margin-top:30px">
    <div class="row">
     <div class="col-sm-4">
-      <h2>Aún más cerca de ti</h2>
-      <h5>¿Las drogas y el alcohol estan destruyendo tu familia'</h5>
-      <p>Quieres <a href="inicio.php">saber más</a> acerca de Clinica...</p>
+      <h2>Más cerca de ti</h2>
+      <h5 style="text-align: justify">¿Conoces a alguien que necesite nuestra ayuda?</h5>
+      <p style="text-align: justify">¿Deseas <a href="inicio.php">conocer más</a> del Proyecto de Vida y Amor?</p>
+
       <h3>Servicios</h3>
-      <p>Los servicios mencionados cuentan con un costo diferente pregunta via correo y tendras un descuento.</p>
+      <p style="text-align: justify">Nuestros servicios son las 24 Hrs. del día, todo el año, si deseas más informes <a href="ubicacion.php">contactanos,</a> con gusto un operador te atendera.</p>
+
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
           <a class="nav-link" href="tratamientos.php">Tratamientos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="psicoterapia.php">Psicoterapia</a>
+          <a class="nav-link" href="psicoterapia.php">Terapias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="consejeria.php">Consejeria</a>
+          <a class="nav-link active" href="consejeria.php">Consejería</a>
         </li>
       </ul>
       <hr class="d-sm-none">
     </div>
 
     <div class="col-sm-8"><br>
-      <h2>Introducción</h2>
-        <h5> Pedrero et al., 2008</h5>
-          <p>En el ámbito de las adicciones, los dos tipos principales de tratamientos, la farmacoterapia y las terapias psicológicas, se han desarrollado de forma paralela pero con trayectorias independientes. De forma consecuente, a pesar del desarrollo de farmacoterapias de potencia considerable, como la introducción de la buprenorfina y la naltrexona para la adicción a opiáceos (Fernández y Pereiro, 2007; Gowin, Ali y White, 2008) y al alcohol (Rósner et al., 2010b), los estudios sobre su uso y eficacia no han contemplado, en general, el papel que el contexto del tratamiento (factores psicológicos como el condicionamiento clásico a contextos o situaciones) tiene en los resultados terapéuticos. Así mismo, se ha demostrado la efectividad de varias terapias psicológicas en las adicciones, pero frecuentemente han sido evaluadas sin incluir el factor farmacológico en los respectivos estudios, incluso en casos en los que existirían farmacoterapias de comprobada eficacia (p. ej., Carroll, 1997).<br>Según Secades-Villa y Fernández-Hermida (2001), existen actualmente suficientes investigaciones que avalan la eficacia de las intervenciones psicológicas en el tratamiento de las drogodependencias, aunque muestran mejores resultados dentro de programas multicomponentes que incluyen intervenciones farmacológicas. Debido a los múltiples factores que están relacionados con el desarrollo y mantenimiento de la conducta adictiva, es importante utilizar estrategias multicomponentes que incluyan tanto terapias farmacológicas (por ejemplo a partir del tratamiento con agonistas/interdictores) como intervenciones psicológicas, como por ejemplo es el caso de la Aproximación de Reforzamiento Comunitario aplicada a la dependencia al alcohol, en la que se combinan técnicas operantes, terapia de pareja, entrenamiento en habilidades sociales y tratamiento con disulfiram (Secades-Villa, García-Rodríguez, Fernández-Hermida y Carballo, 2007). De modo similar, en la intervención sobre la dependencia a la nicotina y a psicoestimulantes (p. ej. cocaína), las principales revisiones y metaanálisis de eficacia, muestran que los tratamientos combinados médico-psicológico son el abordaje de elección (NIDA, 1999; Fiore et al., 2000; Becoña, 2003; 2004; Herrero y Moreno 2004; Secades-Villa et al., 2007).<br>El principal objetivo del presente trabajo no es el de examinar la eficacia de las terapias farmacológicas o psicológicas administradas aisladamente (aunque la revisión nos ha llevado necesariamente a resumir los resultados de algunos estudios relevantes), sino el de mostrar una revisión sistemática de las investigaciones más relevantes (desde el punto de vista metodológico) que han evaluado la efectividad de la combinación de los dos tipos de terapias dentro de un mismo diseño (National Institute of Drug Abuse, NIDA, 2005; 1999; Pedrero et al., 2008).</p>
+      <h2 style="text-align: center">¿Qué hace un consejero en adicciones?</h2>
+
+          <p style="text-align: justify"> Un consejero en adicción es un profesional de salud mental que se especializa en ayudar a los pacientes con adicciones. Estos consejeros pueden trabajar en el sector privado, como parte de las clínicas de tratamiento de adicciones, en las terapias de grupo, y en los hospitales, para ayudar a los pacientes con una amplia gama de cuestiones. Para ser consejero en adicción, alguien debe generalmente completar un programa de formación que incluye la familiarización con la dependencia química, la psicología, las cuestiones legales, y varios tratamientos disponibles para las personas que luchan con las adicciones.</p>
+          <br><p style="text-align: justify"> Algunos consejeros de adicción optan por especializarse en un área particular de interés, mientras que otros cubren una gama larga de adicciones. En todos los casos, los consejeros de adicción se reúnen con los pacientes en entornos privados y de grupo para proporcionar terapia, hablar de temas actuales y desarrollar planes de tratamiento. Los consejeros de dependencias también pueden trabajar con miembros de la familia y facilitar la comunicación familiar, además de crear programas de rehabilitacion ayudar a las personas a lidiar con la adicción.</p>
     </div>
   </div>
 </div>
@@ -107,7 +110,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -118,7 +121,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");
@@ -129,6 +132,64 @@
       });
   </script>
 <!--final JAVASCRIPT-->
+
+<style>
+body {margin:0;height:0;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #FF1493;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 25px;
+}
+</style>
+<body>
+<div class="icon-bar">
+  <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+</body>
 
 </body>
 </html>

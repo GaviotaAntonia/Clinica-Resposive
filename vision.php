@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Vision del Proyecto de Vida y Amor A.C.</title>
+  <title>Vision</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -36,7 +36,7 @@
        display: table;
     }
 
- 
+
     [class*="col-"] {
       float: left;
       padding: 15px;
@@ -55,7 +55,7 @@
       .col-11 {width: 91.66%;}
       .col-12 {width: 100%;}
 
-     
+
 
       .header {
         background-color: white;
@@ -72,7 +72,7 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;  
+      background-color: #33b5e5;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
@@ -105,11 +105,10 @@
 
   <div class="col-9">
     <h1 style="text-align: center; ">Visión</h1>
-    <p>Ser la mejor institución de la zona en ofrecer ayuda profesional integral para  personas con problemas de vulnerabilidad en cualquier estrato social que sufren de alguna adicción, brindar un servicio de alta calidad así como impulsar programas específicos de prevención. Estamos convencidos de que las personas que tienen este problema sólos no se puede y que trabajar en equipo es mejor, en brindar a nuestros beneficiados el máximo de herramientas necesarias para la recuperación , estamos dispuestos a poner nuestro máximo esfuerzo. Creemos firmemente que el cambio es posible con la unión de cada uno de nosotros. 
+    <p style="text-align: justify">Ser la mejor institución de la zona en ofrecer ayuda profesional integral para  personas con problemas de vulnerabilidad en cualquier estrato social que sufren de alguna adicción, brindar un servicio de alta calidad así como impulsar programas específicos de prevención. Estamos convencidos de que las personas que tienen este problema sólos no se puede y que trabajar en equipo es mejor, en brindar a nuestros beneficiados el máximo de herramientas necesarias para la recuperación, estamos dispuestos a poner nuestro máximo esfuerzo. Creemos firmemente que el cambio es posible con la unión de cada uno de nosotros.
         <div align="center">
-      <img class="img-fluid" src="ejmplosimg/vision.jpg" alt="imagen que simula la vision de una empresa">
+      <img class="img-fluid" src="imagenes/vision1.png" alt=alt="..." width="700">
     </div>
-    <br><p style="text-align: center;">Se empezo a construccion xx/xx/20xx.</p>
   </div>
 </div>
 
@@ -128,7 +127,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -139,7 +138,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");
@@ -151,8 +150,63 @@
   </script>
 <!--final JAVASCRIPT-->
 
+<style>
+body {margin:0;height:0;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #FF1493;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 25px;
+}
+</style>
+<body>
+<div class="icon-bar">
+  <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+</body>
+
 </body>
 </html>
-
-
-

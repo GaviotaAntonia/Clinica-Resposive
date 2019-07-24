@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>¿Quienes somos? Proyecto de Vida y Amor A.C.</title>
+  <title>¿Quienes somos?</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
        display: table;
     }
 
- 
+
     [class*="col-"] {
       float: left;
       padding: 15px;
@@ -57,7 +57,7 @@
       .col-11 {width: 91.66%;}
       .col-12 {width: 100%;}
 
-     
+
 
       .header {
         background-color: white;
@@ -74,7 +74,7 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;  
+      background-color: #33b5e5;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
@@ -105,7 +105,7 @@
       <a href="vision.php"><li id="12">Vision</li></a>
       <a href="valores.php"><li id="12">Valores</li></a>
       <a href="quiesom.php"><li id="12">¿Quienes Somos?</li></a>
-      
+
     </ul>
   </div>
 
@@ -113,9 +113,10 @@
   <div class="col-9">
 
     <h1 style="text-align: center;">Proyecto Vida y Amor A.C.</h1>
-    <p>¿Quienes somos?<br>Somos una asociación no lucrativa que esta dedicada a la atención integral de las adicciones, beneficiando a personas con problemas de vulnerabilidad en cualquier estrato social ( beneficiados); es decir a grupos expuestos a las adicciones de cualquier tipo, en estado de abandono o calle, así como en necesidad de asistencia o atención humanitaria; mediante las siguientes actividades:<br><p style="font-style: italic; font-weight: bold">1° Atención a los beneficiados, quienes se encuentran expuestos a problemas de adicciones; mediante su previa admisión en las instalaciones.</p> <p style="font-style: italic; font-weight: bold">2° Asilo o estancia durante el tiempo que los beneficiados necesiten de acuerdo a la evaluación profesional de los especialistas, salvaguardando la integridad física y mental de los usuarios y del personal,  así como el cuidado de las instalaciones.</p><p style="font-style: italic; font-weight: bold">3° Brindar orientación, terapias, traslados de acuerdo a su grado de vulnerabilidad en el proceso de la adicción, con el propósito de lograr una estabilidad personal para que así puedan mejorar sus propias condiciones de vida y subsistencia.</p><p style="font-style: italic; font-weight: bold">4° Reivindicar la dignidad humana, restableciendo la funcionalidad e integración de los beneficiados al ámbito social y laboral, mediante talleres ocupacionales, por ejemplo, cultura y deporte. </p> <p>Se brinda el apoyo de conferencias o actividades relacionadas al tema de adicciones a instituciones públicas o privadas, escuelas de cualquier nivel, empresas de cualquier sector, ya que nadie se encuentra excento de las adicciones, el cual se ha convertido en un problema de salud durante los últimos años.</p>
+    <p style="text-align: justify">¿Quienes somos?<br>Somos una asociación no lucrativa que esta dedicada a la atención integral de las adicciones, beneficiando a personas con problemas de vulnerabilidad en cualquier estrato social ( beneficiados); es decir a grupos expuestos a las adicciones de cualquier tipo, en estado de abandono o calle, así como en necesidad de asistencia o atención humanitaria; mediante las siguientes actividades:<br><p style="text-align: justify; font-style: italic; font-weight: bold">1° Atención a los beneficiados, quienes se encuentran expuestos a problemas de adicciones; mediante su previa admisión en las instalaciones.</p> <p style="text-align: justify; font-style: italic; font-weight: bold">2° Asilo o estancia durante el tiempo que los beneficiados necesiten de acuerdo a la evaluación profesional de los especialistas, salvaguardando la integridad física y mental de los usuarios y del personal,  así como el cuidado de las instalaciones.</p><p style="text-align: justify; font-style: italic; font-weight: bold">3° Brindar orientación, terapias, traslados de acuerdo a su grado de vulnerabilidad en el proceso de la adicción, con el propósito de lograr una estabilidad personal para que así puedan mejorar sus propias condiciones de vida y subsistencia.</p><p style="text-align: justify; font-style: italic; font-weight: bold">4° Reivindicar la dignidad humana, restableciendo la funcionalidad e integración de los beneficiados al ámbito social y laboral, mediante talleres ocupacionales, por ejemplo, cultura y deporte. </p> <p style="text-align: justify">Se brinda el apoyo de conferencias o actividades relacionadas al tema de adicciones a instituciones públicas o privadas, escuelas de cualquier nivel, empresas de cualquier sector, ya que nadie se encuentra excento de las adicciones, el cual se ha convertido en un problema de salud durante los últimos años.</p>
     <div align="center">
-      <img class="img-fluid" src="ejmplosimg/actividades/act4.jpg" alt="se muestra una de las actividades.html" width="400px">
+      <div align="center">
+     <img class="img-fluid" src="imagenes/quien1.png" alt="..." width="500">
     </div>
 
   </div>
@@ -136,7 +137,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -147,7 +148,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");
@@ -159,8 +160,64 @@
   </script>
 <!--final JAVASCRIPT-->
 
+<style>
+body {margin:0;height:0;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #FF1493;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 25px;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+</body>
+
 </body>
 </html>
-
-
-

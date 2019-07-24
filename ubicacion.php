@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Ubicacion de las instalaciones</title>
+  <title>Ubicaciòn</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -73,21 +73,21 @@
         <div class="col-md-3 col-md-push-1">
           <h3>Información de Contacto</h3>
           <ul class="with-icon colored">
-            <li><i class="icon-location2"></i> <span>Calle Nogal No. 30 (antes Calle Viveros), Col. Potrero del Rey, C.P. 55029, Ecatepec de Morelos, Estado de México.</span></li>
-            <li><i class="icon-mail"></i><span>xxxxxxxxxxxxxxxxx@gmail.com</span></li>
+            <li><i class="icon-location2"></i> <span>Calle Nogal No. 30 (antes Calle Viveros No. 21), Col. Potrero del Rey, C.P. 55029, Ecatepec de Morelos, Estado de México.</span></li>
+            <li><i class="icon-mail"></i><span>Informes: pvidayamora.c@outlook.com</span></li>
             <li><i class="icon-phone2"></i><span>Tel.: (55) 26-22-94-66</span></li>
             <li><i class="icon-phone2"></i><span>Whatsapp: (55) 65-27-46-15</span></li>
           </ul>
         </div>
       </div>
     </div>
-</section> 
+</section>
 
 
 
 <!--Google map-->
 <div id="map-container-google-1" class="z-depth-1-half map-container" >
- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.417160660149!2d-99.06422068508984!3d19.652200286760007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f3b42d4a01c3%3A0xfa9a9ee43ffcd6d1!2sViveros+21%2C+Granjas+Ecatepec%2C+55029+Ecatepec+de+Morelos%2C+M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1563314362898!5m2!1ses-419!2smx" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+ <iframe src="https://wego.here.com/directions/mix//Clinica-Proyecto-De-Vida-y-Amor,-VIVEROS-21-COL-GRANJAS-ECATEPEC,-55029-Ecatepec,-Mexico:e-eyJuYW1lIjoiQ2xpbmljYSBQcm95ZWN0byBEZSBWaWRhICB5IEFtb3IiLCJhZGRyZXNzIjoiVklWRVJPUyAyMSBDT0wgR1JBTkpBUyBFQ0FURVBFQywgNTUwMjkgRWNhdGVwZWMsIE1leGljbywgTWV4aWNvIiwibGF0aXR1ZGUiOjE5LjY1MjE2MzgsImxvbmdpdHVkZSI6LTk5LjA2MjQwMjksInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6MzQ3NTM1MDk2MDYyMjU5fQ==?map=19.65216,-99.0624,15,normal&fb_locale=es_ES" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 </div>
 
@@ -112,7 +112,7 @@
     $(document).ready(function(){
      // Activa Carousel
        $("#myCarousel").carousel();
-    
+
      // Enable Carousel Indicators
      $(".item1").click(function(){
      $("#myCarousel").carousel(0);
@@ -123,7 +123,7 @@
        $(".item3").click(function(){
        $("#myCarousel").carousel(2);
       });
-    
+
       // Enable Carousel Controls
        $(".carousel-control-prev").click(function(){
        $("#myCarousel").carousel("prev");
@@ -134,6 +134,64 @@
       });
   </script>
 <!--final JAVASCRIPT-->
+
+<style>
+body {margin:0;height:0;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #FF1493;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 25px;
+}
+</style>
+<body>
+<div class="icon-bar">
+  <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+</body>
 
 </body>
 </html>

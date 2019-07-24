@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Instalaciones de la clinicas</title>
+  <title>Instalaciones</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
        display: table;
     }
 
- 
+
     [class*="col-"] {
       float: left;
       padding: 15px;
@@ -57,7 +57,7 @@
       .col-11 {width: 91.66%;}
       .col-12 {width: 100%;}
 
-     
+
 
       .header {
         background-color: white;
@@ -74,7 +74,7 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;  
+      background-color: #33b5e5;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
@@ -105,29 +105,32 @@
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1 class="gallery-title" style="text-align: center;">Instalaciones</h1>
         </div>
+        <p style="text-align: justify">Nuestras instalaciones cuentan con salidas de emergencia, extintores, un sistema de Videovigilancia que opera las 24
+        hrs. del dìa, dormitorios còmodos, regaderas, baños, tinas de baño, gimnasio, auditorio, enfermeria, ambulancia y un persoal altamente capacitado, todo esto para
+      para poder brindarle a su familiar todas las comodidades necesarias durante su estadia con nosotros, asì como para usted cuando asista al dìa de visita. </p>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="ejmplosimg/insta/insta1.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via1.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="ejmplosimg/insta/insta2.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via2.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="ejmplosimg/insta/insta3.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/intalacion.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="ejmplosimg/insta/insta4.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via3.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="ejmplosimg/insta/insta5.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via5.png" class="img-responsive" width="300px">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="ejmplosimg/insta/insta6.jpg" class="img-responsive" width="300px">
+                <img src="imagenes/via6.png" class="img-responsive" width="300px">
             </div>
         </div>
     </div>
@@ -175,7 +178,7 @@
 <!--JAVASCRIPT-->
   <script>
     $(document).ready(function(){
-     
+
     loadGallery(true, 'a.thumbnail');
 
     //This function disables buttons when needed
@@ -188,7 +191,7 @@
         }
     }
 
- 
+
     function loadGallery(setIDs, setClickAttr){
         var current_image,
             selector,
@@ -224,9 +227,102 @@
             updateGallery($(this));
         });
     }});
-  
+
   </script>
 <!--final JAVASCRIPT-->
+
+<!--JAVASCRIPT-->
+  <script>
+    $(document).ready(function(){
+     // Activa Carousel
+       $("#myCarousel").carousel();
+
+     // Enable Carousel Indicators
+     $(".item1").click(function(){
+     $("#myCarousel").carousel(0);
+     });
+      $(".item2").click(function(){
+      $("#myCarousel").carousel(1);
+       });
+       $(".item3").click(function(){
+       $("#myCarousel").carousel(2);
+      });
+       $(".item4").click(function(){
+      $("#myCarousel").carousel(3);
+       })
+       $(".item5").click(function(){
+      $("#myCarousel").carousel(4);
+       })
+
+      // Enable Carousel Controls
+       $(".carousel-control-prev").click(function(){
+       $("#myCarousel").carousel("prev");
+      });
+       $(".carousel-control-next").click(function(){
+      $("#myCarousel").carousel("next");
+       });
+      });
+  </script>
+<!--final JAVASCRIPT-->
+
+<style>
+body {margin:0;height:0;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background: #FF1493;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 25px;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
+  <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+</body>
 
 </body>
 </html>
