@@ -87,10 +87,126 @@
     </div>
 
     <div class="col-sm-8"><br>
-      <h2 style="text-align: center">¿Qué hace un consejero en adicciones?</h2>
 
-          <p style="text-align: justify"> Un consejero en adicción es un profesional de salud mental que se especializa en ayudar a los pacientes con adicciones. Estos consejeros pueden trabajar en el sector privado, como parte de las clínicas de tratamiento de adicciones, en las terapias de grupo, y en los hospitales, para ayudar a los pacientes con una amplia gama de cuestiones. Para ser consejero en adicción, alguien debe generalmente completar un programa de formación que incluye la familiarización con la dependencia química, la psicología, las cuestiones legales, y varios tratamientos disponibles para las personas que luchan con las adicciones.</p>
-          <br><p style="text-align: justify"> Algunos consejeros de adicción optan por especializarse en un área particular de interés, mientras que otros cubren una gama larga de adicciones. En todos los casos, los consejeros de adicción se reúnen con los pacientes en entornos privados y de grupo para proporcionar terapia, hablar de temas actuales y desarrollar planes de tratamiento. Los consejeros de dependencias también pueden trabajar con miembros de la familia y facilitar la comunicación familiar, además de crear programas de rehabilitacion ayudar a las personas a lidiar con la adicción.</p>
+          <style>
+      body
+      /*estilos base*/
+      .contenedor-img {
+          width: 800px;
+          height: 2000px;
+          float: left;
+          overflow: hidden;
+          position: relative;
+          text-align: center;
+          font-weight: bold;
+          cursor: default;
+          background: #fff;
+      }
+          .contenedor-img .mascara,.contenedor-img .contenido {
+              width: 800px;
+              height: 2000px;
+              position: absolute;
+              overflow: hidden;
+              top: 0;
+              left: 0
+          }
+          .contenedor-img img {
+              display: block;
+              position: relative;
+
+          }
+          .contenedor-img h2 {
+              text-transform: uppercase;
+              color: #fff;
+              text-align: center;
+              position: relative;
+              font-size: 20px;
+              padding: 10px;
+              background: rgba(0, 0, 0, 0.9);
+              margin: 20px 0 0 0
+          }
+          .contenedor-img p {
+              font-size: 17px;
+              position: relative;
+              color: #fff;
+              padding: 5px 10px 5px;
+              text-align: center
+          }
+          .contenedor-img a.link {
+              display: inline-block;
+              text-decoration: none;
+              padding: 7px 14px;
+              background: #222;
+              color: #fff;
+              text-transform: uppercase;
+              box-shadow: 0 0 1px #000
+          }
+              .contenedor-img a.link:hover {
+                  box-shadow: 0 0 5px #000
+              }
+
+
+      /*banner*/
+      .banner img {
+          transition: all 0.2s linear;
+      }
+      .banner .mascara {
+          opacity: 0;
+          background-color: #8e44ad;
+          transition: all 0.3s ease-in-out;
+      }
+          .banner h2 {
+              transform: translateX(-200px);
+              opacity: 0;
+              transition: all 0.7s ease-in-out;
+          }
+          .banner p {
+              transform: translateX(200px);
+              opacity: 0;
+            transition: all 0.4s linear;
+          }
+          .banner a.link{
+              opacity: 0;
+            transition: all 0.4s ease-in-out;
+              transform: translateY(100px)
+          }
+          .banner:hover img {
+            transform: scale(1.1);
+          }
+          .banner:hover .mascara {
+            opacity: 1;
+          }
+          .banner:hover h2,
+          .banner:hover p,
+          .banner:hover a.link {
+              opacity: 1;
+              transform: translateX(0px);
+          }
+          .banner:hover p {
+              transition-delay: 0.1s;
+          }
+          .banner:hover a.link {
+              transition-delay: 0.2s;
+              transform: translateY(0px);
+          }
+          </style>
+         </head>
+          <body>
+
+         <div class="contenedor-img banner">
+              <img src="imagenes/consejo.png" />
+              <div class="mascara">
+                  <h2>¿Qué hace un consejero en adicciones?</h2>
+                  
+                     <p style="text-align: justify">Un consejero en adicción es un profesional de salud mental que se especializa en ayudar a los pacientes con adicciones. Estos consejeros pueden trabajar en el sector privado, como parte de las clínicas de tratamiento de adicciones, en las terapias de grupo, y en los hospitales, para ayudar a los pacientes con una amplia gama de cuestiones. Para ser consejero en adicción, alguien debe generalmente completar un programa de formación que incluye la familiarización con la dependencia química, la psicología, las cuestiones legales, y varios tratamientos disponibles para las personas que luchan con las adicciones.</p>
+
+                     <p style="text-align: justify">Algunos consejeros de adicción optan por especializarse en un área particular de interés, mientras que otros cubren una gama larga de adicciones. En todos los casos, los consejeros de adicción se reúnen con los pacientes en entornos privados y de grupo para proporcionar terapia, hablar de temas actuales y desarrollar planes de tratamiento. Los consejeros de dependencias también pueden trabajar con miembros de la familia y facilitar la comunicación familiar, además de crear programas de rehabilitacion ayudar a las personas a lidiar con la adicción. </p>
+              </div>
+         </div>
+    </div>
+  </div>
+</div>
+          
     </div>
   </div>
 </div>
