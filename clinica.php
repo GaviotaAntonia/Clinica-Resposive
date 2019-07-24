@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Nuestras intalaciones</title>
+  <title>Nuestras Instalaciones</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -9,16 +9,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
+  <!--FAVICON-->
 
-  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
-
-
-
+  <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png">
  <!-- fuentes utilizadas  -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <!-- termino de fuentes utilizadas-->
 </head>
-
 
 <!--Estilos-->
   <style>
@@ -105,32 +102,80 @@
      </ul>
     </div>
   <div class="col-9">
-      <h2>Conoce nuestras instalaciones</h2>
-      <h5>Martes 11 de Junio del 2016 12:40pm</h5>
-      <a href="instalacion.html"><img src="ejmplosimg/insta/insta1.jpg" alt="se visualiza instlaciones" style width="1000px"></a>
-      <div class="fakeimg">Conoce nuestras instalaciones</div>
-      <p>Nuestras instalaciones cuentan con...<a href="instalacion.php">saber más</a></p>
-      <br>
+      <h2  style="text-align: center">Conoce nuestras instalaciones</h2>
+      <p>Nuestro inmueble cuenta con salidas de emergencia avalado por Protección Civil, además de un sistema de videovigilancia que opera todo el día como personal de vigilancia altamente capacitado, contamos con traslados a toda la república y un área médica, nuestros dormitorios son verdaderamente cómodos, todo esto para brindar una agradable estancia a su familiar y a usted, si desea conocer mejor nuestras instalaciones, visitenos, le aseguramos que somos su mejor opción.</p></div>
+      <!-- carrusel-->
+  <div class="container mt-3">
+    <!---<h2>Activate Carousel with JavaScript</h2>-->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li class="item1 active"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        </ul>
 
-      <h2>Dormitorios</h2>
-      <h5>11 de Junio, 2017</h5>
-      <a href="dormitorios.html"><img src="ejmplosimg/dormitorios/dormi1.jpg" alt="se visualiza uno de los dormitorios de nuestras instalaciones" style width="1000px"></a>
-      <div class="fakeimg" >
-      <div class="fakeimg">Conoce nuestros dormitorios</div>
-      <p>Nuestros dormitorios cuenta con...<a href="dormitorios.php">saber más</a></p>
-      <br>
+      <!-- The slideshow -->
+        <div class="carousel-inner">
 
-      <h2>Actividades</h2>
-      <h5>11 de Junio, 2017</h5>
-      <a href="actividades.html"><img src="ejmplosimg/actividades/act1.jpg" alt="se visualiza actividades que se pueden realizar" width="1000px"></a><div class="fakeimg">
-      <div class="fakeimg">Conoce nuestras actividades</div>
-      <p>Las actividades con las que contamos son...<a href="actividades.php">saber más</a></p>
-      <br>
+          <div class="carousel-item active">
+            <img src="imagenes/n01.png" alt="Imagen de clinica ejemplo" width="1100" height="500">
+          </div>
 
-    </div>
-      </div>
-  </div>
+          <div class="carousel-item">
+            <img src="imagenes/n02.png" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
+          </div>
+
+          <div class="carousel-item">
+          <img src="imagenes/n03.png" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
+          </div>
+
+          <div class="carousel-item">
+            <img src="imagenes/n04.png" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
+          </div>
+           
+      
+  <!--JAVASCRIPT-->
+  <script>
+    $(document).ready(function(){
+     // Activa Carousel
+       $("#myCarousel").carousel();
+
+     // Enable Carousel Indicators
+     $(".item1").click(function(){
+     $("#myCarousel").carousel(0);
+     });
+      $(".item2").click(function(){
+      $("#myCarousel").carousel(1);
+       });
+       $(".item3").click(function(){
+       $("#myCarousel").carousel(2);
+      });
+       $(".item4").click(function(){
+      $("#myCarousel").carousel(3);
+       })
+       $(".item5").click(function(){
+      $("#myCarousel").carousel(4);
+       })
+
+      // Enable Carousel Controls
+       $(".carousel-control-prev").click(function(){
+       $("#myCarousel").carousel("prev");
+      });
+       $(".carousel-control-next").click(function(){
+      $("#myCarousel").carousel("next");
+       });
+      });
+  </script>
+<!--final JAVASCRIPT-->
+
 </div>
+</div>
+<div class="container mt-3">
+     <a href="ubicacion.php" class="btn btn-black"><b>Agendar visita</b></a></div>
+  </div>
+
 
 <!--FINAL DEL BODY-->
 
