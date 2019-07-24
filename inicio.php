@@ -58,7 +58,7 @@
             <img src="ejmplosimg/causa-de-las-adiccione.jpg" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
           </div>
           <div class="carousel-item">
-          <img src="ejmplosimg/asddobje.jpg" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
+            <img src="ejmplosimg/asddobje.jpg" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
           </div>
 
           <div class="carousel-item">
@@ -79,13 +79,8 @@
       </div>
   </div>
 <!-- FINAL DE CARRUSEL-->
-
-
-            <h3 style="text-align: center;color: black"><b>Proyecto de Vida y Amor A.C.</b></h3>
-            <br>
-            <p style="text-align: center">"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</p><br>
-        
-        <br>
+    <h3 style="text-align: center;color: black"><b>Proyecto de Vida y Amor A.C.</b></h3><br>
+    <p style="text-align: center">"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</p><br><br>
          <div class="card-deck">
             <div class="card text-white " style="border-radius:2em; border-top: solid 6px  #006400">
               <div class="card-body">
@@ -162,33 +157,32 @@
 
 <!--Cuadros con iconos antes del footer-->
 	<div class="container">
-  		<div class="row">
-   		 <div class="col-sm-4" style=" border-style: groove;">
-      		<div align="center">
-        		<br><img src="ejmplosimg/gps.png" alt="">
+    <div class="row">
+      <div class="col-sm-4" style=" border-style: groove;">
+        <div align="center"><br>
+          <img src="ejmplosimg/gps.png" alt="">
          		<h3>Siempre cerca de ti</h3>
-     			 <p style="text-align: center">Calle Nogal No. 30 (antes Calle Viveros No.21), Col. Potrero del Rey, C.P. 55029, Ecatepec de Morelos, Estado de México.<a href="https://wego.here.com/directions/mix//Clinica-Proyecto-De-Vida-y-Amor,-VIVEROS-21-COL-GRANJAS-ECATEPEC,-55029-Ecatepec,-Mexico:e-eyJuYW1lIjoiQ2xpbmljYSBQcm95ZWN0byBEZSBWaWRhICB5IEFtb3IiLCJhZGRyZXNzIjoiVklWRVJPUyAyMSBDT0wgR1JBTkpBUyBFQ0FURVBFQywgNTUwMjkgRWNhdGVwZWMsIE1leGljbywgTWV4aWNvIiwibGF0aXR1ZGUiOjE5LjY1MjE2MzgsImxvbmdpdHVkZSI6LTk5LjA2MjQwMjksInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6MzQ3NTM1MDk2MDYyMjU5fQ==?map=19.65216,-99.0624,15,normal&fb_locale=es_ES"><br>Saber más.</a> </p>
-      		</div>
-    	  </div>
-
-    <div class="col-sm-4" style="border-style: groove;">
-      <div align="center">
-        <br>
-        <img src="ejmplosimg/ayuda.png" alt="">
-         <h3>¿Necesitas Ayuda?</h3>
-      <p style="text-align: center;">LAS ADICCIONES NO SABEN DE HORARIO, ESTAMOS A TUS ORDENES LAS 24 HRS.<br>TRASLADOS A TODA LA REPÚBLICA<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
-      </div>
-    </div>
-
-  		<div class="col-sm-4" style="border-style: groove;">
-      		<div align="center"><br>
-        	<img src="ejmplosimg/contact.png" alt="">
-         	<h3>Contacto</h3>
-      		<p style="text-align: center;">Estamos a tus ordenes, en la brevedad posible nos comunicaremos contigo, simepre hay alguien que necesite ayuda<br><a href="ubicacion.php">Registrate</a></p>
-      		</div>
+     			 <p style="text-align: center">Calle Nogal No. 30 (antes Calle Viveros No.21), Col. Potrero del Rey, C.P. 55029, Ecatepec de Morelos, Estado de México.
+            <a href="https://wego.here.com/directions/mix//Clinica-Proyecto-De-Vida-y-Amor,-VIVEROS-21-COL-GRANJAS-ECATEPEC,-55029-Ecatepec,-Mexico:e-eyJuYW1lIjoiQ2xpbmljYSBQcm95ZWN0byBEZSBWaWRhICB5IEFtb3IiLCJhZGRyZXNzIjoiVklWRVJPUyAyMSBDT0wgR1JBTkpBUyBFQ0FURVBFQywgNTUwMjkgRWNhdGVwZWMsIE1leGljbywgTWV4aWNvIiwibGF0aXR1ZGUiOjE5LjY1MjE2MzgsImxvbmdpdHVkZSI6LTk5LjA2MjQwMjksInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6MzQ3NTM1MDk2MDYyMjU5fQ==?map=19.65216,-99.0624,15,normal&fb_locale=es_ES"><br>Saber más.</a> </p>
+      	</div>
     	</div>
 
-  		</div>
+      <div class="col-sm-4" style="border-style: groove;">
+        <div align="center"><br>
+          <img src="ejmplosimg/ayuda.png" alt="">
+          <h3>¿Necesitas Ayuda?</h3>
+          <p style="text-align: center;">LAS ADICCIONES NO SABEN DE HORARIO, ESTAMOS A TUS ORDENES LAS 24 HRS.<br>TRASLADOS A TODA LA REPÚBLICA<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4" style="border-style: groove;">
+        <div align="center"><br>
+          <img src="ejmplosimg/contact.png" alt="">
+          <h3>Contacto</h3>
+          <p style="text-align: center;">Estamos a tus ordenes, en la brevedad posible nos comunicaremos contigo, simepre hay alguien que necesite ayuda<br><a href="ubicacion.php">Registrate</a></p>
+      	</div>
+    	</div>
+    </div>
 	</div>
 <!--fin de los cuadros -->
 
@@ -239,62 +233,14 @@
 
 <style>
 body {margin:0;height:0;}
-
-.icon-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 15px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.instagram {
-  background: #FF1493;
-  color: white;
-}
-
-.youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.content {
-  margin-left: 75px;
-  font-size: 25px;
-}
 </style>
 <body>
-
-<div class="icon-bar">
-  <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
-  <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
-  <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
-</div>
+  <div class="icon-bar">
+    <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
 </body>
 
-</body>
 </html>
