@@ -148,6 +148,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   .probootstrap-logo {
     padding-left: 0px;
   }
+
+
 }
 
 .probootstrap-nav {
@@ -1840,4 +1842,3 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   padding-left: 0;
   @include border-radius(0);
 }
-
