@@ -23,17 +23,16 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <!-- termino de fuentes utilizadas-->
 </head>
+
+
 <!--NAVBAR DE INCIO-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="inicio.php">
-      <img src="imagenes/logoparanav.png" alt="logo" style="width:40px;">
-    </a>
+    <a class="navbar-brand" href="inicio.php"><img src="imagenes/logoparanav.png" alt="logo" style="width:40px;"></a>
     <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-     </button>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
            <ul class="navbar-nav">
+<<<<<<< Updated upstream
             <li class="nav-item">
              <a class="nav-link  active w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de Nosotros</a>
              </li>
@@ -47,9 +46,16 @@
               <a class="nav-link" href="clinica.php">Instalaciones</a>
             </li>
            <li type="button" class="btn" data-toggle="modal" data-target="#myModal">Registro|Ingresar</button></li>
+=======
+            <li class="nav-item"><a class="nav-link  active w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicios.php">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="ubicacion.php">Ubicación</a></li>    
+            <li class="nav"><a class="nav-link" href="clinica.php">Instalaciones</a></li>
+            <li type="button" style="color: white" style="align:right; " class="btn" data-toggle="modal" data-target="#myModal">Registro|Entrar</button></li>
+>>>>>>> Stashed changes
           </ul>
          
-           <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
               <div class="modal-content">
@@ -74,84 +80,90 @@
                 </div>
 
                 <div class="panel-body">
-                  <div class="row">
-                    <div class="col-lg-10">
-                      <form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">
-                    <div class="form-group">
-                      <input type="text" name="nombre" id="username" tabindex="1" class="form-control" placeholder="Nombre" value="">
-                    </div> 
-                      <div class="form-group">
-                         <input type="password" name="contraseña" id="password" tabindex="2" class="form-control" placeholder="Contraseña">
+                  <div class="text-center">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">
+                          <div class="container">
+                            <form class="form-inline" action="/action_page.php">
+                              <label for="email2" class="mb-2 mr-sm-2">Usuario:</label>
+                              <input type="text" class="form-control mb-2 mr-sm-2" id="usuario" placeholder="Ingresa tu usuario" name="usuario">
+                              <label for="pwd2" class="mb-2 mr-sm-2">Contraseña:</label>
+                              <input type="text" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="Ingresa tu contraseña" name="pswd">    
+                              <button type="submit" class="btn btn-dark" style="text-align:center;">Entrar</button>
+                              <div class="form-group">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="text-center">
+                                      <a href="https://phpoll.com/recover" tabindex="5" class="forgot-password" style="color: brown">Olvidaste tu contraseña?</a>
+                                    </div>
+                                    <div class="form-group text-center">
+                                      <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+                                      <label for="remember">Recuerdame</label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </form>
                       </div>
-                      <div class="form-group text-center">
-                        <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
-                         <label for="remember">Recuerdame</label>
-                      </div>
-                      <div class="form-group">
-                         <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
-                              <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Entrar">
-                            </div>
-                         </div>
-                     </div>
+                    </div>
+                  </div>
+                </div>
 
-                     <div class="form-group">
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <div class="text-center">
-                            <a href="https://phpoll.com/recover" tabindex="5" class="forgot-password">Olvidaste tu contraseña?</a>
+                <form id="register-form" action="" method="post" role="form" style="display: none;">
+                  <div class="container">  
+                    <form class="form-inline" action="/action_page.php">
+                      <span class="input-group-addon"><label for="email2" class="mb-2 mr-sm-2">Usuario:</label></span>
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="usuario2" placeholder="Ingresa tu usuario" name="usuario2">
+                      <label for="nombre2" class="mb-2 mr-sm-2">Nombre:</label>
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="nombre2" placeholder="Ingresa tu nombre" name="nombre2">
+                      <label for="apepat2" class="mb-2 mr-sm-2">Apellido Paterno:</label>
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa tu Apellido Paterno" name="apepat2">
+                      <label for="apemat2" class="mb-2 mr-sm-2">Apellido Materno:</label>
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="apemat2" placeholder="Ingresa tu Apellido Materno" name="apemat2">
+                      <label for="apepat2" class="mb-2 mr-sm-2">Correo:</label>
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="correo2" placeholder="Ingresa tu Correo" name="correo2">
+                      <form>
+                        <label for="apepat2" class="mb-2 mr-sm-2">Contraseña:</label>
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" placeholder="Contraseña">
+                          <input type="text" class="form-control" placeholder="re-ingresa contraseña">
+                        </div>
+                      </form> 
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="form-group text-center">
+                              <button type="submit" class="btn btn-dark" style="text-align:center;">Registrate</button>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </form>
-
-                  <form id="register-form" action="" method="post" role="form" style="display: none;">
-                    <div class="form-group"><input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Nombre(s)" value=""></div>
-                    <div class="form-group col-lg-6">
-                      <input type="text" name="apepat" id="apepat" tabindex="1" class="form-control" placeholder="Apellido Paterno" value="">
-                    </div>
-                    <div class="form-group col-lg-6">
-                      <input type="text" name="apemat" id="apemat" tabindex="1" class="form-control" placeholder="Apellido Materno" value="">
-                    </div>
-              <div class="form-group col-lg-6">
-                <input type="text" name="edad" id="edad" tabindex="1" class="form-control" placeholder="Edad" value="">
-              </div>
-                <div class="form-group col-lg-6">
-                  <input type="text" name="telefono" id="tele" tabindex="1" class="form-control" placeholder="Telefono" value="">
-                </div>
-                  <div class="form-group col-lg-6">
-                    <input type="text" name="dele" id="dele" tabindex="1" class="form-control" placeholder="Delegacion" value="">
-                  </div>
-                    <div class="form-group col-lg-6">
-                       <input type="text" name="codigo" id="codigo" tabindex="1" class="form-control" placeholder="Codigo Postal" value="">
-                    </div>
-                      <div class="form-group">
-                          <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Correo electrónico" value="">
-                      </div>
-                       <div class="form-group col-lg-12">
-                          <input type="password" name="pass" id="password" tabindex="2" class="form-control" placeholder="Contraseña">
-                        </div>
-                        <div class="form-group col-lg-12">
-                        <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirma contraseña">
-                    </div>
-                    <div class="form-group">
-                      <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3">
-                            <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Registrate ahora">
-                        </div>
-                      </div>
+<<<<<<< Updated upstream
                     </div>
                   
               </form>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+=======
+                    </form>
+                  </div>
+                </form>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+                </div>
+>>>>>>> Stashed changes
               </div>
             </div>
           </div>
         </div>
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
   </nav>
 <!--FINAL NAVBAR-->
 </html>
