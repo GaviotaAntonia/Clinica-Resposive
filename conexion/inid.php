@@ -1,13 +1,19 @@
 <?php 
 
 	$conexion=mysqli_connect('localhost','root','','proyectovidayamor');
-
+	if($conexion){
+		echo "conexion exitosa";
+	}
+	else
+	{
+		echo "esta fallando algo";
+	}
  ?>
 
 
 <!DOCTYPE html>
 <html>
-<head>
+<head><br>
 	<title>mostrar datos</title>
 </head>
 <body>
