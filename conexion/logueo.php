@@ -11,9 +11,8 @@
 		$que=mysqli_fetch_array($result);
 		if ($que['contar']>0) {
 			$_SESSION['usuario']=$usuario;
-			header("conexion/prueba.php");
-			echo "Hola has entrado como administrador";
-				echo "<h1>Bienvenido $usuario </h1>";
+			echo "funciona";
+			header("location:../superusuario.php");
 
 		}else
 		{

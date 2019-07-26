@@ -52,7 +52,7 @@
 <body>
 
   <div class="dropdown">
-    <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success" dropdown-toggle" data-toggle="dropdown">Administrador</button>
+    <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
     <div style="text-align: center" class="dropdown-menu">
       <a class="dropdown-item" class="btn btn-link" href="#">Configuracion</a>
       <a class="dropdown-item" class="btn btn-link" href="#">Mensajes</a>
@@ -73,8 +73,17 @@
   <a href="#">Link 9</a>
   <a href="#">Link 10</a>
 </div>
+<br>
 
 <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success" style='width:310px; height:30px'>
+
+
+
+
+
+<!--Inicio Footer-->
+  <?php include 'footer-distribuido.html'; ?>
+<!--Final Foooter-->
 
 </body>
 </html>

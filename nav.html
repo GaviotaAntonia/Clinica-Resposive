@@ -15,7 +15,54 @@
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/styles-merged.css">
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#registro').click(function(){
+        if($("#correo2").val().indexOf('@', 0) == -1 || $("#correo2").val().indexOf('.', 0) == -1) {
+            alert('El correo electrónico introducido no es correcto.');
+            return false;
+        }
 
+        alert('El email introducido es correcto.');
+    });
+
+    var pass1 = $('[name=con1]');
+  var pass2 = $('[name=con2]');
+  var confirmacion = "Las contraseñas si coinciden";
+  var longitud = "La contraseña debe estar formada entre 6-10 carácteres (ambos inclusive)";
+  var negacion = "No coinciden las contraseñas";
+  var vacio = "La contraseña no puede estar vacía";
+  //oculto por defecto el elemento span
+  var span = $('<span></span>').insertAfter(pass2);
+  span.hide();
+  //función que comprueba las dos contraseñas
+  function coincidePassword(){
+  var valor1 = pass1.val();
+  var valor2 = pass2.val();
+  //muestro el span
+  span.show().removeClass();
+  //condiciones dentro de la función
+  if(valor1 != valor2){
+  span.text(negacion).addClass('negacion'); 
+  }
+  if(valor1.length==0 || valor1==""){
+  span.text(vacio).addClass('negacion');  
+  }
+  if(valor1.length<6 || valor1.length>10){
+  span.text(longitud).addClass('negacion');
+  }
+  if(valor1.length!=0 && valor1==valor2){
+  span.text(confirmacion).removeClass("negacion").addClass('confirmacion');
+  }
+  }
+  //ejecuto la función al soltar la tecla
+  pass2.keyup(function(){
+  coincidePassword();
+  });
+});
+
+</script>
 
   <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> <!--FAVICON-->
 
@@ -103,14 +150,14 @@
                       <span class="input-group-addon"><label for="email2" class="mb-2 mr-sm-2">Usuario:</label></span>
                       <input type="text" class="form-control mb-2 mr-sm-2" id="usuario2" placeholder="Ingresa tu usuario" name="usuario2">
                       <label for="nombre2" class="mb-2 mr-sm-2">Nombre:</label>
-                      <input type="text" class="form-control mb-2 mr-sm-2" id="nombre2" placeholder="Ingresa tu nombre" name="nombre2">
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="nombre2" placeholder="Ingresa tu nombre" name="nombre2" style="text-transform: uppercase;">
                       <label for="apepat" class="mb-2 mr-sm-2">Apellido Paterno:</label>
-                      <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa tu Apellido Paterno" name="apepat2">
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa tu Apellido Paterno" name="apepat2" style="text-transform: uppercase;">
                       <label for="apemat" class="mb-2 mr-sm-2">Apellido Materno:</label>
-                      <input type="text" class="form-control mb-2 mr-sm-2" id="apemat2" placeholder="Ingresa tu Apellido Materno" name="apemat2">
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="apemat2" placeholder="Ingresa tu Apellido Materno" name="apemat2" style="text-transform: uppercase;">
                       <label for="correo2" class="mb-2 mr-sm-2">Correo:</label>
-                      <input type="text" class="form-control mb-2 mr-sm-2" id="correo2" placeholder="Ingresa tu Correo" name="correo2">
-                            <form>
+                      <input type="text" class="form-control mb-2 mr-sm-2" id="correo2" placeholder="Ingresa tu Correo" name="correo2" >
+                      <form id="formCheckPassword" method="post">
                         <label for="contra2" class="mb-2 mr-sm-2">Contraseña:</label>
                         <div class="input-group mb-3">
                           <input type="password" class="form-control" placeholder="Contraseña" name="con1">
@@ -118,7 +165,7 @@
                         </div>
                       </form> 
 
-                      <div class="form-group">
+                      <div class="form-group" id="registro">
                         <div class="row">
                           <div class="col-lg-12">
                             <div class="form-group text-center">
@@ -143,4 +190,9 @@
   </nav>
 <!--FINAL NAVBAR-->
 
+
+
 </html>
+
+
+
