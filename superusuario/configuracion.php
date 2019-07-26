@@ -52,9 +52,9 @@
 <body>
 
   <div class="dropdown">
-    <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
+    <a href="#"><img href="#" src="../imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
     <div style="text-align: center" class="dropdown-menu">
-      <a class="dropdown-item" class="btn btn-link" href="configuracion.php">Configuracion</a>
+      <a class="dropdown-item" class="btn btn-link" href="superusuario/configuracion.php">Configuracion</a>
       <a class="dropdown-item" class="btn btn-link" href="#">Mensajes</a>
       <a class="dropdown-item" class="btn btn-link" href="#">Salir</a>
     </div>

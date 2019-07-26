@@ -118,7 +118,7 @@
 <!--comentarios especialistas-->
 	<section>
  	 <div class="container mt-3">
-  		<h2><p style="text-align: center; font-weight: bold; color: black">Tenemos a los mejores especialistas en adiccones</p></h2>
+  		<h2><p style="text-align: center; font-weight: bold; color: black">Tenemos a los mejores especialistas en adicciones</p></h2>
   		<p style="text-align: justify">Trabajamos por medio de amor y comprensión ya que son los ingredientes faltantes para evitar futuras recaídas, el paciente no solo fortalecerá su autoestima sino también su determinación y su buena voluntad con talleres psicológicos que le enseñaran a controlar sus niveles de ansiedad para canalizarlos a una manera asertiva.</p><br>
 
   			<div class="media border p-3">
@@ -133,7 +133,7 @@
 
   	<div class="container mt-3">
   		<h2 style="text-align: center">Conoce nuestras instalaciones, asegurate en manos de quien dejas a tu familiar.</h2><br>
-      <a href="ubicacion.php" class="btn btn-black"><b>Agendar visita</b></a></div>
+      <a href="ubicacion.php" class="btn btn-black" style="text-align:center"><b>Agendar visita</b></a></div>
   			
 
 <br><br>
