@@ -38,7 +38,7 @@
     <div class="container">
       <div class="probootstrap-section-heading text-center">
         <h4 class="sub-heading">Contactanos</h4>
-        <h2 class="heading">Registrate</h2>
+        <h2 class="heading">Envia tus comentarios o dudas.</h2>
       </div>
       <div class="row">
         <div class="col-md-8">
@@ -65,7 +65,7 @@
               <label for="message">Mensaje</label>
               <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
             </div>
-            <div class="form-group">
+            <div class="form-group"  action="correo.php" method="post">
               <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Enviar Mensaje">
             </div>
           </form>

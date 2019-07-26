@@ -43,7 +43,7 @@
     <div class="col-sm-4">
       <h2>Más cerca de ti</h2>
       <h5></h5>
-      <p style="text-align: justify">¿Deseas<a href="inicio.php">conocer más</a> del Proyecto de Vida y Amor?</p>
+      <p style="text-align: justify">¿Deseas <a href="inicio.php">conocer más</a> del Proyecto de Vida y Amor?</p>
 
       <h3>Servicios</h3>
       <p style="text-align: justify">Nuestros servicios son las 24 Hrs. del día, todo el año, si deseas más informes <a href="ubicacion.php">contactanos,</a> con gusto un operador te atendera.</p>
