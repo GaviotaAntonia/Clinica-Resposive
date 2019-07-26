@@ -67,6 +67,7 @@
           </div>
        </div>
 
+
       <!-- Left and right controls -->
         <a class="carousel-control-prev" href="#myCarousel">
           <span class="carousel-control-prev-icon"></span>
@@ -131,26 +132,9 @@
 
 
   	<div class="container mt-3">
-  		<h2>Conoce nuestras instalaciones, asegurate en manos de quien dejas a tu familiar.</h2><br>
-  			<div class="media border p-3">
-    			<img src="ejmplosimg/ejemdoc/ano1.jpg" alt="Anonimo 1" class="mr-3 mt-3 rounded-circle" style="width:60px;">
-    			<div class="media-body">
-     			 	<h4>Paciente xxxxx<small>
-      				<br><i>Posted on February 19, 2016</i></small></h4>
-      				<p>La clinica bla bla.</p>
-      				<p>las instalaciones...</p>
-      				<div class="media p-3">
-        				<img src="ejmplosimg/ejemdoc/doc2.jpg" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
-        				<div class="media-body">
-         		 		<h4>Dr. Especialista en...<small><br><i>Posted on February 20 2016</i></small></h4>
-          				<p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</p>
-        				</div>
-      				</div>
-    			</div>
-  			</div>
-  	</div>
-	</section>
-<!--fin de comentarios especialistas-->
+  		<h2 style="text-align: center">Conoce nuestras instalaciones, asegurate en manos de quien dejas a tu familiar.</h2><br>
+      <a href="ubicacion.php" class="btn btn-black"><b>Agendar visita</b></a></div>
+  			
 
 <br><br>
 
