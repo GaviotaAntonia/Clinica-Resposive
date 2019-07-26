@@ -19,19 +19,17 @@
 
 <!--Estilos para el carrusel-->
   <style>
-    /* Make the image fully responsive */
-    .carousel-inner img {
+  /* Make the image fully responsive */
+  .carousel-inner img {
       width: 100%;
       height: 100%;
-    }
+  }
   </style>
 <!--Final de estilos para el carrusel-->
 
 <!--NAVBAR DE INCIO-->
-
-<!--Inicio Footer-->
   <?php include 'nav.html'; ?>
-<!--Final Foooter-->
+
 
 <!--BODY-->
 
@@ -80,6 +78,7 @@
       </div>
   </div>
 <!-- FINAL DE CARRUSEL-->
+
     <h3 style="text-align: center;color: black"><b>Proyecto de Vida y Amor A.C.</b></h3><br>
     <p style="text-align: center">"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</p><br><br>
          <div class="card-deck">
