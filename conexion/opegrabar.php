@@ -19,4 +19,14 @@
             echo 'malRegistroEnlaBD';
         }
     }
+
+    if($_POST['nobre'] == NULL or  $_POST['email'] == NULL or $_POST['sexo'] == NULL)
+    {
+        
+        echo "lo siento pero envio campos vacios";
+    }
+    else
+    {
+        //envio del correo
+    }
 ?>
