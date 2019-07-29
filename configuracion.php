@@ -54,7 +54,7 @@
   <div class="dropdown">
     <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
     <div style="text-align: center" class="dropdown-menu">
-      <a class="dropdown-item" class="btn btn-link" href="configuracion.php">Configuracion</a>
+      <a class="dropdown-item" class="btn btn-link" href="configuracion.php">Configuración</a>
       <a class="dropdown-item" class="btn btn-link" href="#">Mensajes</a>
       <a class="dropdown-item" class="btn btn-link" href="#">Salir</a>
     </div>
@@ -63,7 +63,7 @@
 
 <div class="vertical-menu">
   <a href="#" class="active">Panel</a>
-  <a href="#">Pagina</a>
+  <a href="#">Página</a>
   <a href="#">Registro</a>
   <a href="#">Visitas</a>
   <a href="#">Redes sociales</a>
@@ -76,8 +76,8 @@
 <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success" style='width:310px; height:30px'></a>
 
 <form action="configuracion_submit" method="get" accept-charset="utf-8">
-  <h2>Configuracion de la Cuenta</h2>
-  <h4>Modificar datos:</h4>
+  <h2>Configuración de la Cuenta</h2>
+  <h3>Modificar datos:</h3>
                <form id="register-form" action="conexion/opegrabar.php" method="post" role="form" style="display: none;">
                   <div class="container">  
                     <form class="form-inline" action="/action_page.php">
