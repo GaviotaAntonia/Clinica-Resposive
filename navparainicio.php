@@ -24,20 +24,12 @@
   <!-- termino de fuentes utilizadas-->
 </head>
 <!--NAVBAR DE INCIO-->
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="inicio.php"><img src="imagenes/logoparanav.png" alt="logo" style="width:40px;"></a>
-          <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link  active w3-bar-item w3-button w3-right">Administracion</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Agenda</a></li><li class="nav-item"><a class="nav-link" href="calendar.html">Eventos</a></li>    
-              <li class="nav"><a class="nav-link" href="#">Pacientes</a></li>
-              <form class="form-inline">
-          <button class="btn btn-outline-success" type="button"><img src="svg/sign-in.svg" alt="..." width="20"> Salir</button>
-        </form>
+      <nav class="navbar navbar-expand-sm bg-dark ">
+        <p style="color: white" align="left">Bienvenido</p>
       </nav>
 
 
+
+  </nav>
 <!--FINAL NAVBAR-->
 </html>

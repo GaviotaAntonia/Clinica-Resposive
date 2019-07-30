@@ -16,7 +16,7 @@
 
 		}else
 		{
-		echo "DATOS INCORRECTOS";
+		echo "Contraseña incorrecta";
 }
 
  ?>

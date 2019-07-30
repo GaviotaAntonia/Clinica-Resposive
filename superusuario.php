@@ -96,31 +96,36 @@
 </style>
 </head>
 <body>
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="dropdown">
+        <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
+        <div style="text-align: center" class="dropdown-menu">
+          <a class="dropdown-item" class="btn btn-link" href="configuracion.php">Configuración</a>
+          <a class="dropdown-item" class="btn btn-link" href="#">Mensajes</a>
+          <a class="dropdown-item" class="btn btn-link" href="#">Salir</a>
+        </div>
+      </div>
 
-
-  <div class="dropdown">
-    <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success" dropdown-toggle data-toggle="dropdown">Administrador</button>
-    <div style="text-align: center" class="dropdown-menu">
-      <a class="dropdown-item" class="btn btn-link" href="configuracion.php">Configuracion</a>
-      <a class="dropdown-item" class="btn btn-link" href="#">Mensajes</a>
-      <a class="dropdown-item" class="btn btn-link" href="#">Salir</a>
+      <div class="vertical-menu">
+        <a class="active" href="#"><img src="svg/dashboard.svg" alt="..." width="20"> Panel</a>
+        <a href="#"><img src="svg/browser.svg" alt="..." width="20">    Perfil</span></a>
+        <a href="#"><img src="svg/repo.svg" alt="..." width="20">  Lista de Pacientes</a>
+        <a href="#"><img src="svg/repo-pull.svg" alt="..." width="20">   Traslados</a>
+        <a href="#"><img src="svg/clippy.svg" alt="..." width="20">  Expedientes</a>
+        <a href="#"><img src="svg/location.svg" alt="..." width="20">   Visitas</a>
+        <a href="#popup"class="popup-link"><img src="svg/organization.svg" alt="..." width="20"> Redes sociales</a>
+        <a href="#"><img src="svg/gear.svg" alt="..." width="20"> Configuracion general</a>
+        <a href="#"><img src="svg/comment.svg" alt="..." width="20"> Enviar comentarios</a>
+        <a href="#"><img src="svg/report.svg" alt="..." width="20"> Reportar un problema</a>
+      </div>
+      <br>
+      <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success"></a>
+      </div>
+      <div class="col-sm-8">
+    
+      </div>
     </div>
-  </div>
-<div class="vertical-menu">
-  <a class="active" href="#"><img src="svg/dashboard.svg" alt="..." width="20"> Panel</a>
-  <a href="#"><img src="svg/browser.svg" alt="..." width="20">    Perfil</span></a>
-  <a href="#"><img src="svg/repo.svg" alt="..." width="20">  Lista de Pacientes</a>
-  <a href="#"><img src="svg/repo-pull.svg" alt="..." width="20">   Traslados</a>
-  <a href="#"><img src="svg/clippy.svg" alt="..." width="20">  Expedientes</a>
-  <a href="#"><img src="svg/location.svg" alt="..." width="20">   Visitas</a>
-  <a href="#popup"class="popup-link"><img src="svg/organization.svg" alt="..." width="20"> Redes sociales</a>
-  <a href="#"><img src="svg/gear.svg" alt="..." width="20"> Configuracion general</a>
-  <a href="#"><img src="svg/comment.svg" alt="..." width="20"> Enviar comentarios</a>
-  <a href="#"><img src="svg/report.svg" alt="..." width="20"> Reportar un problema</a>
-</div>
-<br>
-<a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success" style='width:310px; height:30px'>
-
 <div class="modal-wrapper" id="popup">
     <div class="popup-contenedor">
       <h2>Redes sociales:</h2>
