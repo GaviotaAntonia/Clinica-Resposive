@@ -55,6 +55,65 @@ body {margin:0;height:0;}
   <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
   <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a> 
   <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a>
-  <a href="" class="" style="background-color: black"><i class="fa fa-users"></i></a>  
+  <button type="button" class="btn" data-toggle="modal" data-target="#myModal2" style="color: black"><i class="fa fa-users"></i></button>  
 </div>
+
+
+
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title" style="text-align:center;">Bienvenido Padre o Tutor</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                      <div class="panel-body">
+                  <div class="text-center">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <form id="login-form" action="conexion/logueocontacto.php" method="post" role="form" style="display: block;">
+                          <div class="container">
+                            <form class="form-inline" action="/action_page.php">
+                              <label for="email2" class="mb-2 mr-sm-2">Correo:</label>
+                              <input type="text" class="form-control mb-2 mr-sm-2" id="usuario" placeholder="Ingresa tu correo" name="correo">
+                              <label for="pwd2" class="mb-2 mr-sm-2">Contraseña:</label>
+                              <input type="password" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="Ingresa tu contraseña" name="pswd">    
+                              <button type="submit" class="btn btn-dark" style="text-align:center;">Entrar</button>
+                              <div class="form-group">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <div class="text-center">
+                                      <a href="https://phpoll.com/recover" tabindex="5" class="forgot-password" style="color: #0B3B17">Olvidaste tu contraseña?</a>
+                                    </div>
+                                    <div class="form-group text-center">
+                                      <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+                                      <label for="remember">Recuerdame</label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
 </body>
