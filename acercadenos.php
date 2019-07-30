@@ -124,7 +124,6 @@
 
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
-
   <?php include 'menudere.php'; ?>
 <!--Final Foooter-->
 

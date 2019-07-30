@@ -22,11 +22,12 @@
 
 <!--Inicio Footer-->
   <?php include 'nav1.html'; ?>
+  <?php include 'conexion/conexion.php';?>
 <!--Final Foooter-->
 
-<!--?php
-    $consultaUsuarios = mysql_query("SELECT * FROM usuarios");
-?-->
+<?php
+    $consultaUsuarios = mysql_query("SELECT * FROM usuario");
+?>
 
 <div class="table-responsive"> 
    ";
@@ -38,47 +39,38 @@
         ?&gt;
  
 <table class="table table-bordered table-striped">
- 
-<thead> 
- 
-<tr>
-              <!-- definimos cabeceras de la tabla --> 
-<th>No.</th>
-<th>Apellido Paterno</th>
-<th>Apellido Materno</th>
-<th>Nombre(s)</th>
-<th>Direccion</th>
-<th>Estado de Procedencia</th>
-<th>Telefono</th>
-<th>Celular</th>
-<th>Traslado Forzoso</th>
-<th>Traslado Voluntario</th>
-<th>Nombre del trasladado</th>
-<th>Pago</th>
-</tr>
+  <thead> 
+    <tr>
+      <!-- definimos cabeceras de la tabla --> 
+      <th>Usuario</th>
+      <th>Nombre(s)</th>
+      <th>Apellido Paterno</th>
+      <th>Apellido Materno</th>
+      <th>Direccion</th>
+      <th>Estado de Procedencia</th>
+      <th>Telefono</th>
+      <th>Celular</th>
+     
+    </tr>
 </thead>
  
  
 <tbody>
-  <!--?php
+  <?php
            //recorremos resultado de la consulta y añadimos el contenido a la tabla
      while($row= mysql_fetch_array($consultaUsuarios)) 
      {
-              echo "<tr-->
-<tr>
-<td>".$row['tabla_No.']."</td>
-<td>".$row['tabla_Paterno']."</td>
-<td>".$row['tabla_Materno']."</td>
-<td>".$row['tabla_Nombre']."</td>
-<td>".$row['tabla_Direccion']."</td>
-<td>".$row['tabla_Estado de Procedencia']."</td>
-<td>".$row['tabla_Telefono']."</td>
-<td>".$row['tabla_Celular']."</td>
-<td>".$row['tabla_Forzoso']."</td>
-<td>".$row['tabla_Voluntario']."</td>
-<td>".$row['tabla_Nombre del trasladado']."</td>
-<td>".$row['tabla_Pago']."</td>
-</tr>
+                   echo "<tr>
+                   <tr>
+                    <td>".$row['usuario_usuario.']."</td>
+                    <td>".$row['usuario_nombre']."</td>
+                    <td>".$row['tabla_Materno']."</td>
+                    <td>".$row['tabla_Nombre']."</td>
+                    <td>".$row['tabla_Direccion']."</td>
+                    <td>".$row['tabla_Estado de Procedencia']."</td>
+                    <td>".$row['tabla_Telefono']."</td>
+                    <td>".$row['tabla_Celular']."</td>
+                  
 </tbody>
  
 </table>
