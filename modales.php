@@ -71,9 +71,6 @@ body {
   <!--Inicio Footer-->
   <?php include 'nav2.html'; ?>
   <!--Final Foooter-->
-
-
-
-   
+  
 </body>
 </html> 
