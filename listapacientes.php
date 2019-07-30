@@ -18,12 +18,14 @@
   <!-- termino de fuentes utilizadas-->
 </head>
 <body>
+
   <!--Inicio Footer-->
   <?php include 'nav1.html'; ?>
-  <!--Final Foooter-->
+<!--Final Foooter-->
+
  <style>
 .vertical-menu {
-  width: 403.25px;
+  width: 310px;
   height: 460px;
   overflow-y: auto;
 }
@@ -46,15 +48,56 @@
 }
 </style>
 
+<style >
+  #popup {
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 0px;
+  }
+  #popup:target {
+    visibility:visible;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:0;
+    z-index: 000;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+  }
+  .popup-contenedor {
+    position: relative;
+    margin:7% auto;
+    padding:30px 50px;
+    background-color: #fafafa;
+    color:#333;
+    border-radius: 3px;
+    width:50%;
+  }
+  a.popup-cerrar {
+    position: absolute;
+    top:3px;
+    right:3px;
+    background-color: #333;
+    padding:7px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1;
+    color:#fff;
+  }
+
+  a.popup-link {
+      text-align: justify;
+  }
+</style>
 </head>
 <body>
-<div class="container-fluid">
   <div class="row">
-    <div class="col" style="background-color:lavender;"> </div>
-  </div>
-</div>
-    <div class="row">
-      <div class="col-sm-3">
+    <div class="col-sm-3">
       <div class="dropdown">
         <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
         <div style="text-align: center" class="dropdown-menu">
@@ -80,6 +123,7 @@
       <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success"></a>
       </div>
       <div class="col-sm-8">
+      <div class="col-sm-8">
       <form action="configuracion.php" method="post" accept-charset="utf-8">
         <h2>Configuración de la Cuenta</h2>
         <h3>Modificar datos:</h3>
@@ -100,7 +144,9 @@
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-group text-center">
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Registrar</button>
                       <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Modificar</button>
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Eliminar</button>
                     </div>
                   </div>
                 </div>
@@ -110,33 +156,25 @@
         </form>
       </form>
       </div>
+      </div>
     </div>
+<div class="modal-wrapper" id="popup">
+    <div class="popup-contenedor">
+      <h2>Redes sociales:</h2>
+        <div>
+          <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"style="font-size: 50px"></i> Facebook</a> 
+          <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter" style="font-size: 50px"></i> Twitter</a> 
+          <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"style="font-size: 50px"></i> Instagram</a>
+          <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube" style="font-size: 50px"></i> Youtube</a>
+        </div>
+          <a class="popup-cerrar" href="#">X</a>
+    </div>
+</div>
 
-<!--Inicio Footer-->
+
+  <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
 <!--Final Foooter-->
 </body>
+
 </html>
-
-<?php 
-  include 'conexion/conexion.php';
-
-  $nombre="";
-  $apellidopat="";
-  $apellidopat="";
-  $contrasenna="";
-  $recontra="";
-  $correo="";
-
-  if(isset($_POST['btnmodif']))
-  {
-    echo "presiono el boton modificar";
-  }
-  
-
- ?>
-   
-         
-    </script> 
-
-

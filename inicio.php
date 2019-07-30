@@ -133,7 +133,9 @@
 
   	<div class="container mt-3">
   		<h2 style="text-align: center">Conoce nuestras instalaciones, asegurate en manos de quien dejas a tu familiar.</h2><br>
-      <a href="ubicacion.php" class="btn btn-black" style="text-align:center"><b>Agendar visita</b></a></div>
+        <div class="form-group text-center">
+                      <a href="ubicacion.php" class="btn btn-black" style="text-align:center"><b>Agendar visita</b></a></div>
+                    </div>
   			
 
 <br><br>

@@ -110,7 +110,7 @@
       <div class="vertical-menu">
         <a class="active" href="#"><img src="svg/dashboard.svg" alt="..." width="20"> Panel</a>
         <a href="#"><img src="svg/browser.svg" alt="..." width="20">    Perfil</span></a>
-        <a href="#"><img src="svg/repo.svg" alt="..." width="20">  Lista de Pacientes</a>
+        <a href="listapacientes.php"><img src="svg/repo.svg" alt="..." width="20">  Lista de Pacientes</a>
         <a href="#"><img src="svg/repo-pull.svg" alt="..." width="20">   Traslados</a>
         <a href="#"><img src="svg/clippy.svg" alt="..." width="20">  Expedientes</a>
         <a href="#"><img src="svg/location.svg" alt="..." width="20">   Visitas</a>
