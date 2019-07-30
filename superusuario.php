@@ -134,6 +134,7 @@
           <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter" style="font-size: 50px"></i> Twitter</a> 
           <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"style="font-size: 50px"></i> Instagram</a>
           <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube" style="font-size: 50px"></i> Youtube</a>
+          <a href="" class="" style="background-color: black"><i class="fa fa-users"></i></a>  
         </div>
           <a class="popup-cerrar" href="#">X</a>
     </div>

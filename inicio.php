@@ -179,6 +179,8 @@
 
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
+  
+  <?php include 'menudere.php'; ?>
 <!--Final Foooter-->
 
 
@@ -215,17 +217,5 @@
       });
   </script>
 <!--final JAVASCRIPT-->
-
-<style>
-body {margin:0;height:0;}
-</style>
-<body>
-  <div class="icon-bar">
-    <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"></i></a> 
-    <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter"></i></a> 
-    <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"></i></a>
-    <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a> 
-  </div>
-</body>
 
 </html>
