@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Inicio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles-merged.css">
+
+
+  <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"> <!--FAVICON-->
+  <style>
+    position
+  </style>
+
+ <!-- fuentes utilizadas  -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <!-- termino de fuentes utilizadas-->
+</head>
+<!--NAVBAR DE INCIO-->
+  <!--    <nav class="navbar navbar-expand-sm bg-dark navbar-dark horizontal-nav full-width horizontalNav-notprocessed">
+        <a class="navbar-brand" href="inicio.php"><img src="imagenes/logoparanav.png" alt="logo" style="width:40px;"></a>
+          <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link  active w3-bar-item w3-button w3-right">Administracion</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Agenda</a></li><li class="nav-item"><a class="nav-link" href="calendar.html">Eventos</a></li>    
+              <li class="nav"><a class="nav-link" href="#">Pacientes</a></li>
+              <form class="form-inline">
+          <button class="btn btn-outline-success" type="button"><img src="svg/sign-in.svg" alt="..." width="20"> Salir</button>
+        </form>
+      </nav>-->
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+     <div id="main">
+      <button class="openbtn" onclick="openNav()" style="font-size: 18px">☰ Menú</button>  
+    </div>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#"><img src="imagenes/logoparanav.png" alt="logo" style="width:40px;">Proyecto de Vida y amor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+               <a class="nav-link" href="#">Agenda</a>
+            </li>
+            <li>
+               <a class="nav-link" href="calendar.html">Eventos</a></li>  
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Salir</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<div id="mySidebar" class="sidebar vertical-nav full-width horizontalNav-notprocessed" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#"><i style='font-size:24px' class='fas'>&#xf2bd;</i>Perfil</span></a>
+        <a href="#"><i style='font-size:24px' class='fas'>&#xf0cb;</i>Lista de Pacientes</a>
+        <a href="#"><img src="svg/repo-pull.svg" alt="..." width="20">   Traslados</a>
+        <a href="#"><img src="svg/clippy.svg" alt="..." width="20">  Expedientes</a>
+        <a href="#"><img src="svg/location.svg" alt="..." width="20">   Visitas</a>
+        <a href="#popup"class="popup-link"><img src="svg/organization.svg" alt="..." width="20"> Redes sociales</a>
+        <a href="#"><img src="svg/gear.svg" alt="..." width="20"> Configuracion general</a>
+        <a href="#"><img src="svg/comment.svg" alt="..." width="20"> Enviar comentarios</a>
+        <a href="#"><img src="svg/report.svg" alt="..." width="20"> Reportar un problema</a>
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+<!--FINAL NAVBAR-->
+</html>
+
