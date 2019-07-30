@@ -18,11 +18,9 @@
   <!-- termino de fuentes utilizadas-->
 </head>
 <body>
-
   <!--Inicio Footer-->
   <?php include 'nav1.html'; ?>
   <!--Final Foooter-->
-
  <style>
 .vertical-menu {
   width: 403.25px;
@@ -50,8 +48,13 @@
 
 </head>
 <body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" style="background-color:lavender;"> </div>
+  </div>
+</div>
     <div class="row">
-    <div class="col-sm-3">
+      <div class="col-sm-3">
       <div class="dropdown">
         <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
         <div style="text-align: center" class="dropdown-menu">
@@ -73,17 +76,16 @@
         <a href="#"><img src="svg/comment.svg" alt="..." width="20"> Enviar comentarios</a>
         <a href="#"><img src="svg/report.svg" alt="..." width="20"> Reportar un problema</a>
       </div>
-
+      <br>
       <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success"></a>
-    </div>
-    <div class="col-sm-1"></div>
-    <div class="col-sm-8">
-      <form action="configuracion_submit" method="get" accept-charset="utf-8">
+      </div>
+      <div class="col-sm-8">
+      <form action="configuracion.php" method="post" accept-charset="utf-8">
         <h2>Configuración de la Cuenta</h2>
         <h3>Modificar datos:</h3>
         <form id="register-form" action="conexion/opegrabar.php" method="post" role="form" style="display: none;">
           <div class="container">  
-            <form class="form-inline" action="/action_page.php">
+            <form class="form-inline" action="conexion/modificar.php" method="post">
               <span class="input-group-addon"><label for="email2" class="mb-2 mr-sm-2">Usuario:</label></span>
               <input type="text" class="form-control mb-2 mr-sm-2" id="usuario2" placeholder="Ingresa tu usuario" name="usuario2">
               <label for="nombre2" class="mb-2 mr-sm-2">Nombre:</label>
@@ -98,7 +100,7 @@
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-group text-center">
-                      <button type="submit" class="btn btn-dark" style="text-align:center;">Modificar</button>
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Modificar</button>
                     </div>
                   </div>
                 </div>
@@ -107,10 +109,34 @@
           </div>
         </form>
       </form>
+      </div>
     </div>
+
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
 <!--Final Foooter-->
-  </div>
 </body>
 </html>
+
+<?php 
+  include 'conexion/conexion.php';
+
+  $nombre="";
+  $apellidopat="";
+  $apellidopat="";
+  $contrasenna="";
+  $recontra="";
+  $correo="";
+
+  if(isset($_POST['btnmodif']))
+  {
+    echo "presiono el boton modificar";
+  }
+  
+
+ ?>
+   
+         
+    </script> 
+
+

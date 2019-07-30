@@ -27,15 +27,14 @@
 		</tr>
 
 		<?php 
-		$sql="SELECT * from tipousuario";
+		$sql="SELECT * from usuario";
 		$result=mysqli_query($conexion,$sql);
 
 		while($mostrar=mysqli_fetch_array($result)){
 		 ?>
 
 		<tr>
-			<td><?php echo $mostrar['id_tipousuario'] ?></td>
-			<td><?php echo $mostrar['tipousuario'] ?></td>
+			<td><?php echo $mostrar['id_usuario'] ?></td>
 		</tr>
 	<?php 
 	}

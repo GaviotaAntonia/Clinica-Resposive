@@ -2,11 +2,11 @@
 
 	$conexion=mysqli_connect('localhost','root','','proyectovidayamor');
 	if($conexion){
-		echo "conexion exitosa";
+		//echo "conexion exitosa";
 	}
 	else
 	{
-		echo "esta fallando algo";
+		echo "Fallo de conexion";
 	}
  ?>
 

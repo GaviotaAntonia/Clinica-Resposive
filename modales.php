@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -23,7 +24,7 @@ body {
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -72,10 +73,15 @@ body {
   <!--Final Foooter-->
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="#"><i style='font-size:24px' class='fas'>&#xf2bd;</i>Perfil</span></a>
+        <a href="#"><i style='font-size:24px' class='fas'>&#xf0cb;</i>Lista de Pacientes</a>
+        <a href="#"><img src="svg/repo-pull.svg" alt="..." width="20">   Traslados</a>
+        <a href="#"><img src="svg/clippy.svg" alt="..." width="20">  Expedientes</a>
+        <a href="#"><img src="svg/location.svg" alt="..." width="20">   Visitas</a>
+        <a href="#popup"class="popup-link"><img src="svg/organization.svg" alt="..." width="20"> Redes sociales</a>
+        <a href="#"><img src="svg/gear.svg" alt="..." width="20"> Configuracion general</a>
+        <a href="#"><img src="svg/comment.svg" alt="..." width="20"> Enviar comentarios</a>
+        <a href="#"><img src="svg/report.svg" alt="..." width="20"> Reportar un problema</a>
 </div>
 
 <div id="main">

@@ -14,7 +14,7 @@
         include('conexion.php');
         $insertar_Usuarios = "INSERT INTO usuario(id_usuario,usuario,nombre,apellidopat,apellidomat,contrasenna,recontra,correo) VALUES (0,'$usuario','$nombre','$apellidopat','$apellidomat','$contrasenna','$reco','$correos')";
         if ($conexion->query($insertar_Usuarios)){
-            echo 'bien';
+            //echo 'bien';
         }else{
             echo 'malRegistroEnlaBD';
         }
