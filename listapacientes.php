@@ -16,12 +16,13 @@
  <!-- fuentes utilizadas  -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- termino de fuentes utilizadas-->
 </head>
 <body>
 
   <!--Inicio Footer-->
-  <?php include 'nav1.html'; ?>
+  <?php include 'nav2.html'; ?>
 <!--Final Foooter-->
 
  <style>
@@ -108,39 +109,14 @@ th, td {
 </style>
 </head>
 <body>
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="dropdown">
-        <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
-        <div style="text-align: center" class="dropdown-menu">
-          <a class="dropdown-item" class="btn btn-link" href="configuracion.php">Configuración</a>
-          <a class="dropdown-item" class="btn btn-link" href="#">Mensajes</a>
-          <a class="dropdown-item" class="btn btn-link" href="#">Salir</a>
-        </div>
-      </div>
 
-      <div class="vertical-menu">
-        <a href="#"><img src="svg/dashboard.svg" alt="..." width="20"> Panel</a>
-        <a href="#"><img src="svg/browser.svg" alt="..." width="20">    Perfil</span></a>
-        <a href="listapacientes.php"><img src="svg/repo.svg" alt="..." width="20">  Lista de Pacientes</a>
-        <a href="#"><img src="svg/repo-pull.svg" alt="..." width="20">   Traslados</a>
-        <a href="#"><i style='font-size:24px' class='fas'>&#xf2bb;</i>Expedientes</a>
-        <a href="#"><img src="svg/location.svg" alt="..." width="20">   Visitas</a>
-        <a href="#popup"class="popup-link"><img src="svg/organization.svg" alt="..." width="20"> Redes sociales</a>
-        <a href="#"><i class="fa fa-youtube"></i> Dar de Alta Pacientes</a>
-      </div>
-
-      <br>
-      <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success"></a>
-      </div>
-
-
-      <div class="col-sm-8">
-          <table class="table table-striped ">
             <?php include 'conexion/conexion.php' ?><br><br>
 
-        <div class="table-responsive">
-          <table class="table table-bordered table-striped">
+       <div class="table-responsive-sm">
+        <table class="table">
+          <div class="table-responsive"> 
+            <table class="table table-bordered table-striped">
+
             <thead>
               <tr>
                 <!-- definimos cabeceras de la tabla -->
@@ -148,6 +124,12 @@ th, td {
                 <th>Nombre(s)</th>
                 <th>Apellido Paterno</th>
                 <th>Apellido Materno</th>
+                <th>Fecha Nacimiento</th>
+                <th>Estado</th>
+                <th>Colonia</th>
+                <th>Calle</th>
+                <th>Referencia de Calle</th>
+                <th>Edad</th>
                 <th>Sangre</th>
               </tr>
             </thead>
@@ -163,19 +145,24 @@ th, td {
                 <td><?php echo $mostrar['nombre']?></td>
                 <td><?php echo $mostrar['apellidopat'] ?></td>
                 <td><?php echo $mostrar['apellidomat'] ?></td>
+                <td><?php echo $mostrar['fechanacimiento'] ?></td>
+                <td><?php echo $mostrar['id_estado'] ?></td>
+                <td><?php echo $mostrar['id_colonia'] ?></td>
+                <td><?php echo $mostrar['calle'] ?></td>
+                <td><?php echo $mostrar['referenciadecalle'] ?></td>
+                <td><?php echo $mostrar['edad'] ?></td>
                 <td><?php echo $mostrar['tipodesangre']?></td>
-                <td><a href="m">Modificar</a></td>
-                <td><a href="#">Eliminar</a></td>
+                <td><a href="m"><i style='font-size:24px' class='fas'>&#xf573;</i></a></td>
+                <td><a href="#"><i class="material-icons">&#xe872;</i></a></td>
               </tr>
               <?php }?>
-</tbody>
 
-</table>
-
+            </tbody>
+          </table> 
+        </div>
+  </table>
 </div>
-      </div>
 
-    </div>
 
 
   <!--Inicio Footer-->

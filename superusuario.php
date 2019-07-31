@@ -17,13 +17,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
  <!-- fuentes utilizadas  -->
+ 
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-  <!-- termino de fuentes utilizadas-->
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  <!-- termino de fuentes utilizadas-->
 </head>
 <body>
 
   <!--Inicio Footer-->
-  <?php include 'nav1.html'; ?>
+  <?php include 'nav2.html'; ?>
 <!--Final Foooter-->
 
  <style>
@@ -101,31 +103,8 @@
 <body>
   <div class="row">
     <div class="col-sm-3">
-      <div class="dropdown">
-        <a href="#"><img href="#" src="imagenes/descarga.png" alt="..." width="100"></a><button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
-        <div style="text-align: center" class="dropdown-menu">
-          <a class="dropdown-item" class="btn btn-link" href="configuracion.php">Configuración</a>
-          <a class="dropdown-item" class="btn btn-link" href="#">Mensajes</a>
-          <a class="dropdown-item" class="btn btn-link" href="#">Salir</a>
-        </div>
-      </div>
 
-      <div class="vertical-menu">
-        <a class="active" href="#"><i class="material-icons">&#xe871;</i> Panel</a>
-        <a href="#"><i style='font-size:24px' class='fas'>&#xf2bb;</i> Perfil</span></a>
-        <a href="listapacientes.php"><i style="font-size:24px" class="fa">&#xf2b9;</i> Lista de Pacientes</a>
-        <a href="#"><i style="font-size:24px" class="fa">&#xf0f9;</i> Traslados</a>
-        <a href="#"><i style="font-size:24px" class="fa">&#xf02d;</i> Expedientes</a>
-        <a href="#"><i style='font-size:24px' class='fas'>&#xf3c5;</i> Visitas</a>
-        <a href="#popup"class="popup-link"><i class="material-icons">&#xe2c9;</i> Redes sociales</a>
-        <a href="altapaciente.php"><i style='font-size:24px' class='fas'>&#xf46c;</i> Alta Paciente</a>
-        <a href="#"><i style='font-size:24px' class='fas'>&#xf46d;</i> Alta Contacto</a>
-        <a href="#"><i style="font-size:24px" class="fa">&#xf085;</i> Configuracion general</a>
-        <a href="#"><i style='font-size:24px' class='far'>&#xf4ad;</i> Enviar comentarios</a>
-        <a href="#"><i class="material-icons">&#xe8b2;</i> Reportar un problema</a>
-      </div>
-      <br>
-      <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success"></a>
+ 
       </div>
       <div class="col-sm-8">
 
