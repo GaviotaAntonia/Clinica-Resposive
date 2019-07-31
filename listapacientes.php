@@ -109,24 +109,13 @@ th, td {
 </style>
 </head>
 <body>
-  <div class="row">
-    <div class="col-sm-2">
-      <div class="dropdown">
-        <a href="#"><img href="#" src="imagenes/descarga.png" alt="..."></a>
-        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Administrador</button>
-        <div style="text-align: center" class="dropdown-menu">
-          <a class="dropdown-item" class="btn btn-link" href="configuracion.php">Configuración</a>
-          <a class="dropdown-item" class="btn btn-link" href="#">Mensajes</a>
-          <a class="dropdown-item" class="btn btn-link" href="#">Salir</a>
-        </div>
-      </div>
 
-      <div class="col-sm-8">
-          <table class="table table-striped ">
             <?php include 'conexion/conexion.php' ?><br><br>
 
-        <div class="table-responsive"> 
-          <table class="table table-bordered table-striped">
+       <div class="table-responsive-sm">
+        <table class="table">
+          <div class="table-responsive"> 
+            <table class="table table-bordered table-striped">
             <thead>
               <tr>
                 <!-- definimos cabeceras de la tabla -->
@@ -166,14 +155,12 @@ th, td {
                 <td><a href="#"><i class="material-icons">&#xe872;</i></a></td>
               </tr>
               <?php }?>
-</tbody>
- 
-</table>
- 
+            </tbody>
+          </table> 
+        </div>
+  </table>
 </div>
-      </div>
-    
-    </div>
+
 
 
   <!--Inicio Footer-->

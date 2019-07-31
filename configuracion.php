@@ -19,7 +19,7 @@
 </head>
 <body>
   <!--Inicio Footer-->
-  <?php include 'nav1.html'; ?>
+  <?php include 'nav2.html'; ?>
   <!--Final Foooter-->
  <style>
 .vertical-menu {
