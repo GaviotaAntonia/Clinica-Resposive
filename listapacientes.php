@@ -139,7 +139,7 @@ th, td {
           <table class="table table-striped ">
             <?php include 'conexion/conexion.php' ?><br><br>
 
-        <div class="table-responsive"> 
+        <div class="table-responsive">
           <table class="table table-bordered table-striped">
             <thead>
               <tr>
@@ -153,7 +153,7 @@ th, td {
             </thead>
 
             <tbody>
-               <?php 
+               <?php
             $sql="SELECT * from paciente";
             $result=mysqli_query($conexion,$sql);
             while($mostrar=mysqli_fetch_array($result)){
@@ -169,12 +169,12 @@ th, td {
               </tr>
               <?php }?>
 </tbody>
- 
+
 </table>
- 
+
 </div>
       </div>
-    
+
     </div>
 
 

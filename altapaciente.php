@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Inicio/Administrador</title>
+  <title>Alta Paciente</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -118,7 +118,7 @@
         <a href="#"><i style="font-size:24px" class="fa">&#xf02d;</i> Expedientes</a>
         <a href="#"><i style='font-size:24px' class='fas'>&#xf3c5;</i> Visitas</a>
         <a href="#popup"class="popup-link"><i class="material-icons">&#xe2c9;</i> Redes sociales</a>
-        <a href="altapaciente.php"><i style='font-size:24px' class='fas'>&#xf46c;</i> Alta Paciente</a>
+        <a href="#"><i style='font-size:24px' class='fas'>&#xf46c;</i> Alta Paciente</a>
         <a href="#"><i style='font-size:24px' class='fas'>&#xf46d;</i> Alta Contacto</a>
         <a href="#"><i style="font-size:24px" class="fa">&#xf085;</i> Configuracion general</a>
         <a href="#"><i style='font-size:24px' class='far'>&#xf4ad;</i> Enviar comentarios</a>
@@ -127,7 +127,52 @@
       <br>
       <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success"></a>
       </div>
+
       <div class="col-sm-8">
+      <form action="configuracion.php" method="post" accept-charset="utf-8">
+        <h2 style="text-align: center">Alta Paciente</h2>
+        <h3>Introducir datos:</h3>
+        <form id="register-form" action="conexion/opegrabar.php" method="post" role="form" style="display: none;">
+          <div class="container">
+            <form class="form-inline" action="conexion/modificar.php" method="post">
+              <span class="input-group-addon"><label for="email2" class="mb-2 mr-sm-2">CURP</label></span>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apemat2" placeholder="CURP" name="apemat2" style="text-transform: uppercase;">
+              <label for="nombre2" class="mb-2 mr-sm-2">Nombre:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="nombre2" placeholder="Ingresa tu nombre" name="nombre2" style="text-transform: uppercase;">
+              <label for="apepat" class="mb-2 mr-sm-2">Apellido Paterno:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa tu Apellido Paterno" name="apepat2" style="text-transform: uppercase;">
+              <label for="apemat" class="mb-2 mr-sm-2">Apellido Materno:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa Apellido Materno" name="apepat2" style="text-transform: uppercase;">
+              <label for="apemat" class="mb-2 mr-sm-2">Fecha de Nacimiento:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa Fecha de Nacimiento" name="apepat2" style="text-transform: uppercase;">
+              <label for="apemat" class="mb-2 mr-sm-2">Estado de procedencia:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa Estado de Procedencia" name="apepat2" style="text-transform: uppercase;">
+              <label for="apemat" class="mb-2 mr-sm-2">Colonia:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa Colonia" name="apepat2" style="text-transform: uppercase;">
+              <label for="apemat" class="mb-2 mr-sm-2">Calle:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa Calle" name="apepat2" style="text-transform: uppercase;">
+              <label for="apemat" class="mb-2 mr-sm-2">Referencia:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa Referencia" name="apepat2" style="text-transform: uppercase;">
+              <label for="apemat" class="mb-2 mr-sm-2">Edad:</label>
+              <input type="range" name="edad" min="18" max="99" step="1" value="30">
+              <label for="correo2" class="mb-2 mr-sm-2">Tipo de sangre:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="apemat2" placeholder="Ingresa Tipo de Sangre" name="apemat2" style="text-transform: uppercase;">
+              <div class="form-group" id="registro">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group text-center">
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Registrar</button>
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Modificar</button>
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Eliminar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </form>
+      </form>
+      </div>
 
       </div>
     </div>
