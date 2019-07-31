@@ -32,6 +32,7 @@
   overflow-y: auto;
 }
 
+
 .vertical-menu a {
   background-color: #A3E4D7;
   color: black;

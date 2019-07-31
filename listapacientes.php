@@ -116,6 +116,7 @@ th, td {
         <table class="table">
           <div class="table-responsive"> 
             <table class="table table-bordered table-striped">
+
             <thead>
               <tr>
                 <!-- definimos cabeceras de la tabla -->
@@ -134,7 +135,7 @@ th, td {
             </thead>
 
             <tbody>
-               <?php 
+               <?php
             $sql="SELECT * from paciente";
             $result=mysqli_query($conexion,$sql);
             while($mostrar=mysqli_fetch_array($result)){
@@ -155,6 +156,7 @@ th, td {
                 <td><a href="#"><i class="material-icons">&#xe872;</i></a></td>
               </tr>
               <?php }?>
+
             </tbody>
           </table> 
         </div>

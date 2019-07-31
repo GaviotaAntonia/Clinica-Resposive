@@ -86,6 +86,7 @@
     color:#fff;
   }
 
+
   a.popup-link {
       text-align: justify;
 
