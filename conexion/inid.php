@@ -35,6 +35,9 @@
 
 		<tr>
 			<td><?php echo $mostrar['id_usuario'] ?></td>
+			<td><?php echo $mostrar['nombre']?></td>
+			<td><?php echo $mostrar['apellidopat'] ?></td>
+			<td><?php echo $mostrar['correo']?></td>
 		</tr>
 	<?php 
 	}
