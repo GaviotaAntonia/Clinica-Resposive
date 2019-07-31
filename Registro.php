@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Registro de Traslados</title>
+  <title>Registro de Usuarios</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -22,57 +22,63 @@
 
 <!--Inicio Footer-->
   <?php include 'nav1.html'; ?>
-  <?php include 'conexion/conexion.php';?>
 <!--Final Foooter-->
 
-<?php
-    $consultaUsuarios = mysql_query("SELECT * FROM usuario");
-?>
+<!--?php
+    $consultaUsuarios = mysql_query("SELECT * FROM usuarios");
+?-->
 
-<div class="table-responsive">
+<div class="table-responsive"> 
    ";
               echo "";
               echo "";
         echo "";
               echo "";
-           }
+           }      
         ?&gt;
-
+ 
 <table class="table table-bordered table-striped">
-  <thead>
-    <tr>
-      <!-- definimos cabeceras de la tabla -->
-      <th>Usuario</th>
-      <th>Nombre(s)</th>
-      <th>Apellido Paterno</th>
-      <th>Apellido Materno</th>
-      <th>Direccion</th>
-      <th>Estado de Procedencia</th>
-      <th>Telefono</th>
-      <th>Celular</th>
-
-    </tr>
+ 
+<thead> 
+ 
+<tr>
+              <!-- definimos cabeceras de la tabla --> 
+<th>Nombre de Usuario</th>
+<th>Apellido Paterno</th>
+<th>Apellido Materno</th>
+<th>Nombre (s)</th>
+<th>Edad</th>
+<th>Familiar/Informes</th>
+<th>ID Paciente</th>
+<th>Dia de Visita</th>
+<th>Telefono</th>
+<th>Celular</th>
+<th>Correo</th>
+</tr>
 </thead>
-
-
+ 
+ 
 <tbody>
-  <?php
+  <!--?php
            //recorremos resultado de la consulta y añadimos el contenido a la tabla
-     while($row= mysql_fetch_array($consultaUsuarios))
+     while($row= mysql_fetch_array($consultaUsuarios)) 
      {
-                   echo "<tr>
-                   <tr>
-                    <td>".$row['usuario_usuario.']."</td>
-                    <td>".$row['usuario_nombre']."</td>
-                    <td>".$row['tabla_Materno']."</td>
-                    <td>".$row['tabla_Nombre']."</td>
-                    <td>".$row['tabla_Direccion']."</td>
-                    <td>".$row['tabla_Estado de Procedencia']."</td>
-                    <td>".$row['tabla_Telefono']."</td>
-                    <td>".$row['tabla_Celular']."</td>
-
+              echo "<tr-->
+<tr>
+<td>".$row['tabla_Nombre']."</td>
+<td>".$row['tabla_Paterno']."</td>
+<td>".$row['tabla_Materno']."</td>
+<td>".$row['tabla_Nombre']."</td>
+<td>".$row['tabla_Edad']."</td>
+<td>".$row['tabla_Familiar/informes']."</td>
+<td>".$row['tabla_ID Paciente']."</td>
+<td>".$row['tabla_Dia de Visita']."</td>
+<td>".$row['tabla_Telefono']."</td>
+<td>".$row['tabla_Celular']."</td>
+<td>".$row['tabla_Correo']."</td>
+</tr>
 </tbody>
-
+ 
 </table>
-
+ 
 </div>

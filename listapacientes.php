@@ -15,6 +15,7 @@
   <link rel="shortcut icon" type="image/png" href="imagenes/logotiposinfondo.png"> <!--FAVICON-->
  <!-- fuentes utilizadas  -->
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
   <!-- termino de fuentes utilizadas-->
 </head>
 <body>
@@ -72,7 +73,7 @@
   .popup-contenedor {
     position: relative;
     margin:7% auto;
-    padding:10px 30px;
+    padding:30px 50px;
     background-color: #fafafa;
     color:#333;
     border-radius: 3px;
@@ -92,7 +93,18 @@
 
   a.popup-link {
       text-align: justify;
+
   }
+  table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid #000;
+}
 </style>
 </head>
 <body>
@@ -108,37 +120,62 @@
       </div>
 
       <div class="vertical-menu">
-        <a class="active" href="#"><img src="svg/dashboard.svg" alt="..." width="20"> Panel</a>
+        <a href="#"><img src="svg/dashboard.svg" alt="..." width="20"> Panel</a>
         <a href="#"><img src="svg/browser.svg" alt="..." width="20">    Perfil</span></a>
         <a href="listapacientes.php"><img src="svg/repo.svg" alt="..." width="20">  Lista de Pacientes</a>
         <a href="#"><img src="svg/repo-pull.svg" alt="..." width="20">   Traslados</a>
-        <a href="#"><img src="svg/clippy.svg" alt="..." width="20">  Expedientes</a>
+        <a href="#"><i style='font-size:24px' class='fas'>&#xf2bb;</i>Expedientes</a>
         <a href="#"><img src="svg/location.svg" alt="..." width="20">   Visitas</a>
         <a href="#popup"class="popup-link"><img src="svg/organization.svg" alt="..." width="20"> Redes sociales</a>
-        <a href="#"><img src="svg/gear.svg" alt="..." width="20"> Configuracion general</a>
-        <a href="#"><img src="svg/comment.svg" alt="..." width="20"> Enviar comentarios</a>
-        <a href="#"><img src="svg/report.svg" alt="..." width="20"> Reportar un problema</a>
+        <a href="#"><i class="fa fa-youtube"></i> Dar de Alta Pacientes</a>
       </div>
+
       <br>
       <a href="#"><input type='button' name='boton' value='Suscribete' class="btn btn-success"></a>
       </div>
-      <div class="col-sm-8">
 
-      </div>
-    </div>
-<div class="modal-wrapper" id="popup">
-    <div class="popup-contenedor">
-      <h2>Redes sociales:</h2>
-        <div>
-          <a href="https://www.facebook.com/Proyecto-de-Vida-y-Amor-AC-494334077966928" class="facebook"><i class="fa fa-facebook"style="font-size: 50px"></i> Facebook</a>
-          <a href="https://twitter.com/ProyectodeVid16" class="twitter"><i class="fa fa-twitter" style="font-size: 50px"></i> Twitter</a>
-          <a href="https://www.instagram.com/pvidayamor/" class="instagram"><i class="fa fa-instagram"style="font-size: 50px"></i> Instagram</a>
-          <a href="https://www.youtube.com/channel/UCNUvRV5245sHvDQFe61U5jQ/featured?view_as=subscriber" class="youtube"><i class="fa fa-youtube" style="font-size: 50px"></i> Youtube</a>
-          <a href="" class="" style="background-color: black"><i class="fa fa-users"></i></a>
-        </div>
-          <a class="popup-cerrar" href="#">X</a>
-    </div>
+
+      <div class="col-sm-8">
+          <table class="table table-striped ">
+            <?php include 'conexion/conexion.php' ?><br><br>
+
+        <div class="table-responsive"> 
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <!-- definimos cabeceras de la tabla -->
+                <th>CURP</th>
+                <th>Nombre(s)</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>Sangre</th>
+              </tr>
+            </thead>
+
+            <tbody>
+               <?php 
+            $sql="SELECT * from paciente";
+            $result=mysqli_query($conexion,$sql);
+            while($mostrar=mysqli_fetch_array($result)){
+              ?>
+              <tr>
+                <td><?php echo $mostrar['curp'] ?></td>
+                <td><?php echo $mostrar['nombre']?></td>
+                <td><?php echo $mostrar['apellidopat'] ?></td>
+                <td><?php echo $mostrar['apellidomat'] ?></td>
+                <td><?php echo $mostrar['tipodesangre']?></td>
+                <td><a href="m">Modificar</a></td>
+                <td><a href="#">Eliminar</a></td>
+              </tr>
+              <?php }?>
+</tbody>
+ 
+</table>
+ 
 </div>
+      </div>
+    
+    </div>
 
 
   <!--Inicio Footer-->

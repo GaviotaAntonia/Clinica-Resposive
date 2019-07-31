@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -23,7 +24,7 @@ body {
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -68,33 +69,8 @@ body {
 </head>
 <body>
   <!--Inicio Footer-->
-  <?php include 'nav1.html'; ?>
+  <?php include 'nav2.html'; ?>
   <!--Final Foooter-->
-<div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
-
-<div id="main">
-  <button class="openbtn" onclick="openNav()">☰ Toggle Sidebar</button>  
-  <h2>Collapsed Sidebar</h2>
-  <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
-</div>
-
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>
-   
+  
 </body>
 </html> 

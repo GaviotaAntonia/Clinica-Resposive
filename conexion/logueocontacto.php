@@ -3,16 +3,16 @@
 		include 'conexion.php';
 		session_start();
 
-		$usuario=$_POST['usuario'];
+		$correo=$_POST['correo'];
 		$contra=$_POST['pswd'];
 
-		$q="SELECT COUNT(*) as contar FROM usuario where usuario='$usuario' and contrasenna='$contra'";
+		$q="SELECT COUNT(*) as contar FROM contacto where correo='$correo' and contrasenna='$contra'";
 		$result=mysqli_query($conexion,$q);
 		$que=mysqli_fetch_array($result);
 		if ($que['contar']>0) {
-			$_SESSION['usuario']=$usuario;
+			$_SESSION['correo']=$correo;
 			echo "funciona";
-			header("location:../modales.php");
+			header("location:../superusuario.php");
 
 		}else
 		{

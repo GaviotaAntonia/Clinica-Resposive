@@ -28,41 +28,45 @@
     $consultaUsuarios = mysql_query("SELECT * FROM usuarios");
 ?-->
 
-<div class="table-responsive"> 
+<div class="table-responsive">
    ";
               echo "";
               echo "";
         echo "";
               echo "";
-           }      
+           }
         ?&gt;
- 
+
 <table class="table table-bordered table-striped">
- 
-<thead> 
- 
+
+<thead>
+
 <tr>
-              <!-- definimos cabeceras de la tabla --> 
+              <!-- definimos cabeceras de la tabla -->
 <th>Id</th>
 <th>Apellido Paterno</th>
 <th>Apellido Materno</th>
 <th>Nombre(s)</th>
-<th>Direccion</th>
-<th>Estado de Procedencia</th>
-<th>Telefono</th>
-<th>Celular</th>
-<th>Traslado Forzoso</th>
-<th>Traslado Voluntario</th>
-<th>Nombre del trasladado</th>
-<th>Pago</th>
+
+<th>Estatus</th>
+<th>Progreso</th>
+<th>Actividades</th>
+<th>Fase de Rehabilitacion</th>
+<th>Desayuno</th>
+<th>Comida</th>
+<th>Cena</th>
+<th>Hora de salida</th>
+<th>Hora de entrada</th>
+<th>Alta</th>
+
 </tr>
 </thead>
- 
- 
+
+
 <tbody>
   <!--?php
            //recorremos resultado de la consulta y añadimos el contenido a la tabla
-     while($row= mysql_fetch_array($consultaUsuarios)) 
+     while($row= mysql_fetch_array($consultaUsuarios))
      {
               echo "<tr-->
 <tr>
@@ -70,17 +74,19 @@
 <td>".$row['tabla_Paterno']."</td>
 <td>".$row['tabla_Materno']."</td>
 <td>".$row['tabla_Nombre']."</td>
-<td>".$row['tabla_Direccion']."</td>
-<td>".$row['tabla_Estado de Procedencia']."</td>
-<td>".$row['tabla_Telefono']."</td>
-<td>".$row['tabla_Celular']."</td>
-<td>".$row['tabla_Forzoso']."</td>
-<td>".$row['tabla_Voluntario']."</td>
-<td>".$row['tabla_Nombre del trasladado']."</td>
-<td>".$row['tabla_Pago']."</td>
+<td>".$row['tabla_Estatus']."</td>
+<td>".$row['tabla_Progreso']."</td>
+<td>".$row['tabla_Actividades']."</td>
+<td>".$row['tabla_Fase']."</td>
+<td>".$row['tabla_Desayuno']."</td>
+<td>".$row['tabla_Comida']."</td>
+<td>".$row['tabla_Cena']."</td>
+<td>".$row['tabla_salida']."</td>
+<td>".$row['tabla_entrada']."</td>
+<td>".$row['tabla_egreso clinica']."</td>
 </tr>
 </tbody>
- 
+
 </table>
- 
+
 </div>

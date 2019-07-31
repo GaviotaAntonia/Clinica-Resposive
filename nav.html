@@ -77,16 +77,22 @@ $(document).ready(function() {
     <a class="navbar-brand" href="inicio.php"><img src="imagenes/logoparanav.png" alt="logo" style="width:40px;"></a>
     <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+
+
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
            <ul class="navbar-nav">
 
-            <li class="nav-item"><a class="nav-link  active w3-bar-item w3-button w3-right"  href="acercadenos.php" >Acerca de Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link  active w3-bar-item w3-button w3-right"  href="acercadenos.php" >Conócenos</a></li>
             <li class="nav-item"><a class="nav-link" href="servicios.php">Servicios</a></li>
             <li class="nav-item"><a class="nav-link" href="ubicacion.php">Ubicación</a></li>    
             <li class="nav"><a class="nav-link" href="clinica.php">Instalaciones</a></li>
-            <li type="button" style="color: white" style="align:right; " class="btn" data-toggle="modal" data-target="#myModal">Registro|Entrar</button></li>
           </ul>
-         
+        </div>
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li type="button" style="color: white" style="align:right; " class="btn" data-toggle="modal" data-target="#myModal">Registro|Entrar</button></li>
+        </ul>
+    </div>
           <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
               <!-- Modal content-->
@@ -178,6 +184,7 @@ $(document).ready(function() {
                     </form>
                   </div>
                 </form>
+                
                 <div class="modal-footer">
                   <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
                 </div>
@@ -194,5 +201,72 @@ $(document).ready(function() {
 
 </html>
 
+<script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script type="text/javascript">
+      enviarDatosRegistro();
+      //login();
+      //hacerUpdate();
+
+      //ajax para guardar los datos del registro.
+      function enviarDatosRegistro(){
+        $('#register-form').submit(function(e){
+          //evitar pagina se recargue
+          e.preventDefault();
+          //meter todos los datos del formulario de un golpe
+          var frmRegistro = $("#register-form").serialize();
+          //metodos ajax
+          $.ajax({
+            method: "POST",
+            url:    "conexion/opegrabar.php",
+            data:   frmRegistro,
+            beforeSend: function(){
+              //colocamos icono de recarga
+              alert(frmRegistro);
+              $("#registrando").css("display","block");
+            }
+          }).done(function(data) {//true
+            //si se realizo el envio de ftp datos
+            //se muestra lo que ponga
+            //alert(data);
+            alert(data);
+            //var mst = data;
+            //registroCorrecto(mst);
+          }).fail(function(){//false
+            limpiarFormularioRegistro(frmRegistro);
+          });
+        });
+      }
+      //borrar el formulario y variables.
+      function limpiarFormularioRegistro(form){
+        setTimeout(function(){
+              //poner el icono aqui que espere
+              $("#id01").hide();
+              form='';
+            $('#usuario2')[0].reset();
+            $("#alertaBuena").css("display","none");
+              $("#alertaMala").css("display","none");
+          },2000);
+      }
+
+      //funcion de cola de efectos y ventana de registro exitoso
+      function registroCorrecto(mst,frmLogin){
+        if (mst == 'bien'){
+          //se muestra la ventana de contraseña de registro éxitoso una vez que la variable get sea igual a bien
+          setTimeout(function() {
+                  $("#registrando").css("display","none");
+              $("#alertaBuena").css("display","block");
+          }, 3000);
+              setTimeout(function() {
+                  $("#alertaBuena").css("display","none");
+                  $("#alertaMala").css("display","none");
+              }, 5000);
+              limpiarFormularioRegistro(frmLogin);
+          }else if(mst == 'dupla'){//de lo contrario 
+              regisroDuplicadoIncorrecto(frmLogin);
+          }
+      }         
+    </script> 
 
 
