@@ -22,7 +22,7 @@
         include('conexion.php');
         $insertar_Usuarios = "INSERT INTO paciente(curp,nombre,apellidopat,apellidomat,fechanacimiento,id_estado,id_colonia,calle,referenciadecalle,edad,tipodesangre) VALUES ('$curp','$nombre','$apellidopat','$apellidomat','$fechanacimiento','$idestado','$idcolonia','$calle','$referenciadecalle','$edad','$sange')";
         if ($conexion->query($insertar_Usuarios)){
-            //echo 'bien';
+            echo 'bien';
         }else{
             echo 'malRegistroEnlaBD';
         }
@@ -30,3 +30,4 @@
 
  
 ?>
+
