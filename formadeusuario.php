@@ -25,8 +25,7 @@
 <body>
 
   <!--Inicio Footer-->
-  <?php include 'nav3contact.html'; ?>
-<!--Final Foooter-->
+  <?php include 'navusuario.html'; ?><!--Final Foooter-->
 
  <style>
 .vertical-menu {

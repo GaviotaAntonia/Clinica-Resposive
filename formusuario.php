@@ -25,7 +25,7 @@
 <body>
 
   <!--Inicio Footer-->
-  <?php include 'nav3contact.html'; ?>
+  <?php include 'navusuario.html'; ?>
 <!--Final Foooter-->
 
  <style>
