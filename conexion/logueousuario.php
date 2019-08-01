@@ -12,7 +12,7 @@
 		if ($que['contar']>0) {
 			$_SESSION['usuario']=$usuario;
 			echo "funciona";
-			header("location:../superusuario.php");
+			header("location:../formadeusuario.php");
 
 		}else
 		{

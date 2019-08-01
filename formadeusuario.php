@@ -126,7 +126,7 @@
 
   <!--Inicio Footer-->
   
-  <?php include 'footerusario.html;' ?>
+  <?php include 'footerusario.html'; ?>
 <!--Final Foooter-->
 </body>
 
