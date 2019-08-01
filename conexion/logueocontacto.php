@@ -12,7 +12,7 @@
 		if ($que['contar']>0) {
 			$_SESSION['correo']=$correo;
 			echo "funciona";
-			header("location:../formcontact.php");
+			header("location:../formadeusuario.php");
 
 		}else
 		{
