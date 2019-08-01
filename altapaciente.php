@@ -100,48 +100,126 @@
 </head>
 <body>
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-2">
     </div>
 
       <div class="col-sm-8">
       <form action="grabarpaciente.php" method="post" accept-charset="utf-8">
         <h2 style="text-align: center">Alta Paciente</h2>
-        <h3>Introducir datos:</h3>
+        <h3 style="text-align: center;">Introducir datos:</h3>
         <form id="register-forms" action="conexion/grabarpaciente.php" method="post" role="form" style="display: none;">
           <div class="container">
-            <form class="form-inline" action="conexion/modificar.php" method="post">
-              <span class="input-group-addon"><label for="email2" class="mb-2 mr-sm-2">CURP</label></span>
+            <form class="form-inline">
+              <span class="input-group-addon">
+              <label for="curp" class="mb-2 mr-sm-2">CURP</label></span>
               <input type="text" class="form-control mb-2 mr-sm-2" id="curp" placeholder="CURP" name="curp" style="text-transform: uppercase;">
               <label for="nombre2" class="mb-2 mr-sm-2">Nombre:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="nombre2" placeholder="Ingresa tu nombre" name="nombre2" style="text-transform: uppercase;">
-          
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="nombre2" class="mb-2 mr-sm-2">Apellido Paterno:</label>
+                  <input type="text" class="form-control" id="apepat2" placeholder="Apellido Paterno" name="apepat2">
+                </div>
+                <div class="col">
+                  <label for="apepat2" class="mb-2 mr-sm-2">Apellido Materno:</label>
+                  <input type="text" class="form-control" id="apemat2" placeholder="Apellido Materno" name="apemat2">
+                </div>
+              </div>
+            </form>
+            <label for="fechanacimiento" class="mb-2 mr-sm-2">Fecha de Nacimiento:</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="fechanacimiento" placeholder="DD/MM/AAAA" name="fechanacimiento" style="text-transform: uppercase;">
+
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="inputState">Estado</label>
+                  <select id="inputState" class="form-control" name="esta" id="esta">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+
+                <div class="col">
+                  <label for="inputState">Colonia</label>
+                    <select id="inputState" class="form-control" name="colo" id="colo">
+                      <option selected>Elige una opcion</option>
+                      <option value="A+">A+</option>
+                      <option>B+</option>
+                    </select>
+                  </div>
+                </div>
+            </form>
 
 
-              <label for="apepat" class="mb-2 mr-sm-2">Apellido Paterno:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa tu Apellido Paterno" name="apepat2" style="text-transform: uppercase;">
-              <label for="apemat" class="mb-2 mr-sm-2">Apellido Materno:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="apepat" placeholder="Ingresa Apellido Materno" name="apepat2" style="text-transform: uppercase;">
-              <label for="fechanacimiento" class="mb-2 mr-sm-2">Fecha de Nacimiento:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="fechanacimiento" placeholder="Ingresa Fecha de Nacimiento" name="fechanacimiento" style="text-transform: uppercase;">
-              <label for="idestado" class="mb-2 mr-sm-2">Estado de procedencia:</label>
+             <!-- <label for="idestado" class="mb-2 mr-sm-2">Estado de procedencia:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="idestado" placeholder="Ingresa Estado de Procedencia" name="idestado" style="text-transform: uppercase;">
+      
+
               <label for="idcolonia" class="mb-2 mr-sm-2">Colonia:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="idcolonia" placeholder="Ingresa Colonia" name="idcolonia" style="text-transform: uppercase;">
+                <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>-->
               <label for="calle" class="mb-2 mr-sm-2">Calle:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="calle" placeholder="Ingresa Calle" name="calle" style="text-transform: uppercase;">
               <label for="refe" class="mb-2 mr-sm-2">Referencia:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa Referencia" name="refe" style="text-transform: uppercase;">
-              <label for="edad" class="mb-2 mr-sm-2">Edad:</label>
-              <input type="range" name="edad" min="18" max="99" step="1" value="30">
-              <label for="sange" class="mb-2 mr-sm-2">Tipo de sangre:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="sange" placeholder="Ingresa Tipo de Sangre" name="sange" style="text-transform: uppercase;">
+              
+
+
+              <form>
+              <div class="row">
+                <div class="col">
+                  <label for="inputState">Edad</label>
+                  <select id="inputState" class="form-control" name="">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                  </select>
+  
+
+                </div>
+                <div class="col">
+                  <label for="inputState">Tipo de Sangre</label>
+                    <select id="inputState" class="form-control" name="grabarsangre">
+                      <option selected>Elige Opción</option>
+                      <option value="A+">A+</option>
+                      <option value="A-">A-</option>
+                      <option value="B+">B+</option>
+                      <option value="B-">B-</option>
+                      <option value="AB+">AB+</option>
+                      <option value="AB-">AB-</option>
+                      <option value="O+">O+</option>
+                      <option value="O-">O-</option>              
+                    </select>
+                  </div>
+                </div>
+            </form>
+
+
+              <BR><BR>
+              <!--<input type="text" class="form-control mb-2 mr-sm-2" id="sange" placeholder="Ingresa Tipo de Sangre" name="sange" style="text-transform: uppercase;">-->
+              
               <div class="form-group" id="registro">
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-group text-center">
-                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Registrar</button>
-                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Modificar</button>
-                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btnmodif">Eliminar</button>
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btngrabar">Registrar</button>
+          
                     </div>
                   </div>
                 </div>
