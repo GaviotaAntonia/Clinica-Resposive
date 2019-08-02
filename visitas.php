@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Inicio/Administrador</title>
+  <title>Visitas a la clinica</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -31,7 +31,6 @@
   height: 460px;
   overflow-y: auto;
 }
-
 .vertical-menu a {
   background-color: #A3E4D7;
   color: black;
@@ -39,18 +38,13 @@
   padding: 12px;
   text-decoration: none;
 }
-
 .vertical-menu a:hover {
   background-color: #48C9B0;
 }
-
 .vertical-menu a.active {
   background-color: #0E6251;
   color: white;
 }
-</style>
-
-<style >
   #popup {
     visibility: hidden;
     opacity: 0;
@@ -92,6 +86,7 @@
     color:#fff;
   }
 
+
   a.popup-link {
       text-align: justify;
 
@@ -109,60 +104,55 @@ th, td {
 </style>
 </head>
 <body>
-
-            <?php include 'conexion/conexion.php' ?><br><br>
-
+<br>
+<h4 style="text-align: center;">Visitas a las instalaciones</h4>
+  <?php include 'conexion/conexion.php' ?>
        <div class="table-responsive-sm">
         <table class="table">
           <div class="table-responsive">
             <table class="table table-bordered table-striped">
-
             <thead>
               <tr>
                 <!-- definimos cabeceras de la tabla -->
-                <th>CURP</th>
-                <th>Nombre(s)</th>
-                <th>Apellido Paterno</th>
+                 <th>Apellido Paterno</th>
                 <th>Apellido Materno</th>
-                <th>Fecha Nacimiento</th>
-                <th>Estado</th>
-                <th>Colonia</th>
-                <th>Calle</th>
-                <th>Referencia de Calle</th>
-                <th>Edad</th>
-                <th>Sangre</th>
+                <th>Nombre</th>
+                <th>Razón de Visita</th>
+                <th>Fecha de Visita</th>
+                <th>Estado de procedencia</th>
+                <th>Telefono</th>
+                <th>Celular</th>
+                <th>Correo</th>
+                <th>Modificar</th>
+                <th>Eliminar</th>
               </tr>
             </thead>
 
             <tbody>
                <?php
-            $sql="SELECT * from paciente";
+            $sql="SELECT * from traslado";
             $result=mysqli_query($conexion,$sql);
             while($mostrar=mysqli_fetch_array($result)){
               ?>
               <tr>
-                <td><?php echo $mostrar['curp'] ?></td>
-                <td><?php echo $mostrar['nombre']?></td>
-                <td><?php echo $mostrar['apellidopat'] ?></td>
-                <td><?php echo $mostrar['apellidomat'] ?></td>
-                <td><?php echo $mostrar['fechanacimiento'] ?></td>
-                <td><?php echo $mostrar['id_estado'] ?></td>
-                <td><?php echo $mostrar['id_colonia'] ?></td>
-                <td><?php echo $mostrar['calle'] ?></td>
-                <td><?php echo $mostrar['referenciadecalle'] ?></td>
-                <td><?php echo $mostrar['edad'] ?></td>
-                <td><?php echo $mostrar['tipodesangre']?></td>
+               <td><?php echo $mostrar['Apellido Paterno'] ?></td>
+                <td><?php echo $mostrar['Apellido Materno'] ?></td>
+                <td><?php echo $mostrar['Nombre'] ?></td>
+                <td><?php echo $mostrar['Razón de visita'] ?></td>
+                <td><?php echo $mostrar['Fecha de Visita'] ?></td>
+                <td><?php echo $mostrar['Estado de Procedencia'] ?></td>
+                <td><?php echo $mostrar['Telefono'] ?></td>
+                <td><?php echo $mostrar['Celulatr'] ?></td>
+                <td><?php echo $mostrar['Correo'] ?></td>
                 <td><a href="m"><i style='font-size:24px' class='fas'>&#xf573;</i></a></td>
                 <td><a href="#"><i class="material-icons">&#xe872;</i></a></td>
               </tr>
               <?php }?>
-
             </tbody>
           </table>
         </div>
   </table>
 </div>
-
 
 
   <!--Inicio Footer-->
