@@ -111,6 +111,8 @@
           <div class="container">
             <form class="form-inline">
               <span class="input-group-addon">
+                <label for="refe" class="mb-2 mr-sm-2">CURP:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa CURP de paciente" name="refe" style="text-transform: uppercase;">
               <label for="nombre2" class="mb-2 mr-sm-2">Nombre:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="nombre2" placeholder="Ingresa tu nombre" name="nombre2" style="text-transform: uppercase;">
               <form>
@@ -134,9 +136,8 @@
                 <option value="Nieto(a)">Nieto(a)</option>
                 <option value="Hermano(a)">Hermano(a)</option>
                 <option value="Conyuge">Conyuge</option>
-                
-
-                  </select>
+              </select>
+            
             <form>
               <div class="row">
                 <div class="col">
@@ -169,10 +170,7 @@
               <input type="text" class="form-control mb-2 mr-sm-2" id="calle" placeholder="Ingresa correo" name="calle">
               <label for="refe" class="mb-2 mr-sm-2">Contraseña:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa contraseña" name="refe">
-              <label for="refe" class="mb-2 mr-sm-2">CURP:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa CURP de paciente" name="refe" style="text-transform: uppercase;">
               
-          
               <BR><BR>
               <!--<input type="text" class="form-control mb-2 mr-sm-2" id="sange" placeholder="Ingresa Tipo de Sangre" name="sange" style="text-transform: uppercase;">-->
             

@@ -129,42 +129,48 @@
             </form>
             <label for="fechanacimiento" class="mb-2 mr-sm-2">Fecha de Nacimiento:</label>
             <input type="text" class="form-control mb-2 mr-sm-2" id="fechanacimiento" placeholder="DD/MM/AAAA" name="fechanacimiento" style="text-transform: uppercase;">
+       <?php include 'conexion\conexion.php' ?>
 
-            <form>
+
+            <form method="post">
               <div class="row">
                 <div class="col">
                   <label for="inputState">Estado</label>
-                  <select id="inputState" class="form-control" name="esta" id="esta">
-                    <option selected>Choose...</option>
-                    <option>...</option>
+                  <select class="form-control" name="estado" onchange="submit()">
+                    <?php 
+                    $sql="SELECT * from estado";
+                    $rec=mysqli_query($conexion,$sql);
+                    while ($row=mysqli_fetch_array($rec)) {
+                      echo "<option value='".$row['id_estado']."' ";
+                      if ($_POST['estado']==$row['id_estado'])
+                        echo " SELECTED";
+                      echo ">";
+                      echo $row['estado'];
+                    }
+                     ?>
                   </select>
                 </div>
 
                 <div class="col">
                   <label for="inputState">Colonia</label>
-                    <select id="inputState" class="form-control" name="colo" id="colo">
-                      <option selected>Elige una opcion</option>
-                      <option value="A+">A+</option>
-                      <option>B+</option>
+                    <select class="form-control" name="colonia" onchange="submit()">
+                   <?php 
+                   $sql="SELECT * from colonia";
+                    $recs=mysqli_query($conexion,$sql);
+                    while ($row=mysqli_fetch_array($recs)) {
+                      echo "<option value='".$row['id_colonia']."' ";
+                      if ($_POST['colonia']==$row['id_colonia'])
+                        echo " SELECTED";
+                      echo ">";
+                      echo $row['colonia'];
+                    }
+                     ?>
+    </select>
                     </select>
                   </div>
                 </div>
             </form>
 
-
-             <!-- <label for="idestado" class="mb-2 mr-sm-2">Estado de procedencia:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="idestado" placeholder="Ingresa Estado de Procedencia" name="idestado" style="text-transform: uppercase;">
-      
-
-              <label for="idcolonia" class="mb-2 mr-sm-2">Colonia:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="idcolonia" placeholder="Ingresa Colonia" name="idcolonia" style="text-transform: uppercase;">
-                <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>-->
               <label for="calle" class="mb-2 mr-sm-2">Calle:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="calle" placeholder="Ingresa Calle" name="calle" style="text-transform: uppercase;">
               <label for="refe" class="mb-2 mr-sm-2">Referencia:</label>
