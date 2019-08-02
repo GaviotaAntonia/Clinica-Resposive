@@ -1,27 +1,23 @@
 <?php
     require('conexion.php'); 
-    $curp=!empty($_REQUEST['curp'])?$_REQUEST['curp']:'';
+    $curp =!empty($_REQUEST['curp'])?$_REQUEST['curp']:'';
     $nombre =!empty($_REQUEST['nombre2'])?$_REQUEST['nombre2']:'';
     $apellidopat =!empty($_REQUEST['apepat2'])?$_REQUEST['apepat2']:'';
     $apellidomat =!empty($_REQUEST['apemat2'])?$_REQUEST['apemat2']:'';
-    $fechanacimiento =!empty($_REQUEST['fechanacimiento'])?$_REQUEST['fechanacimiento']:'';
-    $idestado =!empty($_REQUEST['idestado'])?$_REQUEST['idestado']:'';
-    $idcolonia =!empty($_REQUEST['idcolonia'])?$_REQUEST['idcolonia']:'';
+    $fechanac=!empty($_REQUEST['fechanacimiento'])?$_REQUEST['fechanacimiento']:'';
+    $estado =!empty($_REQUEST['estado'])?$_REQUEST['estado']:'';
+    $colonia=!empty($_REQUEST['colonia'])?$_REQUEST['colonia']:'';
     $calle =!empty($_REQUEST['calle'])?$_REQUEST['calle']:'';
-    $referenciadecalle =!empty($_REQUEST['refe'])?$_REQUEST['refe']:'';
+    $refe =!empty($_REQUEST['refe'])?$_REQUEST['refe']:'';
     $edad =!empty($_REQUEST['edad'])?$_REQUEST['edad']:'';
-    $sange =!empty($_REQUEST['sange'])?$_REQUEST['sange']:'';
+    $grabarsangre =!empty($_REQUEST['grabarsangre'])?$_REQUEST['grabarsangre']:'';
 
-
-
-
-
-    insertarUsuarios($curp,$nombre,$apellidopat,$apellidomat,$fechanacimiento,$idestado,$idcolonia,$calle,$referenciadecalle,$edad,$sange);
+    insertarpaciente($curp,$nombre,$apellidopat,$apellidomat,$fechanac,$estado,$colonia,$calle,$refe,$edad,$grabarsangre);
     
-    function insertarUsuarios($curp,$nombre,$apellidopat,$apellidomat,$contrasenna,$reco,$correos){
+    function insertarpaciente($curp,$nombre,$apellidopat,$apellidomat,$contrasenna,$reco,$correos){
         include('conexion.php');
-        $insertar_Usuarios = "INSERT INTO paciente(curp,nombre,apellidopat,apellidomat,fechanacimiento,id_estado,id_colonia,calle,referenciadecalle,edad,tipodesangre) VALUES ('$curp','$nombre','$apellidopat','$apellidomat','$fechanacimiento','$idestado','$idcolonia','$calle','$referenciadecalle','$edad','$sange')";
-        if ($conexion->query($insertar_Usuarios)){
+        $insertar_paciente = "INSERT INTO paciente(curp,nombre,apellidopat,apellidomat,fechanacimiento,id_estado,id_colonia,calle,referenciadecalle,edad,tipodesangre) VALUES ($curp,$nombre,$apellidopat,$apellidomat,$fechanac,$estado,$colonia,$calle,$refe,$edad,$grabarsangre)";
+        if ($conexion->query($insertar_paciente)){
             echo 'bien';
         }else{
             echo 'malRegistroEnlaBD';
@@ -30,4 +26,3 @@
 
  
 ?>
-

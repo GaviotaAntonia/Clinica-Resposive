@@ -104,7 +104,7 @@
     </div>
 
       <div class="col-sm-8">
-      <form action="grabarpaciente.php" method="post" accept-charset="utf-8">
+      <form action="conexion/opegrabar.php" method="post" accept-charset="utf-8">
         <h2 style="text-align: center">Alta Paciente</h2>
         <h3 style="text-align: center;">Introducir datos:</h3>
         <form id="register-forms" action="conexion/grabarpaciente.php" method="post" role="form" style="display: none;">
@@ -182,7 +182,7 @@
               <div class="row">
                 <div class="col">
                   <label for="inputState">Edad</label>
-                  <select id="inputState" class="form-control" name="">
+                  <select id="inputState" class="form-control" name="edad">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
