@@ -114,7 +114,7 @@
       desarrollo y crecimiento personal,las actividades son a la par de su tratamiento psicológico y médico.  </p>
 
       <div>
-        <img src="imagenes/actividad.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
+        <img src="imagenes/actividad.png" class="img-fluid" alt="..." width="1800"><br>
             </div>
 
     </div>
@@ -133,7 +133,7 @@
 
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
-  
+
   <?php include 'menudere.php'; ?>
 <!--Final Foooter-->
 

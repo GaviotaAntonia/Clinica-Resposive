@@ -167,19 +167,19 @@
           <body>
 
          <div class="contenedor-img banner">
-              <img src="imagenes/Alcholismo.png" />
+              <img src="imagenes/Alcholismo.png"  />
               <div class="mascara">
                   <h2>Alcoholismo</h2>
                   <p><p style="text-align: center">Consumo crónico y continuado de alcohol que se caracteriza por un deterioro
                      del control sobre la bebida, episodios frecuentes de intoxicación y compulsión por el consumo a pesar de sus consecuencias adversas.</p>
               </div>
          </div>
-          
+
           <div class="contenedor-img banner">
               <img src="imagenes/Drogadicción.png" />
               <div class="mascara">
                   <h2>Drogadicción</h2>
-                  <p><p style="text-align: center">Consumo repetido de una o varias sustancias psicoactivas, hasta el punto de que el consumidor se intoxica periódicamente o de forma continua, muestra un deseo compulsivo de consumir la sustancia (o las sustancias) preferida, tiene una enorme dificultad para interrumpir voluntariamente o modificar el consumo de la sustancia y se muestra decidido a obtener sustancias psicoactivas por cualquier medio y a pesar de las consecuencias negativas que esto tiene.</p> 
+                  <p><p style="text-align: center">Consumo repetido de una o varias sustancias psicoactivas, hasta el punto de que el consumidor se intoxica periódicamente o de forma continua, muestra un deseo compulsivo de consumir la sustancia (o las sustancias) preferida, tiene una enorme dificultad para interrumpir voluntariamente o modificar el consumo de la sustancia y se muestra decidido a obtener sustancias psicoactivas por cualquier medio y a pesar de las consecuencias negativas que esto tiene.</p>
               </div>
          </div>
 
@@ -230,7 +230,7 @@
                   <p><p style="text-align: center">Trastorno mental en el cual una persona a menudo está preocupada o ansiosa respecto a muchas cosas y le parece difícil controlar esta ansiedad. El trastorno de ansiedad puede ser generalizado o estar dirigido a estímulos específicos como hablar en publico o sentir miedo a animales y situaciones diversas.</p>
               </div>
          </div>
-          
+
           <div class="contenedor-img banner">
               <img src="imagenes/Depresión.png" />
               <div class="mascara">

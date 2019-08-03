@@ -110,27 +110,27 @@
       para poder brindarle a su familiar todas las comodidades necesarias durante su estadia con nosotros, asì como para usted cuando asista al dìa de visita. </p>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="imagenes/via1.png" class="img-responsive" width="300px">
+                <img src="imagenes/via1.png" class="img-fluid" alt="..." width="1800">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="imagenes/via2.png" class="img-responsive" width="300px">
+                <img src="imagenes/via2.png" class="img-fluid" alt="..." width="1800">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="imagenes/intalacion.png" class="img-responsive" width="300px">
+                <img src="imagenes/intalacion.png" class="img-fluid" alt="..." width="1800">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="imagenes/via3.png" class="img-responsive" width="300px">
+                <img src="imagenes/via3.png" class="img-fluid" alt="..." width="1800">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="imagenes/via5.png" class="img-responsive" width="300px">
+                <img src="imagenes/via5.png" class="img-fluid" alt="..." width="1800">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="imagenes/via6.png" class="img-responsive" width="300px">
+                <img src="imagenes/via6.png" class="img-fluid" alt="..." width="1800">
             </div>
         </div>
     </div>

@@ -87,7 +87,7 @@
                 <p style="color: #696969"> </p>
                 <p style="text-align: center; font-weight: bold; color: black">Definición de Adicción</p>
                 <p style="text-align: justify; color: black"> La Organización Mundial de la Salud (OMS) en su informe Neurociencia del consumo y dependencia de sustancias psicoactivas define la adicción como una enfermedad emocional, física y con predisposición genética.</p>
-                <p style="text-align: center"> <img src="imagenes/adiccion.jpg" alt="..." width="300"></p>
+                <p style="text-align: center"> <img class="img-fluid" src="imagenes/adiccion.jpg" alt="..." width="1800"></p>
                 </p>
               </div>
             </div>
@@ -98,7 +98,7 @@
                 </p>
                 <p style="text-align: center; font-weight: bold; color: black">Uso, Abuso y Dependencia</p>
                 <p style="text-align: justify; color: black">Las adicciones son progresivas. Todas comienzan en una etapa de abuso reiterado y, más tarde, se convierten en dependencia. En cualquier etapa, es posible hacer una intervención mediante terapia especializada. </p>
-                <p style="text-align: center"> <img src="imagenes/adiccion2.jpg" alt="..." width="300"></p>
+                <p style="text-align: center"> <img class="img-fluid" src="imagenes/adiccion2.jpg" alt="..." width="1800"></p>
                 </p>
               </div>
             </div>
@@ -109,7 +109,7 @@
                 </p>
                 <p style="text-align: center; font-weight: bold; color: black">La mejor ayuda es con amor y compresión</p>
                 <p style="text-align: justify; color: black">Cuando nuestra vida no es lo que queremos que sea, cuando el sufrimiento no deja de estar presente por nuestra Adicción-Dependencia; es el momento de hacer un alto en el camino de la vida. Tu familia siempre te apoyara y lo único que desean es tu propio bien, date esa oportunidad para mejorar tu vida. </p>
-                <p style="text-align: center"> <img src="imagenes/ayuda.jpg" alt="..." width="300"></p>
+                <p style="text-align: center"> <img class="img-fluid" src="imagenes/ayuda.jpg" alt="..." width="1800"></p>
                 </p>
               </div>
             </div>
@@ -136,7 +136,7 @@
         <div class="form-group text-center">
                       <a href="ubicacion.php" class="btn btn-black" style="text-align:center"><b>Agendar visita</b></a></div>
                     </div>
-  			
+
 
 <br><br>
 
@@ -179,7 +179,7 @@
 
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
-  
+
   <?php include 'menudere.php'; ?>
 <!--Final Foooter-->
 
