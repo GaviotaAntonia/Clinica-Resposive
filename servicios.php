@@ -58,12 +58,11 @@
         <li class="nav-item">
           <a class="nav-link" href="consejeria.php">Consejería</a>
         </li>
-
       </ul>
+
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
-
       <div align="center">
      <img class="img-fluid" src="imagenes/linfografia.png" alt="..." width="1800">
    </div>

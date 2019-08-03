@@ -115,9 +115,9 @@
       importante.</p>
 
       <div>
-        <img src="imagenes/dormitorio2.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
+        <img src="imagenes/dormitorio2.png" class="img-fluid" alt="..." width="1800"><br>
         <br>
-        <img src="imagenes/dormitorio1.png" style="width: 1000px" class="mx-auto d-block img-fluid" alt="..."><br>
+        <img src="imagenes/dormitorio1.png" class="img-fluid" alt="..." width="1800"><br>
         <br>
     </div>
 
@@ -134,7 +134,7 @@
 
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
-  
+
   <?php include 'menudere.php'; ?>
 <!--Final Foooter-->
 
