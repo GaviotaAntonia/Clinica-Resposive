@@ -78,8 +78,7 @@
       </div>
   </div>
 <!-- FINAL DE CARRUSEL-->
-
-    <h3 style="text-align: center;color: black"><b>Proyecto de Vida y Amor A.C.</b></h3><br>
+  <br>
     <p style="text-align: center">"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</p><br><br>
          <div class="card-deck">
             <div class="card text-white " style="border-radius:2em; border-top: solid 6px  #006400">
@@ -156,7 +155,7 @@
         <div align="center"><br>
           <img src="ejmplosimg/ayuda.png" alt="">
           <h3>¿Necesitas Ayuda?</h3>
-          <p style="text-align: center;">LAS ADICCIONES NO SABEN DE HORARIO, ESTAMOS A TUS ORDENES LAS 24 HRS.<br>TRASLADOS A TODA LA REPÚBLICA<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
+          <p style="text-align: center;">Las adicciones no saben de horario, estamos a tus ordenes las 24 hr.<br> Traslados a toda la república<br><br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015"><br>pvidayamora.c@outlook.com</a></p>
         </div>
       </div>
 

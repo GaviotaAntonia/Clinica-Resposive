@@ -1,6 +1,5 @@
 <?php
     require('conexion.php'); 
-    $curp =!empty($_REQUEST['curp'])?$_REQUEST['curp']:'';
     $nombre =!empty($_REQUEST['nombre2'])?$_REQUEST['nombre2']:'';
     $apellidopat =!empty($_REQUEST['apepat2'])?$_REQUEST['apepat2']:'';
     $apellidomat =!empty($_REQUEST['apemat2'])?$_REQUEST['apemat2']:'';

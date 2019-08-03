@@ -104,7 +104,7 @@
     </div>
 
       <div class="col-sm-8">
-      <form action="conexion/opegrabar.php" method="post" accept-charset="utf-8">
+      <form action="conexion/grabarpaciente.php" method="post" accept-charset="utf-8">
         <h2 style="text-align: center">Alta Paciente</h2>
         <h3 style="text-align: center;">Introducir datos:</h3>
         <form id="register-forms" action="conexion/grabarpaciente.php" method="post" role="form" style="display: none;">
@@ -245,69 +245,3 @@
 </body>
 
 </html>
-  <script type="text/javascript">
-      enviarDatosRegistro();
-      //login();
-      //hacerUpdate();
-
-      //ajax para guardar los datos del registro.
-      function enviarDatosRegistro(){
-        $('#register-form').submit(function(e){
-          //evitar pagina se recargue
-          e.preventDefault();
-          //meter todos los datos del formulario de un golpe
-          var frmRegistro = $("#register-forms").serialize();
-          //metodos ajax
-          $.ajax({
-            method: "POST",
-            url:    "conexion/grabarpaciente.php",
-            data:   frmRegistro,
-            beforeSend: function(){
-              //colocamos icono de recarga
-              alert(frmRegistro);
-              $("#registrando").css("display","block");
-            }
-          }).done(function(data) {//true
-            //si se realizo el envio de ftp datos
-            //se muestra lo que ponga
-            //alert(data);
-            alert(data);
-            //var mst = data;
-            //registroCorrecto(mst);
-          }).fail(function(){//false
-            limpiarFormularioRegistro(frmRegistro);
-          });
-        });
-      }
-      //borrar el formulario y variables.
-      function limpiarFormularioRegistro(form){
-        setTimeout(function(){
-              //poner el icono aqui que espere
-              $("#id01").hide();
-              form='';
-            $('#usuario2')[0].reset();
-            $("#alertaBuena").css("display","none");
-              $("#alertaMala").css("display","none");
-          },2000);
-      }
-
-      //funcion de cola de efectos y ventana de registro exitoso
-      function registroCorrecto(mst,frmLogin){
-        if (mst == 'bien'){
-          //se muestra la ventana de contraseña de registro éxitoso una vez que la variable get sea igual a bien
-          setTimeout(function() {
-                  $("#registrando").css("display","none");
-              $("#alertaBuena").css("display","block");
-          }, 3000);
-              setTimeout(function() {
-                  $("#alertaBuena").css("display","none");
-                  $("#alertaMala").css("display","none");
-              }, 5000);
-              limpiarFormularioRegistro(frmLogin);
-          }else if(mst == 'dupla'){//de lo contrario 
-              regisroDuplicadoIncorrecto(frmLogin);
-          }
-      }         
-    </script> 
-
-
