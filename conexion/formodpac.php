@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Alta Paciente</title>
+  <title>Modificar Paciente</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -104,50 +104,49 @@
     </div>
 
       <div class="col-sm-8">
-      <form action="grabarpaciente.php" method="post" accept-charset="utf-8">
-        <h2 style="text-align: center">Alta Contacto</h2>
-        <h3 style="text-align: center;">Introducir datos:</h3>
-        <form id="register-forms" action="conexion/grabarpaciente.php" method="post" role="form" style="display: none;">
+      	<form action="conexion/modificar.php" method="post">
+        <h2 style="text-align: center">Modificar Paciente</h2>
+        <h3 style="text-align: center;">Introducir nuevos datos:</h3>
+        <form id="register-forms" action="" method="post" role="form" style="display: none;">
           <div class="container">
             <form class="form-inline">
               <span class="input-group-addon">
-                <label for="refe" class="mb-2 mr-sm-2">CURP:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa CURP de paciente" name="refe" style="text-transform: uppercase;">
+              <label for="curp" class="mb-2 mr-sm-2">CURP</label></span>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="curp" placeholder="CURP" name="curp" style="text-transform: uppercase;">
               <label for="nombre2" class="mb-2 mr-sm-2">Nombre:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="nombre2" placeholder="Ingresa tu nombre" name="nombre2" style="text-transform: uppercase;">
-              <form>
-                <div class="row">
-                  <div class="col" >
-                    <label for="nombre2" class="mb-2 mr-sm-2">Apellido Paterno:</label>
-                    <input type="text" class="form-control" id="apepat2" placeholder="Apellido Paterno" name="apepat2" style="text-transform: uppercase;">
-                  </div>
-                  <div class="col">
-                    <label for="apepat2" class="mb-2 mr-sm-2">Apellido Materno:</label>
-                    <input type="text" class="form-control" id="apemat2" placeholder="Apellido Materno" name="apemat2" style="text-transform: uppercase;">
-                  </div>
-                </div>
-              </form>
-              <label for="inputState">Parentesco:</label>
-              <select id="inputState" class="form-control" name="parentesco" id="parentesco">
-                <option selected>Elige parentesco...</option>
-                <option value="Hijo(a)">Hijo(a)</option>
-                <option value="Padres">Padres</option>
-                <option value="Abuelo(a)">Abuelo(a)</option>
-                <option value="Nieto(a)">Nieto(a)</option>
-                <option value="Hermano(a)">Hermano(a)</option>
-                <option value="Conyuge">Conyuge</option>
-              </select>
-            
             <form>
               <div class="row">
                 <div class="col">
-                  <label for="inputState">Celular</label>
-                   <input type="text" class="form-control" id="apemat2" placeholder="Celular" name="cel">
+                  <label for="nombre2" class="mb-2 mr-sm-2">Apellido Paterno:</label>
+                  <input type="text" class="form-control" id="apepat2" placeholder="Apellido Paterno" name="apepat2">
+                </div>
+                <div class="col">
+                  <label for="apepat2" class="mb-2 mr-sm-2">Apellido Materno:</label>
+                  <input type="text" class="form-control" id="apemat2" placeholder="Apellido Materno" name="apemat2">
+                </div>
+              </div>
+            </form>
+            <label for="fechanacimiento" class="mb-2 mr-sm-2">Fecha de Nacimiento:</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="fechanacimiento" placeholder="DD/MM/AAAA" name="fechanacimiento" style="text-transform: uppercase;">
+
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="inputState">Estado</label>
+                  <select id="inputState" class="form-control" name="esta" id="esta">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
                 </div>
 
                 <div class="col">
-                  <label for="inputState">Telefono de casa:</label>
-                     <input type="text" class="form-control" id="apemat2" placeholder="Telefono casa" name="apemat2">
+                  <label for="inputState">Colonia</label>
+                    <select id="inputState" class="form-control" name="colo" id="colo">
+                      <option selected>Elige una opcion</option>
+                      <option value="A+">A+</option>
+                      <option value="b+">B+</option>
+                    </select>
                   </div>
                 </div>
             </form>
@@ -166,14 +165,67 @@
         <option>...</option>
       </select>
     </div>-->
-              <label for="calle" class="mb-2 mr-sm-2">Correo:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="calle" placeholder="Ingresa correo" name="calle">
-              <label for="refe" class="mb-2 mr-sm-2">Contraseña:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa contraseña" name="refe">
+              <label for="calle" class="mb-2 mr-sm-2">Calle:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="calle" placeholder="Ingresa Calle" name="calle" style="text-transform: uppercase;">
+              <label for="refe" class="mb-2 mr-sm-2">Referencia:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa Referencia" name="refe" style="text-transform: uppercase;">
               
+
+
+              <form>
+              <div class="row">
+                <div class="col">
+                  <label for="inputState">Edad</label>
+                  <select id="inputState" class="form-control" name="edad">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                  </select> 
+
+                </div>
+                <div class="col">
+                  <label for="inputState">Tipo de Sangre</label>
+                    <select id="inputState" class="form-control" name="grabarsangre">
+                      <option selected>Elige Opción</option>
+                      <option value="A+">A+</option>
+                      <option value="A-">A-</option>
+                      <option value="B+">B+</option>
+                      <option value="B-">B-</option>
+                      <option value="AB+">AB+</option>
+                      <option value="AB-">AB-</option>
+                      <option value="O+">O+</option>
+                      <option value="O-">O-</option>              
+                    </select>
+                  </div>
+                </div>
+            </form>
+
+
               <BR><BR>
               <!--<input type="text" class="form-control mb-2 mr-sm-2" id="sange" placeholder="Ingresa Tipo de Sangre" name="sange" style="text-transform: uppercase;">-->
-            
+              
+              <div class="form-group" id="registro">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group text-center">
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btngrabar">Modificar</button>
+          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </form>
       </form>
       </div>
 
