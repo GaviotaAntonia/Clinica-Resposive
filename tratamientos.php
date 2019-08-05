@@ -167,7 +167,7 @@
           <body>
 
          <div class="contenedor-img banner">
-              <img src="imagenes/Alcholismo.png"  />
+              <img src="imagenes/canva/trat1.png"  />
               <div class="mascara">
                   <h2>Alcoholismo</h2>
                   <p><p style="text-align: center">Consumo crónico y continuado de alcohol que se caracteriza por un deterioro
@@ -176,7 +176,7 @@
          </div>
 
           <div class="contenedor-img banner">
-              <img src="imagenes/Drogadicción.png" />
+              <img src="imagenes/canva/trat2.png"  />
               <div class="mascara">
                   <h2>Drogadicción</h2>
                   <p><p style="text-align: center">Consumo repetido de una o varias sustancias psicoactivas, hasta el punto de que el consumidor se intoxica periódicamente o de forma continua, muestra un deseo compulsivo de consumir la sustancia (o las sustancias) preferida, tiene una enorme dificultad para interrumpir voluntariamente o modificar el consumo de la sustancia y se muestra decidido a obtener sustancias psicoactivas por cualquier medio y a pesar de las consecuencias negativas que esto tiene.</p>
@@ -184,7 +184,7 @@
          </div>
 
          <div class="contenedor-img banner">
-              <img src="imagenes/Farmacodependencia.png" />
+              <img src="imagenes/canva/trat3.png" />
               <div class="mascara">
                   <h2>Farmacodependencia</h2>
                   <p><p style="text-align: center">Consumo repetido de uno o varios medicamentos sin preescripción, como analgésicos derivados del opio que puede provocar un deseo compulsivo de consumo acompañado de una enorme dificultad para interrumpir voluntariamente o modificar el consumo del medicamento a pesar de los riesgos y daños que esto puede provocar.</p>
@@ -192,7 +192,7 @@
          </div>
 
          <div class="contenedor-img banner">
-              <img src="imagenes/Tabaquismo.png" />
+              <img src="imagenes/canva/trat4.png"  />
               <div class="mascara">
                   <h2>Tabaquismo</h2>
                   <p><p style="text-align: center">Se refiere al trastorno de dependencia al tabaco a adicción al tabaco, caracterizado por el deseo compulsivo de fumar, acompañado de una enorme dificultad para interrumpir voluntariamente o modificar el consumo de tabaco a pesar de las consecuencias negativas a la salud que este habito conlleva.</p>
@@ -200,7 +200,7 @@
          </div>
 
          <div class="contenedor-img banner">
-              <img src="imagenes/Trastornos alimenticios.png" />
+              <img src="imagenes/canva/trat5.png"  />
               <div class="mascara">
                   <h2>Trastornos alimenticios</h2>
                   <p><p style="text-align: center">Son un conjunto de trastornos mentales que se caracterizan por una alteración importante de la conducta alimentaria, los trastornos mas frecuentes son la bulimia y la anorexia. La bulimia se caracteriza por episodios de alimentación compulsiva conocidos como atracones, los cuales son seguidos de conductas para intentar compensar el atracón como, hacer ejercicio, tomar mucha agua o evitar realizar ciertas comidas. La anorexia se caracteriza por una fuerte aversión a subir de peso y a comer, por lo cual quien lo padece procura evitar comer en la medida de lo posible, utiliza laxantes o puede provocar el vomito para evitar el aumento de peso.</p>
@@ -208,7 +208,7 @@
          </div>
 
         <div class="contenedor-img banner">
-              <img src="imagenes/Adicción.png" />
+              <img src="imagenes/canva/trat6.png"  />
               <div class="mascara">
                   <h2>Adicción 3.0</h2>
                   <p><p style="text-align: center">Este concepto aplicado al uso de diversas tecnologías hace referencia al el uso excesivo o compulsivo de aparatos como videojuegos o telefonos hasta el punto de interferir con la vida personal y las actividades diarias del sujeto que los utiliza.</p>
@@ -216,7 +216,7 @@
          </div>
 
           <div class="contenedor-img banner">
-              <img src="imagenes/Codependencia.png" />
+              <img src="imagenes/canva/trat7.png"  />
               <div class="mascara">
                   <h2>Codependencia</h2>
                   <p><p style="text-align: center">Suele referirse al pariente, amigo íntimo o compañero de una persona dependiente del alcohol o de las drogas, cuyas acciones tienden a perpetuar la dependencia de esa persona, retrasando así el proceso de recuperación. Este concepto se ha utilizado también para designar a una persona que desarrolla relaciones conflictivas que involucran maltrato a pesar de lo cual la persona que recibe maltrato tiene gran dificultad para terminar la relación.</p>
@@ -224,7 +224,7 @@
          </div>
 
           <div class="contenedor-img banner">
-              <img src="imagenes/Ansiedad.png" />
+              <img src="imagenes/canva/trat8.png"  />
               <div class="mascara">
                   <h2>Ansiedad</h2>
                   <p><p style="text-align: center">Trastorno mental en el cual una persona a menudo está preocupada o ansiosa respecto a muchas cosas y le parece difícil controlar esta ansiedad. El trastorno de ansiedad puede ser generalizado o estar dirigido a estímulos específicos como hablar en publico o sentir miedo a animales y situaciones diversas.</p>
@@ -232,7 +232,7 @@
          </div>
 
           <div class="contenedor-img banner">
-              <img src="imagenes/Depresión.png" />
+              <img src="imagenes/canva/trat9.png"  />
               <div class="mascara">
                   <h2>Depresión</h2>
                   <p><p style="text-align: center">Trastorno mental frecuente, que se caracteriza por la presencia de tristeza, pérdida de interés o placer, sentimientos de culpa o falta de autoestima, trastornos del sueño o del apetito, sensación de cansancio y falta de concentración. La depresión puede llegar a hacerse crónica o recurrente y dificultar sensiblemente el desempeño en el trabajo o la escuela y la capacidad para afrontar la vida diaria. En su forma más grave, puede conducir al suicidio.</p>

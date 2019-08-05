@@ -115,9 +115,9 @@
       importante.</p>
 
       <div>
-        <img src="imagenes/dormitorio2.png" class="img-fluid" alt="..." width="1800"><br>
+        <img src="imagenes/canva/dormir1.png" class="img-fluid" alt="..." width="1800"><br>
         <br>
-        <img src="imagenes/dormitorio1.png" class="img-fluid" alt="..." width="1800"><br>
+        <img src="imagenes/canva/dormir2.png" class="img-fluid" alt="..." width="1800"><br>
         <br>
     </div>
 

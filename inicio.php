@@ -44,26 +44,22 @@
         <li class="item2"></li>
         <li class="item3"></li>
         <li class="item4"></li>
-        <li class="item5"></li>
       </ul>
 
       <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagenes/p1.jpg" alt="Imagen de clinica ejemplo" width="1100" height="500">
+            <img src="imagenes/canva/carruseli1.png" alt="Imagen de clinica ejemplo" width="1100" height="500">
           </div>
           <div class="carousel-item">
-            <img src="ejmplosimg/causa-de-las-adiccione.jpg" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
+            <img src="imagenes/canva/carruseli2.png" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
           </div>
           <div class="carousel-item">
-            <img src="ejmplosimg/asddobje.jpg" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
+            <img src="imagenes/canva/carruseli3.png" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
           </div>
 
           <div class="carousel-item">
-            <img src="imagenes/p3.jpg" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/p2.jpg" alt="quinta imagen de clinica ejemplo" width="1100" height="500">
+            <img src="imagenes/canva/carruseli4.png" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
           </div>
        </div>
 
@@ -78,8 +74,11 @@
       </div>
   </div>
 <!-- FINAL DE CARRUSEL-->
-  <br>
-    <p style="text-align: center">"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</p><br><br>
+
+
+    <h3 style="text-align: center;color: black"><b>"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</b></h3><br>
+    <br><br>
+
          <div class="card-deck">
             <div class="card text-white " style="border-radius:2em; border-top: solid 6px  #006400">
               <div class="card-body">
@@ -155,7 +154,9 @@
         <div align="center"><br>
           <img src="ejmplosimg/ayuda.png" alt="">
           <h3>¿Necesitas Ayuda?</h3>
-          <p style="text-align: center;">Las adicciones no saben de horario, estamos a tus ordenes las 24 hr.<br> Traslados a toda la república<br><br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015"><br>pvidayamora.c@outlook.com</a></p>
+
+          <p style="text-align: center;">Las adicciones no saben de horario, estamos a tus ordenes las 24 hrs.<br>Traslados en toda la república<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
+
         </div>
       </div>
 
@@ -201,9 +202,6 @@
       });
        $(".item4").click(function(){
       $("#myCarousel").carousel(3);
-       })
-       $(".item5").click(function(){
-      $("#myCarousel").carousel(4);
        })
 
       // Enable Carousel Controls

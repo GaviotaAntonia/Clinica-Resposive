@@ -114,7 +114,7 @@
       desarrollo y crecimiento personal,las actividades son a la par de su tratamiento psicológico y médico.  </p>
 
       <div>
-        <img src="imagenes/actividad.png" class="img-fluid" alt="..." width="1800"><br>
+        <img src="imagenes/canva/actividad.png" class="img-fluid" alt="..." width="1800"><br>
             </div>
 
     </div>

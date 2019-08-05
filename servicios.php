@@ -64,7 +64,7 @@
     </div>
     <div class="col-sm-8">
       <div align="center">
-     <img class="img-fluid" src="imagenes/linfografia.png" alt="..." width="1800">
+     <img class="img-fluid" src="imagenes/canva/inf1.png" alt="..." width="1800">
    </div>
     </div>
   </div>
