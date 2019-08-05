@@ -12,19 +12,22 @@
 </head>
 <body>
 	<form method="post">
+		<label for="txtnobre">Nombre:</label>
+		<input type="text" name="txtnombre">
 		<select name="colonia" onchange="submit()">
-			<?php 
-			  $sql="SELECT * from colonia";
-                    $rec=mysqli_query($conexion,$sql);
-                    while ($row=mysqli_fetch_array($rec)) {
-                      echo "<option value='".$row['id_colonia']."' ";
-                      if ($_POST['colonia']==$row['id_colonia'])
-                      	echo " SELECTED";
-                      echo ">";
-                      echo $row['colonia'];
-                    }
-                     ?>
+			<option value="jue">jue</option>}
+			<option value="ve">ve</option>
 		</select>
+			<input type="button" name="btngraba" value="Graba">
 	</form>
 </body>
 </html>
+
+<?php 
+	include 'conexion.php';
+	if (@$_POST['btngraba']) {
+		mysqli_query("INSERT INTO preuba (nombre,curso) values ('$_POST[txtnombre]','$_POST[colonia]')");
+	}
+	
+
+ ?>

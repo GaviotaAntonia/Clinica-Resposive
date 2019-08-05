@@ -1,5 +1,6 @@
-
 <?php
+//enviar.php
+
 if(isset($_POST)){
     echo "Campo SELECT enviado: ".$_POST["estado"]."<br/>";
     echo "Campo SELECT enviado: ".$_POST["colonia"]."<br/>";
@@ -8,7 +9,7 @@ if(isset($_POST)){
     echo "No se han enviado datos por POST.";
 }
 
-    require('conexion.php'); 
+  require('conexion.php'); 
     $curp =!empty($_REQUEST['curp'])?$_REQUEST['curp']:'';
     $nombre =!empty($_REQUEST['nombre2'])?$_REQUEST['nombre2']:'';
     $apellidopat =!empty($_REQUEST['apepat2'])?$_REQUEST['apepat2']:'';
@@ -18,8 +19,8 @@ if(isset($_POST)){
     $calle =!empty($_REQUEST['calle'])?$_REQUEST['calle']:'';
     $estado = $_POST['estado'];
     $refe =!empty($_REQUEST['refe'])?$_REQUEST['refe']:'';
-    $edad =$_POST['edad'];
-    $grabarsangre =$_POST['grabarsangre'];
+    $edad =$_POST['edad']:'';
+    $grabarsangre =!empty($_REQUEST['grabarsangre'])?$_REQUEST['grabarsangre']:'';
 
     insertarPaciente($curp,$nombre,$apellidopat,$apellidomat,$fechanac,$estado,$colonia,$calle,$refe,$edad,$grabarsangre);
     
@@ -34,11 +35,8 @@ if(isset($_POST)){
         {
             echo 'malRegistroEnlaBD';
              echo "Campo SELECT enviado: ".$_POST["estado"]."<br/>";
-
-             echo "Campo SELECT enviado: ".$_POST["estado"]."<br/>";
             echo insertar_Paciente();
         }
     
 
  }
-?>

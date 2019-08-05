@@ -110,7 +110,9 @@ th, td {
 </head>
 <body>
 
-            <?php include 'conexion/conexion.php' ?><br><br>
+            <?php include 'conexion/conexion.php' ?>
+
+            <?php include 'navborra.html' ?><br><br>
 
        <div class="table-responsive-sm">
         <table class="table">
@@ -153,7 +155,7 @@ th, td {
                 <td><?php echo $mostrar['edad'] ?></td>
                 <td><?php echo $mostrar['tipodesangre']?></td>
                 <td><a href="formodpac.php"><i style='font-size:24px' class='fas'>&#xf573;</i></a></td>
-                <td><a href="#"><i class="material-icons">&#xe872;</i></a></td>
+              
               </tr>
               <?php }?>
 
