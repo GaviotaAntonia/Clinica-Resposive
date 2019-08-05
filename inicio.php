@@ -44,7 +44,6 @@
         <li class="item2"></li>
         <li class="item3"></li>
         <li class="item4"></li>
-        <li class="item5"></li>
       </ul>
 
       <!-- The slideshow -->
@@ -53,17 +52,14 @@
             <img src="imagenes/canva/carruseli1.png" alt="Imagen de clinica ejemplo" width="1100" height="500">
           </div>
           <div class="carousel-item">
-            <img src="ejmplosimg/causa-de-las-adiccione.jpg" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
+            <img src="imagenes/canva/carruseli2.png" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
           </div>
           <div class="carousel-item">
-            <img src="ejmplosimg/asddobje.jpg" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
+            <img src="imagenes/canva/carruseli3.png" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
           </div>
 
           <div class="carousel-item">
-            <img src="imagenes/p3.jpg" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/p2.jpg" alt="quinta imagen de clinica ejemplo" width="1100" height="500">
+            <img src="imagenes/canva/carruseli4.png" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
           </div>
        </div>
 
@@ -156,7 +152,7 @@
         <div align="center"><br>
           <img src="ejmplosimg/ayuda.png" alt="">
           <h3>¿Necesitas Ayuda?</h3>
-          <p style="text-align: center;">LAS ADICCIONES NO SABEN DE HORARIO, ESTAMOS A TUS ORDENES LAS 24 HRS.<br>TRASLADOS A TODA LA REPÚBLICA<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
+          <p style="text-align: center;">Las adicciones no saben de horario, estamos a tus ordenes las 24 hrs.<br>Traslados en toda la república<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
         </div>
       </div>
 
@@ -202,9 +198,6 @@
       });
        $(".item4").click(function(){
       $("#myCarousel").carousel(3);
-       })
-       $(".item5").click(function(){
-      $("#myCarousel").carousel(4);
        })
 
       // Enable Carousel Controls
