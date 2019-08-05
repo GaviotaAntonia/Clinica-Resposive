@@ -23,6 +23,7 @@
 
   <!--Inicio Footer-->
   <?php include 'nav2.html'; ?>
+  <?php include 'naveliminartraslado.php' ?>
 <!--Final Foooter-->
 
  <style>
@@ -114,6 +115,7 @@ th, td {
             <thead>
               <tr>
                 <!-- definimos cabeceras de la tabla -->
+                <th>Numero de traslado</th>
                  <th>Nombre</th>
                 <th>Domicilio</th>
                 <th>Estado</th>
@@ -135,6 +137,7 @@ th, td {
             while($mostrar=mysqli_fetch_array($result)){
               ?>
               <tr>
+                <td><?php echo $mostrar['id_traslado']  ?></td>
                <td><?php echo $mostrar['nombre'] ?></td>
                 <td><?php echo $mostrar['domicilio'] ?></td>
                 <td><?php echo $mostrar['id_estado'] ?></td>
