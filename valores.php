@@ -114,7 +114,7 @@
     <p style="text-align: center"> Respeto<br>Responsabilidad<br>Honestidad<br>Tolerancia<br>Gratitud<br>Fidelidad<br>Confidencialidad<br>Amor<br>Amistad<br>Familia</p>
 
     <div align="center">
-     <img class="img-fluid" src="imagenes/valores1.png" alt="..." width="500">
+     <img class="img-fluid" src="imagenes/canva/acerca3.png" alt="..." width="500">
    </div>
 </div>
   </div>

@@ -50,7 +50,7 @@
       <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagenes/p1.jpg" alt="Imagen de clinica ejemplo" width="1100" height="500">
+            <img src="imagenes/canva/carruseli1.png" alt="Imagen de clinica ejemplo" width="1100" height="500">
           </div>
           <div class="carousel-item">
             <img src="ejmplosimg/causa-de-las-adiccione.jpg" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
@@ -79,8 +79,8 @@
   </div>
 <!-- FINAL DE CARRUSEL-->
 
-    <h3 style="text-align: center;color: black"><b>Proyecto de Vida y Amor A.C.</b></h3><br>
-    <p style="text-align: center">"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</p><br><br>
+    <h3 style="text-align: center;color: black"><b>"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</b></h3><br>
+    <br><br>
          <div class="card-deck">
             <div class="card text-white " style="border-radius:2em; border-top: solid 6px  #006400">
               <div class="card-body">

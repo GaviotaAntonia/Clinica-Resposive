@@ -124,7 +124,7 @@
       }
       .banner .mascara {
           opacity: 0;
-          background-color: #2874a6;
+          background-color: #4b8567;
           transition: all 0.3s ease-in-out;
       }
           .banner h2 {
@@ -166,7 +166,7 @@
           <body>
 
          <div class="contenedor-img banner">
-              <img src="imagenes/Terapias.png" />
+              <img src="imagenes/canva/inf2.png" />
               <div class="mascara">
                   <h2>Terapias</h2>
                   <p><p style="text-align: center">Terapia Cognitivo-Conductual</p>

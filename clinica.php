@@ -120,22 +120,22 @@
         <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <img src="imagenes/n01.png" alt="Imagen de clinica ejemplo" width="1100" height="500">
+            <img src="imagenes/canva/carrusel1.png" alt="Imagen de clinica ejemplo" width="1100" height="500">
           </div>
 
           <div class="carousel-item">
-            <img src="imagenes/n02.png" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
+            <img src="imagenes/canva/carrusel2.png" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
           </div>
 
           <div class="carousel-item">
-          <img src="imagenes/n03.png" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
+          <img src="imagenes/canva/carrusel3.png" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
           </div>
 
           <div class="carousel-item">
-            <img src="imagenes/n04.png" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
+            <img src="imagenes/canva/carrusel4.png" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
           </div>
-           
-      
+
+
   <!--JAVASCRIPT-->
   <script>
     $(document).ready(function(){
@@ -184,7 +184,7 @@
 
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
-  
+
   <?php include 'menudere.php'; ?>
 <!--Final Foooter-->
 

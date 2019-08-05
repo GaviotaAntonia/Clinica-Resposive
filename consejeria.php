@@ -152,7 +152,7 @@
       }
       .banner .mascara {
           opacity: 0;
-          background-color: #8e44ad;
+          background-color: #4b8567;
           transition: all 0.3s ease-in-out;
       }
           .banner h2 {
@@ -194,10 +194,10 @@
           <body>
 
          <div class="contenedor-img banner">
-              <img src="imagenes/consejo.png" />
+              <img src="imagenes/canva/inf3.png"  />
               <div class="mascara">
                   <h2>¿Qué hace un consejero en adicciones?</h2>
-                  
+
                      <p style="text-align: justify">Un consejero en adicción es un profesional de salud mental que se especializa en ayudar a los pacientes con adicciones. Estos consejeros pueden trabajar en el sector privado, como parte de las clínicas de tratamiento de adicciones, en las terapias de grupo, y en los hospitales, para ayudar a los pacientes con una amplia gama de cuestiones. Para ser consejero en adicción, alguien debe generalmente completar un programa de formación que incluye la familiarización con la dependencia química, la psicología, las cuestiones legales, y varios tratamientos disponibles para las personas que luchan con las adicciones.</p>
 
                      <p style="text-align: justify">Algunos consejeros de adicción optan por especializarse en un área particular de interés, mientras que otros cubren una gama larga de adicciones. En todos los casos, los consejeros de adicción se reúnen con los pacientes en entornos privados y de grupo para proporcionar terapia, hablar de temas actuales y desarrollar planes de tratamiento. Los consejeros de dependencias también pueden trabajar con miembros de la familia y facilitar la comunicación familiar, además de crear programas de rehabilitacion ayudar a las personas a lidiar con la adicción. </p>
@@ -206,7 +206,7 @@
     </div>
   </div>
 </div>
-          
+
     </div>
   </div>
 </div>
@@ -219,7 +219,7 @@
 
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
-  
+
   <?php include 'menudere.php'; ?>
 <!--Final Foooter-->
 

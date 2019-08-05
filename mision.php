@@ -111,7 +111,7 @@
     <h1 style="text-align: center; ">Misión</h1>
     <p style="text-align: justify">Ofrecer un tratamiento integral, personal y humano en donde el resultado de la atención del servicio médico, psicológico, espiritual apoyen al proceso de recuperación de la adicción que sufra el beneficiado, para que cuando termine su proceso, devolver a su familia, amigos y la sociedad en general un ser humano más consciente, asertivo y comprometido.</p>
     <div align="center">
-      <img class="img-fluid" src="imagenes/mision1.png" alt=alt="..." width="500">
+      <img class="img-fluid" src="imagenes/canva/acerca2.png" alt=alt="..." width="500">
     </div>
 
   </div>
