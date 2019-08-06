@@ -74,14 +74,14 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;
+      background-color: #1a5e0d;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
       }
 
       .menu li:hover {
-        background-color: #0099cc;
+        background-color: #008f36;
       }
   </style>
 <!--Final de estilos-->
@@ -114,7 +114,7 @@
     <p style="text-align: center"> Respeto<br>Responsabilidad<br>Honestidad<br>Tolerancia<br>Gratitud<br>Fidelidad<br>Confidencialidad<br>Amor<br>Amistad<br>Familia</p>
 
     <div align="center">
-     <img class="img-fluid" src="imagenes/canva/acerca3.png" alt="..." width="500">
+     <img class="img-fluid" src="imagenes/canva/acerca4.png" alt="..." width="500">
    </div>
 </div>
   </div>

@@ -4,10 +4,13 @@
   <title>Proyecto de Vida y Amor A.C.</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
   <!--FAVICON-->
 
@@ -35,48 +38,50 @@
 
 
 <!-- carrusel-->
-  <div class="container mt-3">
+  <div class="container">
     <!---<h2>Activate Carousel with JavaScript</h2>-->
-    <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li class="item1 active"></li>
-        <li class="item2"></li>
-        <li class="item3"></li>
-        <li class="item4"></li>
-      </ul>
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
 
       <!-- The slideshow -->
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imagenes/canva/carruseli1.png" alt="Imagen de clinica ejemplo" width="1100" height="500">
+          <div class="item active">
+            <img src="imagenes/canva/carruseli1.png" alt="Clinica1" style="width:100%;">
           </div>
-          <div class="carousel-item">
-            <img src="imagenes/canva/carruseli2.png" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
+          <div class="item">
+            <img src="imagenes/canva/carruseli2.png" alt="Clinica2" style="width:100%;">
           </div>
-          <div class="carousel-item">
-            <img src="imagenes/canva/carruseli3.png" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
+          <div class="item">
+            <img src="imagenes/canva/carruseli3.png" alt="Clinica3" style="width:100%;">
           </div>
 
-          <div class="carousel-item">
-            <img src="imagenes/canva/carruseli4.png" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
+          <div class="item">
+            <img src="imagenes/canva/carruseli4.png" alt="Clinica4" style="width:100%;">
           </div>
        </div>
 
-
       <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#myCarousel">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel">
-        <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-  </div>
+   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#myCarousel" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right"></span>
+     <span class="sr-only">Next</span>
+   </a>
+ </div>
+</div>
 <!-- FINAL DE CARRUSEL-->
 
 
-    <h3 style="text-align: center;color: black"><b>"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales, especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</b></h3><br>
+    <h3 style="text-align: center;color: black"><b>"No pongas en riesgo la integridad de tu ser querido, deposita tu confianza en manos de profesionales,
+       especializados en el área de las adicciones que a través de un trato digno y humano reparará los daños físicos, psicológicos y emocionales".</b></h3><br>
     <br><br>
 
          <div class="card-deck">
@@ -84,7 +89,8 @@
               <div class="card-body">
                 <p style="color: #696969"> </p>
                 <p style="text-align: center; font-weight: bold; color: black">Definición de Adicción</p>
-                <p style="text-align: justify; color: black"> La Organización Mundial de la Salud (OMS) en su informe Neurociencia del consumo y dependencia de sustancias psicoactivas define la adicción como una enfermedad emocional, física y con predisposición genética.</p>
+                <p style="text-align: justify; color: black"> La Organización Mundial de la Salud (OMS) en su informe Neurociencia del consumo y
+                  dependencia de sustancias psicoactivas define la adicción como una enfermedad emocional, física y con predisposición genética.</p>
                 <p style="text-align: center"> <img class="img-fluid" src="imagenes/adiccion.jpg" alt="..." width="1800"></p>
                 </p>
               </div>
@@ -95,7 +101,8 @@
                 <p style="color: #696969">
                 </p>
                 <p style="text-align: center; font-weight: bold; color: black">Uso, Abuso y Dependencia</p>
-                <p style="text-align: justify; color: black">Las adicciones son progresivas. Todas comienzan en una etapa de abuso reiterado y, más tarde, se convierten en dependencia. En cualquier etapa, es posible hacer una intervención mediante terapia especializada. </p>
+                <p style="text-align: justify; color: black">Las adicciones son progresivas. Todas comienzan en una etapa de abuso reiterado y,
+                   más tarde, se convierten en dependencia. En cualquier etapa, es posible hacer una intervención mediante terapia especializada. </p>
                 <p style="text-align: center"> <img class="img-fluid" src="imagenes/adiccion2.jpg" alt="..." width="1800"></p>
                 </p>
               </div>
@@ -106,7 +113,9 @@
                 <p style="color: #696969">
                 </p>
                 <p style="text-align: center; font-weight: bold; color: black">La mejor ayuda es con amor y compresión</p>
-                <p style="text-align: justify; color: black">Cuando nuestra vida no es lo que queremos que sea, cuando el sufrimiento no deja de estar presente por nuestra Adicción-Dependencia; es el momento de hacer un alto en el camino de la vida. Tu familia siempre te apoyara y lo único que desean es tu propio bien, date esa oportunidad para mejorar tu vida. </p>
+                <p style="text-align: justify; color: black">Cuando nuestra vida no es lo que queremos que sea, cuando el sufrimiento no deja de estar
+                  presente por nuestra Adicción-Dependencia; es el momento de hacer un alto en el camino de la vida. Tu familia siempre te apoyara y lo único que
+                   desean es tu propio bien, date esa oportunidad para mejorar tu vida. </p>
                 <p style="text-align: center"> <img class="img-fluid" src="imagenes/ayuda.jpg" alt="..." width="1800"></p>
                 </p>
               </div>
@@ -117,13 +126,19 @@
 	<section>
  	 <div class="container mt-3">
   		<h2><p style="text-align: center; font-weight: bold; color: black">Tenemos a los mejores especialistas en adicciones</p></h2>
-  		<p style="text-align: justify">Trabajamos por medio de amor y comprensión ya que son los ingredientes faltantes para evitar futuras recaídas, el paciente no solo fortalecerá su autoestima sino también su determinación y su buena voluntad con talleres psicológicos que le enseñaran a controlar sus niveles de ansiedad para canalizarlos a una manera asertiva.</p><br>
+  		<p style="text-align: justify">Trabajamos por medio de amor y comprensión ya que son los ingredientes faltantes para evitar futuras recaídas,
+        el paciente no solo fortalecerá su autoestima sino también su determinación y su buena voluntad con talleres psicológicos que le enseñaran
+        a controlar sus niveles de ansiedad para canalizarlos a una manera asertiva.</p><br>
 
   			<div class="media border p-3">
     			<img src="ejmplosimg/ejemdoc/doc1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
     			<div style="text-align: justify"; class="media-body">
-      			<h4>Psicología para las Adicciones<small><br><i>La aparición de las adicciones en nuestro país ha exigido a los profesionales de los diversos ámbitos (Justicia, Servicios Sociales, Educación y Sanidad) adaptarse a las nuevas realidades que van apareciendo día a día.</i></small></h4>
-      			<p>La intervención de la Psicología para las adicciones ha tenido un desarrollo paralelo al de la especialización de este ámbito. Puede decirse que el psicólogo no se ha unido a una intervención ya conformada, sino que con su trabajo ha contribuido al desarrollo de la misma, viéndose a su vez obligado a dar respuestas cada vez más especializadas conforme más complejas han sido las demandas que ha tenido en su intervención.</p>
+      			<h4>Psicología para las Adicciones<small><br><i>La aparición de las adicciones en nuestro país ha exigido a los profesionales de
+              los diversos ámbitos (Justicia, Servicios Sociales, Educación y Sanidad) adaptarse a las nuevas realidades que van apareciendo día a día.</i></small></h4>
+      			<p>La intervención de la Psicología para las adicciones ha tenido un desarrollo paralelo al de la especialización de este ámbito.
+              Puede decirse que el psicólogo no se ha unido a una intervención ya conformada, sino que con su trabajo ha contribuido al desarrollo
+              de la misma, viéndose a su vez obligado a dar respuestas cada vez más especializadas conforme más complejas han sido las demandas que
+              ha tenido en su intervención.</p>
     			</div>
   			</div>
   	 </div>
@@ -155,7 +170,8 @@
           <img src="ejmplosimg/ayuda.png" alt="">
           <h3>¿Necesitas Ayuda?</h3>
 
-          <p style="text-align: center;">Las adicciones no saben de horario, estamos a tus ordenes las 24 hrs.<br>Traslados en toda la república<br>Tel.: (55) 26-22-94-66<br>Whatsapp: (55) 65-27-46-15<br>Correo:<a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
+          <p style="text-align: center;">Las adicciones no saben de horario, estamos a tus ordenes las 24 hrs.<br>Traslados a toda la República<br>Tel.: (55) 26-22-94-66<br>WhatsApp: (55) 65-27-46-15<br>Correo:<br>
+            <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1563912915&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fRpsCsrfState%3dc7da0854-ba17-bcdd-a2c4-716806e45e21&id=292841&aadredir=1&whr=outlook.com&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015">pvidayamora.c@outlook.com</a></p>
 
         </div>
       </div>
@@ -164,7 +180,7 @@
         <div align="center"><br>
           <img src="ejmplosimg/contact.png" alt="">
           <h3>Contacto</h3>
-          <p style="text-align: center;">Estamos a tus ordenes, en la brevedad posible nos comunicaremos contigo, simepre hay alguien que necesite ayuda<br><a href="ubicacion.php">Registrate</a></p>
+          <p style="text-align: center;">Estamos a tus ordenes, en la brevedad posible nos comunicaremos contigo, simepre hay alguien que necesite ayuda.<br><a href="ubicacion.php">Registrate</a></p>
       	</div>
     	</div>
     </div>
