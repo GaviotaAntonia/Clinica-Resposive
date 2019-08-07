@@ -44,10 +44,10 @@ $(document).ready(function() {
   span.show().removeClass();
   //condiciones dentro de la función
   if(valor1 != valor2){
-  span.text(negacion).addClass('negacion'); 
+  span.text(negacion).addClass('negacion');
   }
   if(valor1.length==0 || valor1==""){
-  span.text(vacio).addClass('negacion');  
+  span.text(vacio).addClass('negacion');
   }
   if(valor1.length<6 || valor1.length>10){
   span.text(longitud).addClass('negacion');
@@ -75,7 +75,7 @@ $(document).ready(function() {
 <!--NAVBAR DE INCIO-->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="inicio.php"><img src="imagenes/logoparanav.png" alt="logo" style="width:40px;"></a>
-    <a class="navbar-brand" href="inicio.php">Proyecto de Vida y Amor A.C.</a>
+    <a class="navbar-brand" href="inicio.php">Inicio</a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
 
 
@@ -84,7 +84,7 @@ $(document).ready(function() {
 
             <li class="nav-item"><a class="nav-link  active w3-bar-item w3-button w3-right"  href="acercadenos.php" >Conócenos</a></li>
             <li class="nav-item"><a class="nav-link" href="servicios.php">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link" href="ubicacion.php">Ubicación</a></li>    
+            <li class="nav-item"><a class="nav-link" href="ubicacion.php">Ubicación</a></li>
             <li class="nav"><a class="nav-link" href="clinica.php">Instalaciones</a></li>
           </ul>
         </div>
@@ -112,7 +112,7 @@ $(document).ready(function() {
                             </div>
                           </div>
                         </div>
-                      </div> 
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ $(document).ready(function() {
                               <label for="email2" class="mb-2 mr-sm-2">Usuario:</label>
                               <input type="text" class="form-control mb-2 mr-sm-2" id="usuario" placeholder="Ingresa tu usuario" name="usuario">
                               <label for="pwd2" class="mb-2 mr-sm-2">Contraseña:</label>
-                              <input type="password" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="Ingresa tu contraseña" name="pswd">    
+                              <input type="password" class="form-control mb-2 mr-sm-2" id="pwd2" placeholder="Ingresa tu contraseña" name="pswd">
                               <button type="submit" class="btn btn-dark" style="text-align:center;">Entrar</button>
                               <div class="form-group">
                                 <div class="row">
@@ -151,7 +151,7 @@ $(document).ready(function() {
                 </div>
 
                 <form id="register-form" action="conexion/opegrabar.php" method="post" role="form" style="display: none;">
-                  <div class="container">  
+                  <div class="container">
                     <form class="form-inline" action="/action_page.php">
                       <span class="input-group-addon"><label for="email2" class="mb-2 mr-sm-2">Usuario:</label></span>
                       <input type="text" class="form-control mb-2 mr-sm-2" id="usuario2" placeholder="Ingresa tu usuario" name="usuario2">
@@ -169,7 +169,7 @@ $(document).ready(function() {
                           <input type="password" class="form-control" placeholder="Contraseña" name="con1">
                           <input type="password" class="form-control" placeholder="re-ingresa contraseña" name="con2">
                         </div>
-                      </form> 
+                      </form>
 
                       <div class="form-group" id="registro">
                         <div class="row">
@@ -184,7 +184,7 @@ $(document).ready(function() {
                     </form>
                   </div>
                 </form>
-                
+
                 <div class="modal-footer">
                   <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
                 </div>
@@ -263,10 +263,8 @@ $(document).ready(function() {
                   $("#alertaMala").css("display","none");
               }, 5000);
               limpiarFormularioRegistro(frmLogin);
-          }else if(mst == 'dupla'){//de lo contrario 
+          }else if(mst == 'dupla'){//de lo contrario
               regisroDuplicadoIncorrecto(frmLogin);
           }
-      }         
-    </script> 
-
-
+      }
+    </script>

@@ -4,10 +4,13 @@
   <title>Nuestras Instalaciones</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/estilos.css">
   <!--FAVICON-->
 
@@ -70,14 +73,14 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;
+      background-color: #1a5e0d;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
       }
 
       .menu li:hover {
-        background-color: #0099cc;
+        background-color: #008f36;
       }
   </style>
 <!--Final de estilos-->
@@ -103,37 +106,51 @@
     </div>
   <div class="col-9">
       <h2  style="text-align: center">Conoce nuestras instalaciones</h2>
-      <p>Nuestro inmueble cuenta con salidas de emergencia avalado por Protección Civil, además de un sistema de videovigilancia que opera todo el día como personal de vigilancia altamente capacitado, contamos con traslados a toda la república y un área médica, nuestros dormitorios son verdaderamente cómodos, todo esto para brindar una agradable estancia a su familiar y a usted, si desea conocer mejor nuestras instalaciones, visitenos, le aseguramos que somos su mejor opción.</p></div>
+      <p>Nuestro inmueble cuenta con salidas de emergencia avalado por Protección Civil,
+        además de un sistema de videovigilancia que opera todo el día como personal de vigilancia altamente capacitado,
+       contamos con traslados a toda la república y un área médica, nuestros dormitorios son verdaderamente cómodos, todo esto para brindar una agradable estancia
+        a su familiar y a usted, si desea conocer mejor nuestras instalaciones, visitenos, le aseguramos que somos su mejor opción.</p></div>
+
       <!-- carrusel-->
-  <div class="container mt-3">
-    <!---<h2>Activate Carousel with JavaScript</h2>-->
-    <div id="myCarousel" class="carousel slide">
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li class="item1 active"></li>
-        <li class="item2"></li>
-        <li class="item3"></li>
-        <li class="item4"></li>
-        </ul>
+        <div class="container">
+          <!---<h2>Activate Carousel with JavaScript</h2>-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-      <!-- The slideshow -->
-        <div class="carousel-inner">
+            <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="imagenes/canva/carrusel1.png" alt="clinica1" style="width:100%;">
+                </div>
+                <div class="item">
+                  <img src="imagenes/canva/carrusel2.png" alt="clinica2" style="width:100%;">
+                </div>
+                <div class="item">
+                  <img src="imagenes/canva/carrusel3.png" alt="clinicia3" style="width:100%;">
+                </div>
+                <div class="item">
+                  <img src="imagenes/canva/carrusel4.png" alt="clinica4" style="width:100%;">
+                </div>
+             </div>
 
-          <div class="carousel-item active">
-            <img src="imagenes/canva/carrusel1.png" alt="Imagen de clinica ejemplo" width="1100" height="500">
-          </div>
-
-          <div class="carousel-item">
-            <img src="imagenes/canva/carrusel2.png" alt="segunda imagen de ejemplo de la clinica " width="1100" height="500">
-          </div>
-
-          <div class="carousel-item">
-          <img src="imagenes/canva/carrusel3.png" alt="tercera imagen de ejemplo de clinica " width="1100" height="500">
-          </div>
-
-          <div class="carousel-item">
-            <img src="imagenes/canva/carrusel4.png" alt="cuarta magen de clinica ejemplo" width="1100" height="500">
-          </div>
+          <!-- Left and right controls -->
+       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="right carousel-control" href="#myCarousel" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span>
+         <span class="sr-only">Next</span>
+       </a>
+     </div>
+    </div>
+    <!-- FINAL DE CARRUSEL-->
 
 
   <!--JAVASCRIPT-->

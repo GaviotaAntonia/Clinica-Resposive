@@ -72,14 +72,14 @@
       .menu li {
       padding: 8px;
       margin-bottom: 7px;
-      background-color: #33b5e5;
+      background-color: #1a5e0d;
       color: #ffffff;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       text-align: right;
       }
 
       .menu li:hover {
-        background-color: #0099cc;
+        background-color: #008f36;
       }
   </style>
 <!--Final de estilos-->
@@ -107,7 +107,7 @@
     <h1 style="text-align: center; ">Visión</h1>
     <p style="text-align: justify">Ser la mejor institución de la zona en ofrecer ayuda profesional integral para  personas con problemas de vulnerabilidad en cualquier estrato social que sufren de alguna adicción, brindar un servicio de alta calidad así como impulsar programas específicos de prevención. Estamos convencidos de que las personas que tienen este problema sólos no se puede y que trabajar en equipo es mejor, en brindar a nuestros beneficiados el máximo de herramientas necesarias para la recuperación, estamos dispuestos a poner nuestro máximo esfuerzo. Creemos firmemente que el cambio es posible con la unión de cada uno de nosotros.
         <div align="center">
-      <img class="img-fluid" src="imagenes/vision1.png" alt=alt="..." width="700">
+      <img class="img-fluid" src="imagenes/canva/acerca3.png" alt=alt="..." width="700">
     </div>
   </div>
 </div>
@@ -118,7 +118,7 @@
 
 <!--Inicio Footer-->
   <?php include 'footer-distribuido.html'; ?>
-  
+
   <?php include 'menudere.php'; ?>
 <!--Final Foooter-->
 

@@ -125,7 +125,7 @@
       }
       .banner .mascara {
           opacity: 0;
-          background-color: #2dac68;
+          background-color: #4b8567;
           transition: all 0.3s ease-in-out;
       }
           .banner h2 {
