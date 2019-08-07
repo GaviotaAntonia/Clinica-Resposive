@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Alta Paciente</title>
+  <title>Configuración general</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -105,8 +105,8 @@
 
       <div class="col-sm-8">
       <form action="grabarpaciente.php" method="post" accept-charset="utf-8">
-        <h2 style="text-align: center">Alta Contacto</h2>
-        <h3 style="text-align: center;">Introducir datos:</h3>
+        <h2 style="text-align: center">Configuración</h2>
+        <h3 style="text-align: center;">Configura tus datos:</h3>
         <form id="register-forms" action="conexion/grabarpaciente.php" method="post" role="form" style="display: none;">
           <div class="container">
             <form class="form-inline">
@@ -127,8 +127,8 @@
                 </div>
               </form>
 
-              <label for="refe" class="mb-2 mr-sm-2">Parentesco:</label>
-              <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa parentesco con el pacietne" name="paciente" style="text-transform: uppercase;">
+              <label for="refe" class="mb-2 mr-sm-2">Cargo:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa tu cargo" name="paciente" style="text-transform: uppercase;">
 
 
              <!-- <label for="inputState">Parentesco:</label>
@@ -174,7 +174,9 @@
               <input type="text" class="form-control mb-2 mr-sm-2" id="calle" placeholder="Ingresa correo" name="calle">
               <label for="refe" class="mb-2 mr-sm-2">Contraseña:</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa contraseña" name="refe">
-              <label for="refe" class="mb-2 mr-sm-2">CURP de Paciente:</label>
+              <label for="refe" class="mb-2 mr-sm-2">Cambiar imagen de perfil:</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa tu imagen" name="refe">
+              <label for="refe" class="mb-2 mr-sm-2">CURP</label>
               <input type="text" class="form-control mb-2 mr-sm-2" id="refe" placeholder="Ingresa CURP de paciente" name="refe" style="text-transform: uppercase;">
 
               <BR><BR>
@@ -183,7 +185,7 @@
                 <div class="row">
                   <div class="col-lg-12">
                     <div class="form-group text-center">
-                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btngrabar">Registrar</button>
+                      <button type="submit" class="btn btn-dark" style="text-align:center;" name="btngrabar">Guardar cambios</button>
 
                     </div>
                   </div>
